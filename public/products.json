@@ -1,0 +1,1066 @@
+[
+  {
+    "id": 1,
+    "name": "Apple iPhone 16 Pro",
+    "slug": "apple-iphone-16-pro",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "price": 1199,
+    "oldPrice": 1299,
+    "discount": 8,
+    "rating": 4.9,
+    "reviews": 3254,
+    "stock": 28,
+    "sku": "APL-IP16P-001",
+    "thumbnail": "https://picsum.photos/seed/iphone16pro/600/600",
+    "images": [
+      "https://picsum.photos/seed/iphone16pro1/900/900",
+      "https://picsum.photos/seed/iphone16pro2/900/900",
+      "https://picsum.photos/seed/iphone16pro3/900/900"
+    ],
+    "description": "Experience flagship performance with the latest Apple A-series chip, advanced camera system, and stunning Super Retina display.",
+    "features": [
+      "6.3-inch OLED Display",
+      "Triple Camera",
+      "5G Connectivity",
+      "Face ID"
+    ],
+    "specifications": {
+      "Display": "6.3-inch OLED",
+      "Storage": "256GB",
+      "RAM": "8GB",
+      "Battery": "3582mAh",
+      "Color": "Natural Titanium"
+    },
+    "isFeatured": true,
+    "isNew": true,
+    "freeShipping": true
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S25 Ultra",
+    "slug": "samsung-galaxy-s25-ultra",
+    "brand": "Samsung",
+    "category": "Smartphones",
+    "price": 1249,
+    "oldPrice": 1399,
+    "discount": 11,
+    "rating": 4.8,
+    "reviews": 2790,
+    "stock": 35,
+    "sku": "SMS-S25U-002",
+    "thumbnail": "https://picsum.photos/seed/s25ultra/600/600",
+    "images": [
+      "https://picsum.photos/seed/s25u1/900/900",
+      "https://picsum.photos/seed/s25u2/900/900",
+      "https://picsum.photos/seed/s25u3/900/900"
+    ],
+    "description": "Premium Android flagship with AI-powered camera, powerful Snapdragon processor, and S Pen support.",
+    "features": [
+      "200MP Camera",
+      "120Hz AMOLED",
+      "S Pen",
+      "5000mAh Battery"
+    ],
+    "specifications": {
+      "Display": "6.8-inch Dynamic AMOLED",
+      "Storage": "512GB",
+      "RAM": "12GB",
+      "Processor": "Snapdragon 8 Elite"
+    },
+    "isFeatured": true,
+    "isNew": true,
+    "freeShipping": true
+  },
+  {
+    "id": 3,
+    "name": "Sony WH-1000XM5",
+    "slug": "sony-wh1000xm5",
+    "brand": "Sony",
+    "category": "Headphones",
+    "price": 349,
+    "oldPrice": 399,
+    "discount": 13,
+    "rating": 4.9,
+    "reviews": 6100,
+    "stock": 60,
+    "sku": "SNY-XM5-003",
+    "thumbnail": "https://picsum.photos/seed/xm5/600/600",
+    "images": [
+      "https://picsum.photos/seed/xm51/900/900",
+      "https://picsum.photos/seed/xm52/900/900",
+      "https://picsum.photos/seed/xm53/900/900"
+    ],
+    "description": "Industry-leading wireless noise cancelling headphones with premium sound quality.",
+    "features": [
+      "30 Hours Battery",
+      "Noise Cancellation",
+      "Bluetooth 5.3",
+      "Fast Charging"
+    ],
+    "specifications": {
+      "Weight": "250g",
+      "Battery": "30 Hours",
+      "Color": "Black"
+    },
+    "isFeatured": true,
+    "isNew": false,
+    "freeShipping": true
+  },
+  {
+    "id": 4,
+    "name": "Apple MacBook Air M4",
+    "slug": "apple-macbook-air-m4",
+    "brand": "Apple",
+    "category": "Laptops",
+    "price": 1399,
+    "oldPrice": 1499,
+    "discount": 7,
+    "rating": 4.9,
+    "reviews": 2100,
+    "stock": 18,
+    "sku": "APL-MBA-M4",
+    "thumbnail": "https://picsum.photos/seed/macbookm4/600/600",
+    "images": [
+      "https://picsum.photos/seed/mac1/900/900",
+      "https://picsum.photos/seed/mac2/900/900",
+      "https://picsum.photos/seed/mac3/900/900"
+    ],
+    "description": "Ultra-thin laptop powered by Apple's latest M4 chip for exceptional speed and battery life.",
+    "features": [
+      "M4 Chip",
+      "13.6-inch Liquid Retina",
+      "18 Hours Battery",
+      "Touch ID"
+    ],
+    "specifications": {
+      "RAM": "16GB",
+      "Storage": "512GB SSD",
+      "Weight": "1.24kg"
+    },
+    "isFeatured": true,
+    "isNew": true,
+    "freeShipping": true
+  },
+  {
+    "id": 5,
+    "name": "Dell XPS 14",
+    "slug": "dell-xps-14",
+    "brand": "Dell",
+    "category": "Laptops",
+    "price": 1699,
+    "oldPrice": 1849,
+    "discount": 8,
+    "rating": 4.7,
+    "reviews": 1260,
+    "stock": 14,
+    "sku": "DLL-XPS14",
+    "thumbnail": "https://picsum.photos/seed/xps14/600/600",
+    "images": [
+      "https://picsum.photos/seed/xps141/900/900",
+      "https://picsum.photos/seed/xps142/900/900",
+      "https://picsum.photos/seed/xps143/900/900"
+    ],
+    "description": "Premium Windows laptop with Intel Core Ultra processor and stunning InfinityEdge display.",
+    "features": [
+      "Core Ultra 7",
+      "16GB RAM",
+      "1TB SSD",
+      "OLED Display"
+    ],
+    "specifications": {
+      "Processor": "Intel Core Ultra 7",
+      "Display": "14.5-inch OLED",
+      "Storage": "1TB SSD"
+    },
+    "isFeatured": false,
+    "isNew": true,
+    "freeShipping": true
+  },
+  {
+    "id": 6,
+    "name": "Apple Watch Series 10",
+    "slug": "apple-watch-series-10",
+    "brand": "Apple",
+    "category": "Smart Watches",
+    "price": 449,
+    "oldPrice": 499,
+    "discount": 10,
+    "rating": 4.8,
+    "reviews": 3200,
+    "stock": 42,
+    "sku": "APL-W10",
+    "thumbnail": "https://picsum.photos/seed/watch10/600/600",
+    "images": [
+      "https://picsum.photos/seed/watch101/900/900",
+      "https://picsum.photos/seed/watch102/900/900",
+      "https://picsum.photos/seed/watch103/900/900"
+    ],
+    "description": "Advanced health tracking, fitness features, and all-day battery life.",
+    "features": [
+      "ECG",
+      "Blood Oxygen",
+      "GPS",
+      "Water Resistant"
+    ],
+    "specifications": {
+      "Size": "46mm",
+      "Battery": "18 Hours",
+      "Material": "Aluminum"
+    },
+    "isFeatured": true,
+    "isNew": true,
+    "freeShipping": true
+  },
+  {
+    "id": 7,
+    "name": "Samsung Galaxy Watch 7",
+    "slug": "galaxy-watch-7",
+    "brand": "Samsung",
+    "category": "Smart Watches",
+    "price": 349,
+    "oldPrice": 399,
+    "discount": 13,
+    "rating": 4.7,
+    "reviews": 1850,
+    "stock": 55,
+    "sku": "SMS-GW7",
+    "thumbnail": "https://picsum.photos/seed/watch7/600/600",
+    "images": [
+      "https://picsum.photos/seed/watch71/900/900",
+      "https://picsum.photos/seed/watch72/900/900",
+      "https://picsum.photos/seed/watch73/900/900"
+    ],
+    "description": "Elegant smartwatch with AI health tracking and long-lasting battery.",
+    "features": [
+      "GPS",
+      "Sleep Tracking",
+      "Heart Rate",
+      "Bluetooth"
+    ],
+    "specifications": {
+      "Display": "1.5-inch AMOLED",
+      "Battery": "40 Hours"
+    },
+    "isFeatured": false,
+    "isNew": true,
+    "freeShipping": true
+  },
+  {
+    "id": 8,
+    "name": "Logitech MX Master 3S",
+    "slug": "logitech-mx-master-3s",
+    "brand": "Logitech",
+    "category": "Accessories",
+    "price": 99,
+    "oldPrice": 119,
+    "discount": 17,
+    "rating": 4.9,
+    "reviews": 5500,
+    "stock": 120,
+    "sku": "LOG-MX3S",
+    "thumbnail": "https://picsum.photos/seed/mxmaster/600/600",
+    "images": [
+      "https://picsum.photos/seed/mx1/900/900",
+      "https://picsum.photos/seed/mx2/900/900",
+      "https://picsum.photos/seed/mx3/900/900"
+    ],
+    "description": "Professional wireless mouse designed for productivity and creators.",
+    "features": [
+      "8000 DPI",
+      "USB-C Charging",
+      "Bluetooth",
+      "Silent Clicks"
+    ],
+    "specifications": {
+      "Weight": "141g",
+      "Battery": "70 Days"
+    },
+    "isFeatured": true,
+    "isNew": false,
+    "freeShipping": true
+  },
+  {
+    "id": 9,
+    "name": "Keychron K8 Pro",
+    "slug": "keychron-k8-pro",
+    "brand": "Keychron",
+    "category": "Accessories",
+    "price": 129,
+    "oldPrice": 149,
+    "discount": 13,
+    "rating": 4.8,
+    "reviews": 980,
+    "stock": 75,
+    "sku": "KEY-K8PRO",
+    "thumbnail": "https://picsum.photos/seed/keychron/600/600",
+    "images": [
+      "https://picsum.photos/seed/key1/900/900",
+      "https://picsum.photos/seed/key2/900/900",
+      "https://picsum.photos/seed/key3/900/900"
+    ],
+    "description": "Wireless mechanical keyboard with hot-swappable switches and RGB lighting.",
+    "features": [
+      "RGB",
+      "Bluetooth",
+      "Hot Swappable",
+      "Mac & Windows"
+    ],
+    "specifications": {
+      "Layout": "TKL",
+      "Switch": "Red"
+    },
+    "isFeatured": false,
+    "isNew": false,
+    "freeShipping": true
+  },
+  {
+    "id": 10,
+    "name": "Canon EOS R8",
+    "slug": "canon-eos-r8",
+    "brand": "Canon",
+    "category": "Cameras",
+    "price": 1499,
+    "oldPrice": 1599,
+    "discount": 6,
+    "rating": 4.8,
+    "reviews": 670,
+    "stock": 15,
+    "sku": "CAN-R8",
+    "thumbnail": "https://picsum.photos/seed/canonr8/600/600",
+    "images": [
+      "https://picsum.photos/seed/r81/900/900",
+      "https://picsum.photos/seed/r82/900/900",
+      "https://picsum.photos/seed/r83/900/900"
+    ],
+    "description": "Compact full-frame mirrorless camera for creators and professionals.",
+    "features": [
+      "24.2MP",
+      "4K Video",
+      "WiFi",
+      "Dual Pixel AF"
+    ],
+    "specifications": {
+      "Sensor": "Full Frame",
+      "Resolution": "24.2MP"
+    },
+    "isFeatured": true,
+    "isNew": true,
+    "freeShipping": true
+  },
+  {
+    "id": 11,
+    "name": "Nike Air Zoom Pegasus 41",
+    "slug": "nike-air-zoom-pegasus-41",
+    "brand": "Nike",
+    "category": "Shoes",
+    "price": 139,
+    "oldPrice": 159,
+    "discount": 13,
+    "rating": 4.8,
+    "reviews": 4821,
+    "stock": 80,
+    "sku": "NIK-PEG41-011",
+    "thumbnail": "https://picsum.photos/seed/nike41/600/600",
+    "images": [
+      "https://picsum.photos/seed/nike411/900/900",
+      "https://picsum.photos/seed/nike412/900/900",
+      "https://picsum.photos/seed/nike413/900/900"
+    ],
+    "description": "Lightweight running shoes designed for everyday training with responsive cushioning and breathable comfort.",
+    "features": [
+      "Zoom Air Cushioning",
+      "Engineered Mesh Upper",
+      "Rubber Outsole",
+      "Lightweight Design"
+    ],
+    "specifications": {
+      "Material": "Mesh",
+      "Color": "Black/White",
+      "Weight": "285g",
+      "Gender": "Unisex"
+    },
+    "isFeatured": true,
+    "isNew": true,
+    "freeShipping": true
+  },
+  {
+    "id": 12,
+    "name": "Adidas Ultraboost Light",
+    "slug": "adidas-ultraboost-light",
+    "brand": "Adidas",
+    "category": "Shoes",
+    "price": 179,
+    "oldPrice": 210,
+    "discount": 15,
+    "rating": 4.7,
+    "reviews": 3915,
+    "stock": 62,
+    "sku": "ADD-UBL-012",
+    "thumbnail": "https://picsum.photos/seed/adidaslight/600/600",
+    "images": [
+      "https://picsum.photos/seed/adidas1/900/900",
+      "https://picsum.photos/seed/adidas2/900/900",
+      "https://picsum.photos/seed/adidas3/900/900"
+    ],
+    "description": "Premium running shoes with responsive BOOST cushioning for exceptional comfort and energy return.",
+    "features": [
+      "BOOST Midsole",
+      "Primeknit Upper",
+      "Continental Rubber",
+      "Breathable Design"
+    ],
+    "specifications": {
+      "Material": "Primeknit",
+      "Color": "White",
+      "Weight": "300g",
+      "Gender": "Unisex"
+    },
+    "isFeatured": true,
+    "isNew": false,
+    "freeShipping": true
+  },
+  {
+    "id": 13,
+    "name": "Puma RS-X",
+    "slug": "puma-rs-x",
+    "brand": "Puma",
+    "category": "Shoes",
+    "price": 110,
+    "oldPrice": 130,
+    "discount": 15,
+    "rating": 4.6,
+    "reviews": 2186,
+    "stock": 55,
+    "sku": "PUM-RSX-013",
+    "thumbnail": "https://picsum.photos/seed/puma1/600/600",
+    "images": [
+      "https://picsum.photos/seed/puma11/900/900",
+      "https://picsum.photos/seed/puma12/900/900",
+      "https://picsum.photos/seed/puma13/900/900"
+    ],
+    "description": "Retro-inspired lifestyle sneakers with bold styling and superior cushioning.",
+    "features": [
+      "RS Cushioning",
+      "Mesh Upper",
+      "Comfort Fit",
+      "Rubber Sole"
+    ],
+    "specifications": {
+      "Material": "Mesh & Synthetic",
+      "Color": "Gray",
+      "Weight": "320g",
+      "Gender": "Unisex"
+    },
+    "isFeatured": false,
+    "isNew": false,
+    "freeShipping": true
+  },
+  {
+    "id": 14,
+    "name": "Levi's 511 Slim Jeans",
+    "slug": "levis-511-slim-jeans",
+    "brand": "Levi's",
+    "category": "Fashion",
+    "price": 69,
+    "oldPrice": 85,
+    "discount": 19,
+    "rating": 4.7,
+    "reviews": 6420,
+    "stock": 95,
+    "sku": "LEV-511-014",
+    "thumbnail": "https://picsum.photos/seed/levis511/600/600",
+    "images": [
+      "https://picsum.photos/seed/levis1/900/900",
+      "https://picsum.photos/seed/levis2/900/900",
+      "https://picsum.photos/seed/levis3/900/900"
+    ],
+    "description": "Classic slim-fit jeans made from premium stretch denim for all-day comfort.",
+    "features": [
+      "Slim Fit",
+      "Stretch Denim",
+      "Machine Washable",
+      "Five Pocket Style"
+    ],
+    "specifications": {
+      "Material": "99% Cotton, 1% Elastane",
+      "Color": "Dark Blue",
+      "Fit": "Slim",
+      "Closure": "Zip Fly"
+    },
+    "isFeatured": true,
+    "isNew": false,
+    "freeShipping": true
+  },
+  {
+    "id": 15,
+    "name": "Ray-Ban Aviator Classic",
+    "slug": "ray-ban-aviator-classic",
+    "brand": "Ray-Ban",
+    "category": "Fashion",
+    "price": 165,
+    "oldPrice": 190,
+    "discount": 13,
+    "rating": 4.9,
+    "reviews": 5420,
+    "stock": 45,
+    "sku": "RAY-AVI-015",
+    "thumbnail": "https://picsum.photos/seed/rayban/600/600",
+    "images": [
+      "https://picsum.photos/seed/rayban1/900/900",
+      "https://picsum.photos/seed/rayban2/900/900",
+      "https://picsum.photos/seed/rayban3/900/900"
+    ],
+    "description": "Iconic aviator sunglasses with premium UV protection and timeless design.",
+    "features": [
+      "UV400 Protection",
+      "Metal Frame",
+      "Crystal Lenses",
+      "Classic Design"
+    ],
+    "specifications": {
+      "Frame": "Metal",
+      "Lens": "Glass",
+      "Color": "Gold/Green",
+      "Weight": "32g"
+    },
+    "isFeatured": true,
+    "isNew": false,
+    "freeShipping": true
+  },
+  {
+    "id": 16,
+    "name": "JBL Flip 7",
+    "slug": "jbl-flip-7",
+    "brand": "JBL",
+    "category": "Speakers",
+    "price": 149,
+    "oldPrice": 169,
+    "discount": 12,
+    "rating": 4.8,
+    "reviews": 3280,
+    "stock": 58,
+    "sku": "JBL-FLP7-016",
+    "thumbnail": "https://picsum.photos/seed/jblflip7/600/600",
+    "images": [
+      "https://picsum.photos/seed/jbl71/900/900",
+      "https://picsum.photos/seed/jbl72/900/900",
+      "https://picsum.photos/seed/jbl73/900/900"
+    ],
+    "description": "Portable Bluetooth speaker delivering powerful JBL Pro Sound with deep bass.",
+    "features": [
+      "Bluetooth 5.4",
+      "IP67 Waterproof",
+      "16 Hours Battery",
+      "USB-C Charging"
+    ],
+    "specifications": {
+      "Battery": "16 Hours",
+      "Connectivity": "Bluetooth",
+      "Weight": "560g",
+      "Color": "Black"
+    },
+    "isFeatured": true,
+    "isNew": true,
+    "freeShipping": true
+  },
+  {
+    "id": 17,
+    "name": "Bose SoundLink Max",
+    "slug": "bose-soundlink-max",
+    "brand": "Bose",
+    "category": "Speakers",
+    "price": 299,
+    "oldPrice": 349,
+    "discount": 14,
+    "rating": 4.9,
+    "reviews": 2146,
+    "stock": 26,
+    "sku": "BOS-SLM-017",
+    "thumbnail": "https://picsum.photos/seed/bosemax/600/600",
+    "images": [
+      "https://picsum.photos/seed/bose1/900/900",
+      "https://picsum.photos/seed/bose2/900/900",
+      "https://picsum.photos/seed/bose3/900/900"
+    ],
+    "description": "Premium portable Bluetooth speaker with immersive sound and long-lasting battery.",
+    "features": [
+      "Deep Bass",
+      "Bluetooth 5.3",
+      "20 Hours Battery",
+      "IP67 Rated"
+    ],
+    "specifications": {
+      "Battery": "20 Hours",
+      "Weight": "2.1kg",
+      "Connectivity": "Bluetooth",
+      "Color": "Blue Dusk"
+    },
+    "isFeatured": true,
+    "isNew": true,
+    "freeShipping": true
+  },
+  {
+    "id": 18,
+    "name": "PlayStation 5 Slim",
+    "slug": "playstation-5-slim",
+    "brand": "Sony",
+    "category": "Gaming",
+    "price": 499,
+    "oldPrice": 549,
+    "discount": 9,
+    "rating": 4.9,
+    "reviews": 12584,
+    "stock": 32,
+    "sku": "SNY-PS5S-018",
+    "thumbnail": "https://picsum.photos/seed/ps5slim/600/600",
+    "images": [
+      "https://picsum.photos/seed/ps51/900/900",
+      "https://picsum.photos/seed/ps52/900/900",
+      "https://picsum.photos/seed/ps53/900/900"
+    ],
+    "description": "Next-generation gaming console with ultra-fast SSD, ray tracing, and immersive gameplay.",
+    "features": [
+      "1TB SSD",
+      "4K Gaming",
+      "Ray Tracing",
+      "DualSense Controller"
+    ],
+    "specifications": {
+      "Storage": "1TB SSD",
+      "Resolution": "Up to 8K",
+      "CPU": "AMD Zen 2",
+      "GPU": "RDNA 2"
+    },
+    "isFeatured": true,
+    "isNew": true,
+    "freeShipping": true
+  },
+  {
+    "id": 19,
+    "name": "Xbox Series X",
+    "slug": "xbox-series-x",
+    "brand": "Microsoft",
+    "category": "Gaming",
+    "price": 499,
+    "oldPrice": 549,
+    "discount": 9,
+    "rating": 4.8,
+    "reviews": 10865,
+    "stock": 29,
+    "sku": "MS-XSX-019",
+    "thumbnail": "https://picsum.photos/seed/xboxx/600/600",
+    "images": [
+      "https://picsum.photos/seed/xbox1/900/900",
+      "https://picsum.photos/seed/xbox2/900/900",
+      "https://picsum.photos/seed/xbox3/900/900"
+    ],
+    "description": "Powerful gaming console built for true 4K gaming with lightning-fast performance.",
+    "features": [
+      "1TB SSD",
+      "Quick Resume",
+      "120 FPS",
+      "Dolby Vision"
+    ],
+    "specifications": {
+      "CPU": "AMD Zen 2",
+      "GPU": "12 TFLOPS",
+      "Storage": "1TB SSD",
+      "Memory": "16GB GDDR6"
+    },
+    "isFeatured": true,
+    "isNew": false,
+    "freeShipping": true
+  },
+  {
+    "id": 20,
+    "name": "Nintendo Switch OLED",
+    "slug": "nintendo-switch-oled",
+    "brand": "Nintendo",
+    "category": "Gaming",
+    "price": 349,
+    "oldPrice": 399,
+    "discount": 13,
+    "rating": 4.8,
+    "reviews": 8976,
+    "stock": 40,
+    "sku": "NTD-SWO-020",
+    "thumbnail": "https://picsum.photos/seed/switcholed/600/600",
+    "images": [
+      "https://picsum.photos/seed/switch1/900/900",
+      "https://picsum.photos/seed/switch2/900/900",
+      "https://picsum.photos/seed/switch3/900/900"
+    ],
+    "description": "Versatile gaming console featuring a vibrant OLED display for handheld and TV gaming.",
+    "features": [
+      "7-inch OLED",
+      "64GB Storage",
+      "Dock Included",
+      "Joy-Con Controllers"
+    ],
+    "specifications": {
+      "Display": "7-inch OLED",
+      "Storage": "64GB",
+      "Battery": "9 Hours",
+      "Resolution": "1080p Docked"
+    },
+    "isFeatured": true,
+    "isNew": false,
+    "freeShipping": true
+  },
+  {
+      "id": 21,
+      "name": "Dyson V15 Detect",
+      "slug": "dyson-v15-detect",
+      "brand": "Dyson",
+      "category": "Home Appliances",
+      "price": 749,
+      "oldPrice": 849,
+      "discount": 12,
+      "rating": 4.9,
+      "reviews": 5248,
+      "stock": 20,
+      "sku": "DYS-V15-021",
+      "thumbnail": "https://picsum.photos/seed/dyson15/600/600",
+      "images": [
+        "https://picsum.photos/seed/dyson151/900/900",
+        "https://picsum.photos/seed/dyson152/900/900",
+        "https://picsum.photos/seed/dyson153/900/900"
+      ],
+      "description": "Powerful cordless vacuum cleaner featuring laser dust detection and intelligent suction adjustment.",
+      "features": [
+        "Laser Dust Detection",
+        "60 Minutes Runtime",
+        "HEPA Filtration",
+        "LCD Display"
+      ],
+      "specifications": {
+        "Battery": "60 Minutes",
+        "Dust Bin": "0.77L",
+        "Weight": "3.1kg",
+        "Color": "Yellow/Nickel"
+      },
+      "isFeatured": true,
+      "isNew": true,
+      "freeShipping": true
+    },
+    {
+      "id": 22,
+      "name": "Instant Pot Duo Plus",
+      "slug": "instant-pot-duo-plus",
+      "brand": "Instant Pot",
+      "category": "Kitchen",
+      "price": 129,
+      "oldPrice": 159,
+      "discount": 19,
+      "rating": 4.8,
+      "reviews": 7815,
+      "stock": 65,
+      "sku": "INS-DP-022",
+      "thumbnail": "https://picsum.photos/seed/instantpot/600/600",
+      "images": [
+        "https://picsum.photos/seed/instant1/900/900",
+        "https://picsum.photos/seed/instant2/900/900",
+        "https://picsum.photos/seed/instant3/900/900"
+      ],
+      "description": "Versatile multi-cooker with pressure cooking, slow cooking, steaming, sautéing, and more.",
+      "features": [
+        "9-in-1 Multi Cooker",
+        "Pressure Cook",
+        "Slow Cook",
+        "Dishwasher Safe"
+      ],
+      "specifications": {
+        "Capacity": "6 Quart",
+        "Power": "1000W",
+        "Material": "Stainless Steel",
+        "Programs": "15 Smart Programs"
+      },
+      "isFeatured": true,
+      "isNew": false,
+      "freeShipping": true
+    },
+    {
+      "id": 23,
+      "name": "Philips Air Fryer XXL",
+      "slug": "philips-air-fryer-xxl",
+      "brand": "Philips",
+      "category": "Kitchen",
+      "price": 249,
+      "oldPrice": 299,
+      "discount": 17,
+      "rating": 4.8,
+      "reviews": 4310,
+      "stock": 38,
+      "sku": "PHL-AFXXL-023",
+      "thumbnail": "https://picsum.photos/seed/airfryer/600/600",
+      "images": [
+        "https://picsum.photos/seed/fryer1/900/900",
+        "https://picsum.photos/seed/fryer2/900/900",
+        "https://picsum.photos/seed/fryer3/900/900"
+      ],
+      "description": "Healthy air fryer with Rapid Air Technology for crispy meals using little to no oil.",
+      "features": [
+        "Rapid Air Technology",
+        "Digital Display",
+        "Easy Clean Basket",
+        "Fat Removal Technology"
+      ],
+      "specifications": {
+        "Capacity": "7.3L",
+        "Power": "2225W",
+        "Material": "Plastic & Metal",
+        "Color": "Black"
+      },
+      "isFeatured": true,
+      "isNew": true,
+      "freeShipping": true
+    },
+    {
+      "id": 24,
+      "name": "LG C4 OLED TV 55-inch",
+      "slug": "lg-c4-oled-tv-55-inch",
+      "brand": "LG",
+      "category": "Television",
+      "price": 1499,
+      "oldPrice": 1699,
+      "discount": 12,
+      "rating": 4.9,
+      "reviews": 2968,
+      "stock": 12,
+      "sku": "LG-C455-024",
+      "thumbnail": "https://picsum.photos/seed/lgc4/600/600",
+      "images": [
+        "https://picsum.photos/seed/lgc41/900/900",
+        "https://picsum.photos/seed/lgc42/900/900",
+        "https://picsum.photos/seed/lgc43/900/900"
+      ],
+      "description": "Premium OLED smart TV with stunning picture quality, Dolby Vision, and AI-powered processing.",
+      "features": [
+        "4K OLED Display",
+        "120Hz Refresh Rate",
+        "Dolby Vision",
+        "webOS Smart TV"
+      ],
+      "specifications": {
+        "Screen Size": "55-inch",
+        "Resolution": "3840×2160",
+        "HDR": "Dolby Vision",
+        "HDMI": "4 Ports"
+      },
+      "isFeatured": true,
+      "isNew": true,
+      "freeShipping": true
+    },
+    {
+      "id": 25,
+      "name": "Samsung Neo QLED 65-inch",
+      "slug": "samsung-neo-qled-65-inch",
+      "brand": "Samsung",
+      "category": "Television",
+      "price": 1899,
+      "oldPrice": 2099,
+      "discount": 10,
+      "rating": 4.8,
+      "reviews": 2512,
+      "stock": 10,
+      "sku": "SAM-NQ65-025",
+      "thumbnail": "https://picsum.photos/seed/qled65/600/600",
+      "images": [
+        "https://picsum.photos/seed/qled651/900/900",
+        "https://picsum.photos/seed/qled652/900/900",
+        "https://picsum.photos/seed/qled653/900/900"
+      ],
+      "description": "Neo QLED television delivering ultra-bright visuals, immersive audio, and premium gaming features.",
+      "features": ["Mini LED", "144Hz Gaming", "Dolby Atmos", "AI Upscaling"],
+      "specifications": {
+        "Screen Size": "65-inch",
+        "Resolution": "4K UHD",
+        "HDR": "HDR10+",
+        "HDMI": "4 Ports"
+      },
+      "isFeatured": true,
+      "isNew": true,
+      "freeShipping": true
+    },
+    {
+      "id": 26,
+      "name": "Anker 737 Power Bank",
+      "slug": "anker-737-power-bank",
+      "brand": "Anker",
+      "category": "Accessories",
+      "price": 149,
+      "oldPrice": 179,
+      "discount": 17,
+      "rating": 4.9,
+      "reviews": 6175,
+      "stock": 90,
+      "sku": "ANK-737-026",
+      "thumbnail": "https://picsum.photos/seed/anker737/600/600",
+      "images": [
+        "https://picsum.photos/seed/anker1/900/900",
+        "https://picsum.photos/seed/anker2/900/900",
+        "https://picsum.photos/seed/anker3/900/900"
+      ],
+      "description": "High-capacity power bank with fast USB-C charging for laptops, tablets, and smartphones.",
+      "features": [
+        "24000mAh Capacity",
+        "140W Output",
+        "Smart Display",
+        "USB-C Fast Charging"
+      ],
+      "specifications": {
+        "Capacity": "24000mAh",
+        "Output": "140W",
+        "Ports": "2 USB-C, 1 USB-A",
+        "Weight": "630g"
+      },
+      "isFeatured": true,
+      "isNew": false,
+      "freeShipping": true
+    },
+    {
+      "id": 27,
+      "name": "UGREEN Nexode 100W Charger",
+      "slug": "ugreen-nexode-100w-charger",
+      "brand": "UGREEN",
+      "category": "Accessories",
+      "price": 69,
+      "oldPrice": 89,
+      "discount": 22,
+      "rating": 4.8,
+      "reviews": 3486,
+      "stock": 110,
+      "sku": "UGR-NX100-027",
+      "thumbnail": "https://picsum.photos/seed/ugreen100/600/600",
+      "images": [
+        "https://picsum.photos/seed/ugreen1/900/900",
+        "https://picsum.photos/seed/ugreen2/900/900",
+        "https://picsum.photos/seed/ugreen3/900/900"
+      ],
+      "description": "Compact GaN charger with 100W fast charging support for laptops, tablets, and smartphones.",
+      "features": [
+        "100W Fast Charging",
+        "GaN Technology",
+        "4 Charging Ports",
+        "Universal Compatibility"
+      ],
+      "specifications": {
+        "Power": "100W",
+        "Ports": "3 USB-C + 1 USB-A",
+        "Technology": "GaN",
+        "Color": "Gray"
+      },
+      "isFeatured": false,
+      "isNew": true,
+      "freeShipping": true
+    },
+    {
+      "id": 28,
+      "name": "Amazon Kindle Paperwhite",
+      "slug": "amazon-kindle-paperwhite",
+      "brand": "Amazon",
+      "category": "Tablets",
+      "price": 179,
+      "oldPrice": 209,
+      "discount": 14,
+      "rating": 4.9,
+      "reviews": 8294,
+      "stock": 52,
+      "sku": "AMZ-KPW-028",
+      "thumbnail": "https://picsum.photos/seed/kindle/600/600",
+      "images": [
+        "https://picsum.photos/seed/kindle1/900/900",
+        "https://picsum.photos/seed/kindle2/900/900",
+        "https://picsum.photos/seed/kindle3/900/900"
+      ],
+      "description": "Waterproof e-reader with glare-free display and weeks of battery life for comfortable reading.",
+      "features": [
+        "6.8-inch Display",
+        "Waterproof",
+        "Adjustable Warm Light",
+        "Wi-Fi"
+      ],
+      "specifications": {
+        "Storage": "16GB",
+        "Display": "300 PPI",
+        "Battery": "Up to 10 Weeks",
+        "Charging": "USB-C"
+      },
+      "isFeatured": true,
+      "isNew": false,
+      "freeShipping": true
+    },
+    {
+      "id": 29,
+      "name": "Apple iPad Air M3",
+      "slug": "apple-ipad-air-m3",
+      "brand": "Apple",
+      "category": "Tablets",
+      "price": 699,
+      "oldPrice": 749,
+      "discount": 7,
+      "rating": 4.9,
+      "reviews": 4265,
+      "stock": 27,
+      "sku": "APL-IPADM3-029",
+      "thumbnail": "https://picsum.photos/seed/ipadairm3/600/600",
+      "images": [
+        "https://picsum.photos/seed/ipad1/900/900",
+        "https://picsum.photos/seed/ipad2/900/900",
+        "https://picsum.photos/seed/ipad3/900/900"
+      ],
+      "description": "Powerful iPad powered by the Apple M3 chip for work, creativity, and entertainment.",
+      "features": [
+        "M3 Chip",
+        "Liquid Retina Display",
+        "Apple Pencil Pro Support",
+        "Touch ID"
+      ],
+      "specifications": {
+        "Display": "11-inch Liquid Retina",
+        "Storage": "256GB",
+        "RAM": "8GB",
+        "Connectivity": "Wi-Fi 6E"
+      },
+      "isFeatured": true,
+      "isNew": true,
+      "freeShipping": true
+    },
+    {
+      "id": 30,
+      "name": "DJI Mini 4 Pro",
+      "slug": "dji-mini-4-pro",
+      "brand": "DJI",
+      "category": "Drones",
+      "price": 999,
+      "oldPrice": 1099,
+      "discount": 9,
+      "rating": 4.9,
+      "reviews": 2781,
+      "stock": 18,
+      "sku": "DJI-M4P-030",
+      "thumbnail": "https://picsum.photos/seed/djimini4/600/600",
+      "images": [
+        "https://picsum.photos/seed/dji1/900/900",
+        "https://picsum.photos/seed/dji2/900/900",
+        "https://picsum.photos/seed/dji3/900/900"
+      ],
+      "description": "Ultra-lightweight professional drone featuring 4K HDR video, omnidirectional obstacle sensing, and intelligent flight modes.",
+      "features": [
+        "4K HDR Video",
+        "48MP Camera",
+        "34 Minutes Flight Time",
+        "Obstacle Avoidance"
+      ],
+      "specifications": {
+        "Camera": "48MP",
+        "Video": "4K/60fps HDR",
+        "Flight Time": "34 Minutes",
+        "Weight": "249g"
+      },
+      "isFeatured": true,
+      "isNew": true,
+      "freeShipping": true
+    }
+]
