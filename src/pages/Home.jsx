@@ -5,7 +5,7 @@ import HomeProducts from "../components/home/HomeProducts";
 
 const Home = () => {
   return (
-    <div>
+    <div className="pt-20">
       <Banner />
       <Category />
       <HomeProducts/>

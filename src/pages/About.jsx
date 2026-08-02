@@ -1,9 +1,10 @@
+import AboutSection from "../components/about/AboutSection";
 
 
 const About = () => {
   return (
-    <div>
-      <h3 className="text-2xl font-bold mb-4">About Pages</h3>
+    <div className="pt-20">
+      <AboutSection/>
     </div>
   );
 };

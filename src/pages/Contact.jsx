@@ -1,9 +1,12 @@
+import ContactSection from "../components/contact/ContactSection";
+import SupportSection from "../components/contact/SupportSection";
 
 
 const Contact = () => {
   return (
-    <div>
-      <h4 className="text-2xl font-bold text-center">Contact Pages</h4>
+    <div className="pt-20">
+      <ContactSection />
+      <SupportSection/>
     </div>
   );
 };

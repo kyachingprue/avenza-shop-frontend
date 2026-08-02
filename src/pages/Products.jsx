@@ -3,7 +3,7 @@ import AllProducts from "../components/products/AllProducts";
 
 const Products = () => {
   return (
-    <div>
+    <div className="pt-20">
       <AllProducts/>
     </div>
   );
