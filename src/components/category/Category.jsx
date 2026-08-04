@@ -1,5 +1,7 @@
 import { Link } from "react-router";
 import CategoryCard from "./CategoryCard";
+import { useEffect } from "react";
+import LocomotiveScroll from "locomotive-scroll";
 
 
 const Category = () => {
@@ -21,6 +23,14 @@ const Category = () => {
     "Tablets",
     "Drones"
   ]
+
+   useEffect(() => {
+     const locomotiveScroll = new LocomotiveScroll()
+
+     return () => {
+       locomotiveScroll.destroy()
+     }
+   }, [])
   return (
     <div className="w-full h-full mx-auto px-4 py-8">
       <h3 className="text-2xl font-bold">Category</h3>

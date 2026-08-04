@@ -1,3 +1,5 @@
+import LocomotiveScroll from 'locomotive-scroll'
+import { useEffect } from 'react'
 import { FaAward, FaHeadset, FaShippingFast, FaShieldAlt } from 'react-icons/fa'
 
 const features = [
@@ -32,6 +34,13 @@ const features = [
 ]
 
 const AboutSection = () => {
+   useEffect(() => {
+     const locomotiveScroll = new LocomotiveScroll()
+
+     return () => {
+       locomotiveScroll.destroy()
+     }
+   }, [])
   return (
     <section className="bg-gray-50 py-20">
       <div className="mx-auto max-w-7xl px-6">

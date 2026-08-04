@@ -1,4 +1,6 @@
+import LocomotiveScroll from 'locomotive-scroll'
 import { motion } from 'motion/react'
+import { useEffect } from 'react'
 import {
   FaHeadset,
   FaComments,
@@ -40,6 +42,13 @@ const supportData = [
 ]
 
 const SupportSection = () => {
+   useEffect(() => {
+     const locomotiveScroll = new LocomotiveScroll()
+
+     return () => {
+       locomotiveScroll.destroy()
+     }
+   }, [])
   return (
     <section className="bg-gray-50 py-20">
       <div className="mx-auto max-w-7xl px-5">
@@ -101,7 +110,7 @@ const SupportSection = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
-          className="mt-20 overflow-hidden rounded-3xl bg-gradient-to-r from-sky-600 to-blue-700 p-10 text-white lg:p-14"
+          className="mt-20 overflow-hidden rounded-3xl bg-linear-to-r from-sky-600 to-blue-700 p-10 text-white lg:p-14"
         >
           <div className="flex flex-col items-center justify-between gap-8 lg:flex-row">
             <div>

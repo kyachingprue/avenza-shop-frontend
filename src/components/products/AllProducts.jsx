@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import ProductCard from './ProductCard'
 import { useSearchParams } from 'react-router'
 import Loading from '../common/Loading'
+import LocomotiveScroll from 'locomotive-scroll'
 
 const AllProducts = () => {
   const [products, setProducts] = useState([])
@@ -50,6 +51,14 @@ const AllProducts = () => {
   useEffect(() => {
     setCurrentPage(1)
   }, [search, category])
+
+   useEffect(() => {
+     const locomotiveScroll = new LocomotiveScroll()
+
+     return () => {
+       locomotiveScroll.destroy()
+     }
+   }, [])
 
   if (loading) {
     return <Loading />

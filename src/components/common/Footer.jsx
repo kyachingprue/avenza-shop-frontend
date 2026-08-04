@@ -30,6 +30,7 @@ import {
 
 import { HiOutlinePaperAirplane } from 'react-icons/hi2'
 import { useEffect, useState } from 'react'
+import LocomotiveScroll from 'locomotive-scroll'
 
 const Footer = () => {
   const [showScrollTop, setShowScrollTop] = useState(false)
@@ -49,6 +50,14 @@ const Footer = () => {
       window.removeEventListener('scroll', handleScroll)
     }
   }, [])
+
+   useEffect(() => {
+     const locomotiveScroll = new LocomotiveScroll()
+
+     return () => {
+       locomotiveScroll.destroy()
+     }
+   }, [])
   return (
     <footer className="mt-24">
       {/* Top Section */}

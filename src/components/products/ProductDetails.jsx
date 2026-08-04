@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 import { GoArrowRight } from "react-icons/go";
 import { FaArrowLeft } from "react-icons/fa6";
+import LocomotiveScroll from "locomotive-scroll";
 
 const ProductDetails = () => {
   const { id } = useParams()
@@ -33,6 +34,14 @@ const ProductDetails = () => {
 
     fetchProduct()
   }, [id])
+
+   useEffect(() => {
+     const locomotiveScroll = new LocomotiveScroll()
+
+     return () => {
+       locomotiveScroll.destroy()
+     }
+   }, [])
 
   const handleBack = () => {
     navigate(-1)

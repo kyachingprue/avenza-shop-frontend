@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import ProductCard from "../products/ProductCard";
 import { Link } from "react-router";
+import LocomotiveScroll from "locomotive-scroll";
 
 
 const HomeProducts = () => {
@@ -17,7 +18,15 @@ const HomeProducts = () => {
     } catch (err) {
       console.error(err)
     }
-  },[])
+  }, [])
+
+   useEffect(() => {
+     const locomotiveScroll = new LocomotiveScroll()
+
+     return () => {
+       locomotiveScroll.destroy()
+     }
+   }, [])
   return (
     <div className="w-full h-full py-8 px-4">
       <div className="flex justify-between items-center mb-4 py-10">

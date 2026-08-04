@@ -1,4 +1,6 @@
+import LocomotiveScroll from 'locomotive-scroll'
 import { motion } from 'motion/react'
+import { useEffect } from 'react'
 import {
   FaEnvelope,
   FaLocationDot,
@@ -28,8 +30,15 @@ const contactInfo = [
 ]
 
 const ContactSection = () => {
+   useEffect(() => {
+     const locomotiveScroll = new LocomotiveScroll()
+
+     return () => {
+       locomotiveScroll.destroy()
+     }
+   }, [])
   return (
-    <section className="bg-gradient-to-b from-white to-sky-50 py-20">
+    <section className="bg-linear-to-b from-white to-sky-50 py-20">
       <div className="mx-auto max-w-7xl px-5">
         {/* Heading */}
         <motion.div
