@@ -12,11 +12,11 @@
     "reviews": 3254,
     "stock": 28,
     "sku": "APL-IP16P-001",
-    "thumbnail": "https://picsum.photos/seed/iphone16pro/600/600",
+    "thumbnail": "https://res.cloudinary.com/dczi5wwkj/image/upload/v1785838380/thai-nguyen-fw_KhcwHmlY-unsplash_vwxygy.jpg",
     "images": [
-      "https://picsum.photos/seed/iphone16pro1/900/900",
-      "https://picsum.photos/seed/iphone16pro2/900/900",
-      "https://picsum.photos/seed/iphone16pro3/900/900"
+      "https://res.cloudinary.com/dczi5wwkj/image/upload/v1785838649/bagus-hernawan-A6JxK37IlPo-unsplash_ubwabz.jpg",
+      "https://res.cloudinary.com/dczi5wwkj/image/upload/v1785838582/amanz-FkEfFVrbM3o-unsplash_iwxvxi.jpg",
+      "https://res.cloudinary.com/dczi5wwkj/image/upload/v1785838616/igor-omilaev-lDWTfYhZ85w-unsplash_z0o5qt.jpg"
     ],
     "description": "Experience flagship performance with the latest Apple A-series chip, advanced camera system, and stunning Super Retina display.",
     "features": [
@@ -49,11 +49,11 @@
     "reviews": 2790,
     "stock": 35,
     "sku": "SMS-S25U-002",
-    "thumbnail": "https://picsum.photos/seed/s25ultra/600/600",
+    "thumbnail": "https://res.cloudinary.com/dczi5wwkj/image/upload/v1785838687/amanz-mzNVfDZMUPA-unsplash_i2llom.jpg",
     "images": [
-      "https://picsum.photos/seed/s25u1/900/900",
-      "https://picsum.photos/seed/s25u2/900/900",
-      "https://picsum.photos/seed/s25u3/900/900"
+      "https://res.cloudinary.com/dczi5wwkj/image/upload/v1785838828/amanz-fYru5LNyJiM-unsplash_mzn2lh.jpg",
+      "https://res.cloudinary.com/dczi5wwkj/image/upload/v1785838852/amanz-6Md8RJCL7x4-unsplash_zym5n7.jpg",
+      "https://res.cloudinary.com/dczi5wwkj/image/upload/v1785838914/amanz-V9H5VaSbRbE-unsplash_rpeiie.jpg"
     ],
     "description": "Premium Android flagship with AI-powered camera, powerful Snapdragon processor, and S Pen support.",
     "features": [
@@ -85,11 +85,11 @@
     "reviews": 6100,
     "stock": 60,
     "sku": "SNY-XM5-003",
-    "thumbnail": "https://picsum.photos/seed/xm5/600/600",
+    "thumbnail": "https://res.cloudinary.com/dczi5wwkj/image/upload/v1785838955/yearone-oplCWB9A0bI-unsplash_hwv2n6.jpg",
     "images": [
-      "https://picsum.photos/seed/xm51/900/900",
-      "https://picsum.photos/seed/xm52/900/900",
-      "https://picsum.photos/seed/xm53/900/900"
+      "https://ik.imagekit.io/kyachingprue/davide-boscolo-wTezihGmvqQ-unsplash.jpg",
+      "https://ik.imagekit.io/kyachingprue/darwin-trinidad-4GmBVZ6T2FE-unsplash.jpg",
+      "https://ik.imagekit.io/kyachingprue/davide-boscolo-fcaFLA5jUMw-unsplash.jpg"
     ],
     "description": "Industry-leading wireless noise cancelling headphones with premium sound quality.",
     "features": [
@@ -120,11 +120,11 @@
     "reviews": 2100,
     "stock": 18,
     "sku": "APL-MBA-M4",
-    "thumbnail": "https://picsum.photos/seed/macbookm4/600/600",
+    "thumbnail": "https://ik.imagekit.io/kyachingprue/triyansh-gill-qnhuX2HKETk-unsplash.jpg",
     "images": [
-      "https://picsum.photos/seed/mac1/900/900",
-      "https://picsum.photos/seed/mac2/900/900",
-      "https://picsum.photos/seed/mac3/900/900"
+      "https://ik.imagekit.io/kyachingprue/omar-al-ghosson-ZOXoEwC9D4U-unsplash.jpg",
+      "https://ik.imagekit.io/kyachingprue/james-yarema-6M9bAK5l4_o-unsplash.jpg",
+      "https://ik.imagekit.io/kyachingprue/ab-fhmRqhD_dYg-unsplash.jpg"
     ],
     "description": "Ultra-thin laptop powered by Apple's latest M4 chip for exceptional speed and battery life.",
     "features": [
@@ -155,11 +155,11 @@
     "reviews": 1260,
     "stock": 14,
     "sku": "DLL-XPS14",
-    "thumbnail": "https://picsum.photos/seed/xps14/600/600",
+    "thumbnail": "https://ik.imagekit.io/kyachingprue/dell-Gi3iUJ1FwxI-unsplash.jpg",
     "images": [
-      "https://picsum.photos/seed/xps141/900/900",
-      "https://picsum.photos/seed/xps142/900/900",
-      "https://picsum.photos/seed/xps143/900/900"
+      "https://ik.imagekit.io/kyachingprue/jay-prajapati-Jp6Z2Mp5Sq0-unsplash.jpg",
+      "https://ik.imagekit.io/kyachingprue/ra-dragon-2nCeVeFWA_c-unsplash.jpg",
+      "https://ik.imagekit.io/kyachingprue/dell-yNvVnPcurD8-unsplash.jpg"
     ],
     "description": "Premium Windows laptop with Intel Core Ultra processor and stunning InfinityEdge display.",
     "features": [
@@ -190,11 +190,11 @@
     "reviews": 3200,
     "stock": 42,
     "sku": "APL-W10",
-    "thumbnail": "https://picsum.photos/seed/watch10/600/600",
+    "thumbnail": "https://ik.imagekit.io/kyachingprue/klim-musalimov-IGO10LkxP_g-unsplash.jpg",
     "images": [
-      "https://picsum.photos/seed/watch101/900/900",
-      "https://picsum.photos/seed/watch102/900/900",
-      "https://picsum.photos/seed/watch103/900/900"
+      "https://ik.imagekit.io/kyachingprue/daniel-korpai-QhF3YGsDrYk-unsplash.jpg",
+      "https://ik.imagekit.io/kyachingprue/daniel-korpai-hbTKIbuMmBI-unsplash.jpg",
+      "https://ik.imagekit.io/kyachingprue/simon-daoudi-2wFoa040m8g-unsplash.jpg"
     ],
     "description": "Advanced health tracking, fitness features, and all-day battery life.",
     "features": [
@@ -225,11 +225,11 @@
     "reviews": 1850,
     "stock": 55,
     "sku": "SMS-GW7",
-    "thumbnail": "https://picsum.photos/seed/watch7/600/600",
+    "thumbnail": "https://ik.imagekit.io/kyachingprue/samer-khodeir-V2owNGx837Q-unsplash.jpg",
     "images": [
-      "https://picsum.photos/seed/watch71/900/900",
-      "https://picsum.photos/seed/watch72/900/900",
-      "https://picsum.photos/seed/watch73/900/900"
+      "https://ik.imagekit.io/kyachingprue/emiliano-cicero-OKZqs-Vseko-unsplash.jpg",
+      "https://ik.imagekit.io/kyachingprue/daniel-romero-VBCWHVc0aGk-unsplash.jpg",
+      "https://ik.imagekit.io/kyachingprue/daniel-romero-gX2Fv4ohanc-unsplash.jpg"
     ],
     "description": "Elegant smartwatch with AI health tracking and long-lasting battery.",
     "features": [
@@ -259,11 +259,11 @@
     "reviews": 5500,
     "stock": 120,
     "sku": "LOG-MX3S",
-    "thumbnail": "https://picsum.photos/seed/mxmaster/600/600",
+    "thumbnail": "https://ik.imagekit.io/kyachingprue/cemrecan-yurtman-JVUqiEc2Svc-unsplash.jpg",
     "images": [
-      "https://picsum.photos/seed/mx1/900/900",
-      "https://picsum.photos/seed/mx2/900/900",
-      "https://picsum.photos/seed/mx3/900/900"
+      "https://ik.imagekit.io/kyachingprue/yasin-hasan-RwLX8q5Y2qQ-unsplash.jpg",
+      "https://ik.imagekit.io/kyachingprue/luka-petranovic-UihqZIiVcxY-unsplash.jpg",
+      "https://ik.imagekit.io/kyachingprue/tim-jt-NDf6ofg8KZA-unsplash.jpg"
     ],
     "description": "Professional wireless mouse designed for productivity and creators.",
     "features": [
@@ -293,11 +293,11 @@
     "reviews": 980,
     "stock": 75,
     "sku": "KEY-K8PRO",
-    "thumbnail": "https://picsum.photos/seed/keychron/600/600",
+    "thumbnail": "https://ik.imagekit.io/kyachingprue/amjith-s-HJjKCArqJng-unsplash.jpg",
     "images": [
-      "https://picsum.photos/seed/key1/900/900",
-      "https://picsum.photos/seed/key2/900/900",
-      "https://picsum.photos/seed/key3/900/900"
+      "https://ik.imagekit.io/kyachingprue/martin-garrido-cVUPic1cbd4-unsplash.jpg",
+      "https://ik.imagekit.io/kyachingprue/saad-jameel-Y8jbT7CZuq0-unsplash.jpg",
+      "https://ik.imagekit.io/kyachingprue/pavel-polivka-w8Fr6RWtZeY-unsplash.jpg"
     ],
     "description": "Wireless mechanical keyboard with hot-swappable switches and RGB lighting.",
     "features": [

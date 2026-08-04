@@ -258,10 +258,10 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="hidden items-center gap-3 lg:flex">
-          <button className="px-5 py-2 rounded-xl font-semibold text-white bg-gradient-to-r from-cyan-500 via-sky-500 to-blue-600 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-cyan-400/40 active:scale-95">
+          <button className="px-5 py-3 rounded-xl font-semibold text-white bg-linear-to-r from-cyan-500 via-sky-500 to-blue-600 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-cyan-400/40 active:scale-95">
             Login
           </button>
-          <button className="px-5 py-2 rounded-xl font-semibold text-white bg-gradient-to-r from-blue-600 via-sky-500 to-cyan-500 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-sky-400/40 active:scale-95">
+          <button className="px-5 py-3 rounded-xl font-semibold text-white bg-linear-to-r from-blue-600 via-sky-500 to-cyan-500 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-sky-400/40 active:scale-95">
             Register
           </button>
         </div>
@@ -285,7 +285,7 @@ const Navbar = () => {
                   className="flex-1 text-gray-100 rounded-xl border border-cyan-300 px-4 py-3 outline-none"
                 />
 
-                <button className="rounded-xl bg-gradient-to-r from-cyan-500 via-sky-500 to-blue-600 px-5 text-white">
+                <button className="rounded-xl bg-linear-to-r from-cyan-500 via-sky-500 to-blue-600 px-5 text-white">
                   Search
                 </button>
               </div>
@@ -327,11 +327,11 @@ const Navbar = () => {
               {/* Buttons */}
 
               <div className="flex gap-3 pt-4">
-                <button className="flex-1 rounded-xl bg-gradient-to-r from-cyan-500 via-sky-500 to-blue-600 py-3 font-semibold text-white transition hover:scale-105">
+                <button className="flex-1 rounded-xl bg-linear-to-r from-cyan-500 via-sky-500 to-blue-600 py-3 font-semibold text-white transition hover:scale-105">
                   Login
                 </button>
 
-                <button className="flex-1 rounded-xl bg-gradient-to-r from-blue-600 via-sky-500 to-cyan-500 py-3 font-semibold text-white transition hover:scale-105">
+                <button className="flex-1 rounded-xl bg-linear-to-r from-blue-600 via-sky-500 to-cyan-500 py-3 font-semibold text-white transition hover:scale-105">
                   Register
                 </button>
               </div>

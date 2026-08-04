@@ -23,7 +23,7 @@ const Banner = () => {
       >
         <SwiperSlide>
           <div
-            className="relative h-[700px] bg-cover bg-center"
+            className="relative h-175 bg-cover bg-center"
             style={{
               backgroundImage:
                 "url('https://i.ibb.co.com/Mxx1f0mf/c-d-x-PDX-a-82obo-unsplash.jpg?w=1800')"
@@ -74,7 +74,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className="relative h-[700px] bg-cover bg-center"
+            className="relative h-175 bg-cover bg-center"
             style={{
               backgroundImage:
                 "url('https://i.ibb.co.com/Mxt6nkWg/sebastian-bednarek-Lxcn2wr-M6-UY-unsplash.jpg?w=1800')"
@@ -125,7 +125,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className="relative h-[700px] bg-cover bg-center"
+            className="relative h-175 bg-cover bg-center"
             style={{
               backgroundImage:
                 "url('https://i.ibb.co.com/MxhghPr7/clark-street-mercantile-qn-Kh-ZJPKFD8-unsplash.jpg')"
@@ -176,7 +176,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className="relative h-[700px] bg-cover bg-center"
+            className="relative h-175 bg-cover bg-center"
             style={{
               backgroundImage:
                 "url('https://i.ibb.co.com/k2t2cm4b/christopher-gower-m-HRf-Lhg-ABo-unsplash.jpg?w=1800')"
@@ -227,7 +227,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className="relative h-[700px] bg-cover bg-center"
+            className="relative h-175 bg-cover bg-center"
             style={{
               backgroundImage:
                 "url('https://i.ibb.co.com/Q7fC0NsC/daria-nepriakhina-XR5rkpr-HQU-unsplash.jpg?w=1800')"
@@ -278,7 +278,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className="relative h-[700px] bg-cover bg-center"
+            className="relative h-175 bg-cover bg-center"
             style={{
               backgroundImage:
                 "url('https://i.ibb.co.com/r2rz9wZS/rachit-tank-2c-FZ-FB08-UM-unsplash.jpg?w=1800')"
@@ -329,7 +329,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className="relative h-[700px] bg-cover bg-center"
+            className="relative h-175 bg-cover bg-center"
             style={{
               backgroundImage:
                 "url('https://i.ibb.co.com/C5sFddBD/daniel-storek-JM-q-KEd1-GMI-unsplash.jpg?w=1800')"
@@ -380,7 +380,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className="relative h-[700px] bg-cover bg-center"
+            className="relative h-175 bg-cover bg-center"
             style={{
               backgroundImage:
                 "url('https://i.ibb.co.com/xtXLkHW9/harper-sunday-5ad-Pow-Uq-h0-unsplash.jpg?w=1800')"
@@ -431,7 +431,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className="relative h-[700px] bg-cover bg-center"
+            className="relative h-175 bg-cover bg-center"
             style={{
               backgroundImage:
                 "url('https://i.ibb.co.com/9HTLMN2v/daniel-romero-Ag-LMrojqj-AM-unsplash.jpg?w=1800')"
