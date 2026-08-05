@@ -1,6 +1,7 @@
 import Category from "../components/category/Category";
 import Banner from "../components/home/Banner";
 import HomeProducts from "../components/home/HomeProducts";
+import Testimonials from "../components/home/Testimonials";
 
 
 const Home = () => {
@@ -8,7 +9,8 @@ const Home = () => {
     <div className="pt-20">
       <Banner />
       <Category />
-      <HomeProducts/>
+      <HomeProducts />
+      <Testimonials/>
     </div>
   );
 };
