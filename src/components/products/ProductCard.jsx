@@ -1,3 +1,4 @@
+import { FaCartShopping } from "react-icons/fa6";
 import { Link } from "react-router";
 
 
@@ -55,8 +56,8 @@ const ProductCard = ({ product }) => {
             In Stock ({product.stock})
           </p>
 
-          <button className="w-full mt-5 bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-xl">
-            Add To Cart
+          <button className="w-full mt-5 flex items-center gap-2 bg-white text-black justify-center border border-cyan-400 transition delay-100 duration-300 hover:border-none hover:bg-blue-700 hover:text-white py-3 rounded-xl">
+            <FaCartShopping /> Add To Cart
           </button>
         </div>
       </div>

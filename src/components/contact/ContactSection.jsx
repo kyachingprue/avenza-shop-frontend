@@ -38,7 +38,7 @@ const ContactSection = () => {
      }
    }, [])
   return (
-    <section className="bg-linear-to-b from-white to-sky-50 py-20">
+    <section className="py-20">
       <div className="mx-auto max-w-7xl px-5">
         {/* Heading */}
         <motion.div
@@ -85,7 +85,7 @@ const ContactSection = () => {
                   key={item.id}
                   whileHover={{ y: -5 }}
                   transition={{ duration: 0.3 }}
-                  className="flex items-center gap-5 rounded-2xl bg-white p-6 shadow-lg"
+                  className="flex items-center border border-gray-400 gap-5 rounded-2xl bg-white p-6 shadow-lg"
                 >
                   <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-sky-100 text-2xl text-sky-600">
                     {item.icon}
@@ -109,7 +109,7 @@ const ContactSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="rounded-3xl bg-white p-8 shadow-xl"
+            className="rounded-3xl bg-white p-8 border border-gray-400 shadow-xl"
           >
             <h3 className="mb-8 text-3xl font-bold text-gray-900">
               Send Message

@@ -4,7 +4,7 @@ import SupportSection from "../components/contact/SupportSection";
 
 const Contact = () => {
   return (
-    <div className="pt-20">
+    <div className="pt-20 bg-cyan-50">
       <ContactSection />
       <SupportSection/>
     </div>

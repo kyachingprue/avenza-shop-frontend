@@ -60,6 +60,44 @@ export default function Testimonials() {
       rating: 5,
       review:
         "From diagnosis to recovery, every doctor and nurse provided exceptional care. I couldn't have asked for a better medical experience."
+    },
+    {
+      id: 7,
+      name: 'Mical Jacsion',
+      role: 'Cardiology Patient',
+      image:
+        'https://i.ibb.co.com/yFRpfQLg/ai-generated-a-happy-smiling-professional-man-light-blurry-office-background-closeup-view-photo.jpg',
+      rating: 5,
+      review:
+        "From diagnosis to recovery, every doctor and nurse provided exceptional care. I couldn't have asked for a better medical experience."
+    },
+    {
+      id: 8,
+      name: 'Josh Gates',
+      role: 'Cardiology Patient',
+      image: 'https://i.ibb.co.com/yFKM3q0z/images.jpg',
+      rating: 5,
+      review:
+        "From diagnosis to recovery, every doctor and nurse provided exceptional care. I couldn't have asked for a better medical experience."
+    },
+    {
+      id: 9,
+      name: 'Leonal Messi',
+      role: 'Cardiology Patient',
+      image:
+        'https://i.ibb.co.com/KzVXFTyp/129578441-gettyimages-1247344085.jpg',
+      rating: 5,
+      review:
+        "From diagnosis to recovery, every doctor and nurse provided exceptional care. I couldn't have asked for a better medical experience."
+    },
+    {
+      id: 10,
+      name: 'Steve Jobs',
+      role: 'Cardiology Patient',
+      image: 'https://i.ibb.co.com/7NCncCXF/0x0.jpg',
+      rating: 5,
+      review:
+        "From diagnosis to recovery, every doctor and nurse provided exceptional care. I couldn't have asked for a better medical experience."
     }
   ]
 
