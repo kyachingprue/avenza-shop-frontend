@@ -5,6 +5,7 @@ import 'swiper/css/navigation'
 import { Autoplay, Pagination, Navigation } from 'swiper/modules'
 import { useEffect } from 'react'
 import LocomotiveScroll from 'locomotive-scroll'
+import { Link } from 'react-router'
 
 const Banner = () => {
    useEffect(() => {
@@ -15,7 +16,7 @@ const Banner = () => {
      }
    }, [])
   return (
-    <>
+    <section>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -69,9 +70,11 @@ const Banner = () => {
 
                 {/* Buttons */}
                 <div className="mt-10 flex gap-4">
-                  <button className="rounded-lg bg-sky-500 px-8 py-3 font-semibold transition hover:bg-sky-600">
-                    Shop Now
-                  </button>
+                  <Link to="/products">
+                    <button className="rounded-lg bg-sky-500 px-8 py-3 font-semibold transition hover:bg-sky-600">
+                      Shop Now
+                    </button>
+                  </Link>
 
                   <button className="rounded-lg border border-white px-8 py-3 font-semibold transition hover:bg-white hover:text-black">
                     View Collection
@@ -120,9 +123,11 @@ const Banner = () => {
 
                 {/* Buttons */}
                 <div className="mt-10 flex gap-4">
-                  <button className="rounded-lg bg-sky-500 px-8 py-3 font-semibold transition hover:bg-sky-600">
-                    Shop Now
-                  </button>
+                  <Link to="/products">
+                    <button className="rounded-lg bg-sky-500 px-8 py-3 font-semibold transition hover:bg-sky-600">
+                      Shop Now
+                    </button>
+                  </Link>
 
                   <button className="rounded-lg border border-white px-8 py-3 font-semibold transition hover:bg-white hover:text-black">
                     View Collection
@@ -171,9 +176,11 @@ const Banner = () => {
 
                 {/* Buttons */}
                 <div className="mt-10 flex gap-4">
-                  <button className="rounded-lg bg-sky-500 px-8 py-3 font-semibold transition hover:bg-sky-600">
-                    Shop Now
-                  </button>
+                  <Link to="/products">
+                    <button className="rounded-lg bg-sky-500 px-8 py-3 font-semibold transition hover:bg-sky-600">
+                      Shop Now
+                    </button>
+                  </Link>
 
                   <button className="rounded-lg border border-white px-8 py-3 font-semibold transition hover:bg-white hover:text-black">
                     View Collection
@@ -222,9 +229,11 @@ const Banner = () => {
 
                 {/* Buttons */}
                 <div className="mt-10 flex gap-4">
-                  <button className="rounded-lg bg-sky-500 px-8 py-3 font-semibold transition hover:bg-sky-600">
-                    Shop Now
-                  </button>
+                  <Link to="/products">
+                    <button className="rounded-lg bg-sky-500 px-8 py-3 font-semibold transition hover:bg-sky-600">
+                      Shop Now
+                    </button>
+                  </Link>
 
                   <button className="rounded-lg border border-white px-8 py-3 font-semibold transition hover:bg-white hover:text-black">
                     View Collection
@@ -273,9 +282,11 @@ const Banner = () => {
 
                 {/* Buttons */}
                 <div className="mt-10 flex gap-4">
-                  <button className="rounded-lg bg-sky-500 px-8 py-3 font-semibold transition hover:bg-sky-600">
-                    Shop Now
-                  </button>
+                  <Link to="/products">
+                    <button className="rounded-lg bg-sky-500 px-8 py-3 font-semibold transition hover:bg-sky-600">
+                      Shop Now
+                    </button>
+                  </Link>
 
                   <button className="rounded-lg border border-white px-8 py-3 font-semibold transition hover:bg-white hover:text-black">
                     View Collection
@@ -324,9 +335,11 @@ const Banner = () => {
 
                 {/* Buttons */}
                 <div className="mt-10 flex gap-4">
-                  <button className="rounded-lg bg-sky-500 px-8 py-3 font-semibold transition hover:bg-sky-600">
-                    Shop Now
-                  </button>
+                  <Link to="/products">
+                    <button className="rounded-lg bg-sky-500 px-8 py-3 font-semibold transition hover:bg-sky-600">
+                      Shop Now
+                    </button>
+                  </Link>
 
                   <button className="rounded-lg border border-white px-8 py-3 font-semibold transition hover:bg-white hover:text-black">
                     View Collection
@@ -375,9 +388,11 @@ const Banner = () => {
 
                 {/* Buttons */}
                 <div className="mt-10 flex gap-4">
-                  <button className="rounded-lg bg-sky-500 px-8 py-3 font-semibold transition hover:bg-sky-600">
-                    Shop Now
-                  </button>
+                  <Link to="/products">
+                    <button className="rounded-lg bg-sky-500 px-8 py-3 font-semibold transition hover:bg-sky-600">
+                      Shop Now
+                    </button>
+                  </Link>
 
                   <button className="rounded-lg border border-white px-8 py-3 font-semibold transition hover:bg-white hover:text-black">
                     View Collection
@@ -426,9 +441,11 @@ const Banner = () => {
 
                 {/* Buttons */}
                 <div className="mt-10 flex gap-4">
-                  <button className="rounded-lg bg-sky-500 px-8 py-3 font-semibold transition hover:bg-sky-600">
-                    Shop Now
-                  </button>
+                  <Link to="/products">
+                    <button className="rounded-lg bg-sky-500 px-8 py-3 font-semibold transition hover:bg-sky-600">
+                      Shop Now
+                    </button>
+                  </Link>
 
                   <button className="rounded-lg border border-white px-8 py-3 font-semibold transition hover:bg-white hover:text-black">
                     View Collection
@@ -477,9 +494,11 @@ const Banner = () => {
 
                 {/* Buttons */}
                 <div className="mt-10 flex gap-4">
-                  <button className="rounded-lg bg-sky-500 px-8 py-3 font-semibold transition hover:bg-sky-600">
-                    Shop Now
-                  </button>
+                  <Link to="/products">
+                    <button className="rounded-lg bg-sky-500 px-8 py-3 font-semibold transition hover:bg-sky-600">
+                      Shop Now
+                    </button>
+                  </Link>
 
                   <button className="rounded-lg border border-white px-8 py-3 font-semibold transition hover:bg-white hover:text-black">
                     View Collection
@@ -490,7 +509,7 @@ const Banner = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </section>
   )
 }
 

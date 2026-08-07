@@ -103,10 +103,15 @@ export default function Testimonials() {
 
   return (
     <section className="bg-gray-100">
-      <div className="max-w-3xl md:max-w-5xl lg:max-w-7xl xl:max-w-8xl mx-auto py-20">
-        <div className='w-full px-4 md:w-6/12 text-center mx-auto pb-10'>
-          <h3 className='text-4xl font-bold text-black py-4'>Testimonials</h3>
-          <p className='text-gray-500'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati iste, ut iusto magni exercitationem autem qui aperiam delectus alias soluta. Non totam adipisci dignissimos reprehenderit quis similique nobis vel distinctio.</p>
+      <div className="w-11/12 h-full mx-auto py-20">
+        <div className="w-full px-4 md:w-6/12 text-center mx-auto pb-10">
+          <h3 className="text-4xl font-bold text-black py-4">Testimonials</h3>
+          <p className="text-gray-500">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati
+            iste, ut iusto magni exercitationem autem qui aperiam delectus alias
+            soluta. Non totam adipisci dignissimos reprehenderit quis similique
+            nobis vel distinctio.
+          </p>
         </div>
         <Swiper
           slidesPerView={1}

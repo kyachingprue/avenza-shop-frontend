@@ -1,51 +1,65 @@
-import { useState } from "react"
+import { useEffect, useState } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const images = {
   Smartphones:
-    'https://i.ibb.co.com/qYVr1x5d/kuaileqie-re-Nv-M9-V3m-Lr-Ks-unsplash.jpg',
+    'https://i.ibb.co.com/d43jJJ8z/smartphones-display-variety-stockcake.jpg',
 
   Headphones:
-    'https://i.ibb.co.com/4gwjhtQh/kiran-ck-RZmi-DOpv1l-M-unsplash.jpg',
+    'https://i.ibb.co.com/hRXdB4Q1/premium-photo-1679513691474-73102089c117.avif',
 
-  Laptops: 'https://i.ibb.co.com/6RPmpChg/dell-Gi3i-UJ1-Fwx-I-unsplash.jpg',
+  Laptops: 'https://i.ibb.co.com/20SK2JMN/bestmobilelaptops.jpg',
 
   'Smart Watches':
-    'https://i.ibb.co.com/tps1qR2G/indra-projects-Xq-CPROi-O7-Fw-unsplash.jpg',
+    'https://i.ibb.co.com/hRCkS3hm/ai-generated-innovative-smart-watch-mockup-for-tech-marketing-ai-generated-photo.jpg',
 
-  Accessories:
-    'https://i.ibb.co.com/YTWqw7PK/faizur-rehman-iwd-99q-V7-Uk-unsplash.jpg',
+  Accessories: 'https://i.ibb.co.com/BH9Q8Gvk/images.jpg',
 
-  Cameras:
-    'https://i.ibb.co.com/DhpSPZH/christian-wiediger-g-Vb-OF8md-E3-U-unsplash.jpg',
+  Cameras: 'https://i.ibb.co.com/JRNcMJYw/images-1.jpg',
 
-  Shoes: 'https://i.ibb.co.com/Q7vw0VTS/ryan-waring-164-6w-VEHf-I-unsplash.jpg',
+  Shoes:
+    'https://i.ibb.co.com/nqRR4r81/pngtree-running-shoes-or-sneakers-on-a-transparent-background-png-image-14112954.png',
 
-  Fashion: 'https://i.ibb.co.com/7dCR7t5s/freestocks-3-Q3ts-J01nc-unsplash.jpg',
+  Fashion:
+    'https://i.ibb.co.com/ycLm3MwP/outdoor-fashion-portrait-glamour-sensual-young-stylish-woman-wearing-trendy-fall-outfit-black-hat-gr.avif',
 
   Speakers:
-    'https://i.ibb.co.com/VWFfW49J/habib-dadkhah-S0-B-pm-Gjd-VA-unsplash.jpg',
+    'https://i.ibb.co.com/zT2LY3hp/portablebluetoothspeakers-2048px-9498-3x2-1.jpg',
 
   Gaming:
-    'https://i.ibb.co.com/1YJ9z30D/jeshoots-com-e-Cktz-Gj-C-i-U-unsplash.jpg',
+    'https://i.ibb.co.com/KzyVwmNd/young-gamer-having-fun-with-action-video-games-competition-playing-online-game-championship-caucasia.avif',
 
   'Home Appliances':
-    'https://i.ibb.co.com/xKm2ncGn/planetcare-23co-Wmk-TNSg-unsplash.jpg',
+    'https://i.ibb.co.com/V01VPnSK/home-appliances-as-gift-group-white-refrigerator-washing-ma-home-appliances-as-gift-group-white-refr.png',
 
-  Kitchen: 'https://i.ibb.co.com/VccD7kYD/cat-han-Vgy-N-CWXQVM-unsplash.jpg',
+  Kitchen:
+    'https://i.ibb.co.com/ZpwHB6xH/white-kitchen-tile-floor-663e73179c3c4.avif',
 
   Television:
-    'https://i.ibb.co.com/Vp36NDmy/jens-kreuter-ng-Mts-E5r9e-I-unsplash.jpg',
+    'https://i.ibb.co.com/9kTHbRbM/e37b612a54b87aef8ec42e354af14782.jpg',
 
-  Tablets:
-    'https://i.ibb.co.com/S7RGrDD5/myriam-zilles-Klto-LK6-Mk-g-unsplash.jpg',
+  Tablets: 'https://i.ibb.co.com/sphJH4qN/images-2.jpg',
 
-  Drones: 'https://i.ibb.co.com/pBC9hZ4F/iewek-gnos-Zlk-Rrz-Jl20-Q-unsplash.jpg'
+  Drones: 'https://i.ibb.co.com/7dhqr9M9/drone-medium.jpg'
 }
 
 const CategoryCard = ({ category }) => {
-   const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      once: true,
+      delay: 2,
+      offset: 100
+    })
+  }, [])
   return (
-    <div className="group relative overflow-hidden rounded-3xl shadow-lg">
+    <div
+      data-aos="fade-up"
+      className="group relative overflow-hidden rounded-3xl shadow-lg"
+    >
       {loading && (
         <div className="absolute inset-0 animate-pulse bg-gray-300"></div>
       )}

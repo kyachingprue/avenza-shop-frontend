@@ -63,7 +63,7 @@ const Footer = () => {
       {/* Top Section */}
 
       <div className="bg-linear-to-r from-cyan-600 via-sky-600 to-blue-700">
-        <div className="max-w-7xl mx-auto px-6 py-16">
+        <div className="w-11/12 mx-auto px-6 py-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* LEFT */}
 
@@ -160,7 +160,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-slate-950">
-        <div className="max-w-7xl mx-auto px-6 py-16">
+        <div className="w-11/12 mx-auto px-6 py-16">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
             {/* Quick Links */}
 
@@ -299,7 +299,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-slate-900 border-t border-slate-800">
-        <div className="max-w-7xl mx-auto px-6 py-16">
+        <div className="w-11/12 mx-auto px-6 py-16">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact */}
 
@@ -452,7 +452,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-black border-t border-slate-800">
-        <div className="max-w-7xl mx-auto px-6 py-8">
+        <div className="w-11/12 mx-auto px-6 py-8">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
             {/* Copyright */}
 

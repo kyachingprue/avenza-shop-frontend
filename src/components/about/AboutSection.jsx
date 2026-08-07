@@ -43,7 +43,7 @@ const AboutSection = () => {
    }, [])
   return (
     <section className="bg-gray-50 py-20">
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto w-11/12">
         {/* Heading */}
         <div className="mx-auto mb-16 max-w-3xl text-center">
           <p className="font-semibold uppercase tracking-[4px] text-sky-600">

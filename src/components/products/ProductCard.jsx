@@ -1,11 +1,25 @@
+import { useEffect } from "react";
 import { FaCartShopping } from "react-icons/fa6";
 import { Link } from "react-router";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 const ProductCard = ({ product }) => {
+  useEffect(() => {
+      AOS.init({
+        duration: 2000,
+        once: true,
+        delay: 2,
+        offset: 100
+      })
+    }, [])
   return (
     <div>
-      <div className="bg-white rounded-2xl border border-cyan-200 shadow-md hover:shadow-xl transition duration-300 overflow-hidden group">
+      <div
+        data-aos="fade-up"
+        className="bg-white rounded-2xl border border-cyan-200 shadow-md hover:shadow-3xl transition duration-300 overflow-hidden group"
+      >
         {/* Image */}
         <div className="relative overflow-hidden">
           <Link to={`/products/details/${product.id}`}>
@@ -56,7 +70,7 @@ const ProductCard = ({ product }) => {
             In Stock ({product.stock})
           </p>
 
-          <button className="w-full mt-5 flex items-center gap-2 bg-white text-black justify-center border border-cyan-400 transition delay-100 duration-300 hover:border-none hover:bg-blue-700 hover:text-white py-3 rounded-xl">
+          <button className="w-full mt-5 font-sans flex items-center gap-2 bg-white text-black justify-center border border-cyan-400 transition delay-100 duration-300 hover:border-none hover:bg-blue-700 hover:text-white py-3 rounded-xl">
             <FaCartShopping /> Add To Cart
           </button>
         </div>

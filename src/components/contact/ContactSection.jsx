@@ -39,7 +39,7 @@ const ContactSection = () => {
    }, [])
   return (
     <section className="py-20">
-      <div className="mx-auto max-w-7xl px-5">
+      <div className="mx-auto w-11/12">
         {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -52,11 +52,11 @@ const ContactSection = () => {
             Contact Us
           </p>
 
-          <h2 className="mt-3 text-4xl font-bold text-gray-900 md:text-5xl">
+          <h2 className="mt-3 text-4xl font-bold font-serif text-gray-900 md:text-5xl">
             We'd Love To Hear From You
           </h2>
 
-          <p className="mt-5 text-lg leading-8 text-gray-600">
+          <p className="mt-5 text-lg font-sans leading-8 text-gray-600">
             Have a question about an order, product, or partnership? Send us a
             message and our team will get back to you as soon as possible.
           </p>
@@ -85,7 +85,7 @@ const ContactSection = () => {
                   key={item.id}
                   whileHover={{ y: -5 }}
                   transition={{ duration: 0.3 }}
-                  className="flex items-center border border-gray-400 gap-5 rounded-2xl bg-white p-6 shadow-lg"
+                  className="flex items-center border border-gray-300 gap-5 rounded-2xl bg-white p-6 shadow-lg"
                 >
                   <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-sky-100 text-2xl text-sky-600">
                     {item.icon}
@@ -109,7 +109,7 @@ const ContactSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="rounded-3xl bg-white p-8 border border-gray-400 shadow-xl"
+            className="rounded-3xl bg-white p-8 border border-gray-300 shadow-xl"
           >
             <h3 className="mb-8 text-3xl font-bold text-gray-900">
               Send Message

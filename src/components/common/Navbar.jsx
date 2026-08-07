@@ -84,7 +84,7 @@ const Navbar = () => {
       transition={{ duration: 0.35 }}
       className="fixed top-0 left-0 right-0 z-50 bg-slate-900/95 backdrop-blur-md shadow-lg"
     >
-      <div className="max-w-7xl mx-auto h-20 px-5 flex items-center justify-between">
+      <div className="w-11/12 mx-auto h-20 flex items-center justify-between">
         {/* Website Logo */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}

@@ -65,14 +65,14 @@ const AllProducts = () => {
   }
 
   return (
-    <div className="w-full h-full mx-auto px-4 py-3">
+    <div className="w-11/12 h-full mx-auto px-4 py-3">
       <div className="relative overflow-hidden rounded-md bg-linear-to-r from-cyan-900 via-sky-500 to-blue-900 py-16 px-6 text-center text-white mb-12">
         <div className="absolute -top-20 -left-20 w-72 h-72 rounded-full bg-white/10 blur-3xl"></div>
 
         <div className="absolute -bottom-24 -right-20 w-80 h-80 rounded-full bg-cyan-300/20 blur-3xl"></div>
 
         <div className="relative z-10">
-          <h2 className="text-4xl md:text-5xl font-black mb-5">
+          <h2 className="text-4xl font-serif md:text-5xl font-black mb-5">
             Discover Amazing Products
           </h2>
 

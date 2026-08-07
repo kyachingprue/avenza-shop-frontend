@@ -56,7 +56,7 @@ const ProductDetails = () => {
   }
   return (
     <main className="bg-linear-to-r from-blue-50 to-white">
-      <section className="max-w-3xl md:max-w-5xl lg:max-w-7xl mx-auto px-5 pt-20 pb-10">
+      <section className="w-11/12 mx-auto px-5 pt-20 pb-10">
         <div className="mt-4">
           <button
             onClick={handleBack}

@@ -51,7 +51,7 @@ const SupportSection = () => {
    }, [])
   return (
     <section className="bg-gray-50 py-20">
-      <div className="mx-auto max-w-7xl px-5">
+      <div className="mx-auto w-11/12">
         {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}

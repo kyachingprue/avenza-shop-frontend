@@ -32,7 +32,7 @@ const Category = () => {
      }
    }, [])
   return (
-    <div className="w-full h-full mx-auto px-4 py-8">
+    <div className="w-11/12 h-full mx-auto px-4 py-8">
       <h3 className="text-2xl font-bold">Category</h3>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
         {categories.map(category => (
