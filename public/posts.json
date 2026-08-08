@@ -1,0 +1,1261 @@
+[
+  {
+    "id": "post_001",
+    "slug": "soundmax-pro-wireless-headphones-review",
+    "postType": "product_review",
+    "user": {
+      "id": "user_101",
+      "name": "Alex Morgan",
+      "username": "alexmorgan",
+      "avatar": "https://i.pravatar.cc/300?img=12",
+      "verified": true,
+      "location": "New York, USA",
+      "bio": "Technology enthusiast and product reviewer.",
+      "followers": 1248
+    },
+    "title": "SoundMax Pro Wireless Headphones – My Complete Experience After 30 Days",
+    "shortDescription": "A detailed review of the SoundMax Pro Wireless Headphones covering sound quality, battery life, comfort, noise cancellation and connectivity.",
+    "content": {
+      "introduction": "I have been using the SoundMax Pro Wireless Headphones for more than 30 days. I purchased them mainly for studying, traveling, online meetings and listening to music. After using them in different situations, I wanted to share my complete experience.",
+      "fullDescription": "The SoundMax Pro is a modern wireless headphone designed for people who want premium features without paying the highest flagship prices. It includes active noise cancellation, Bluetooth 5.3, multiple microphones, comfortable over-ear cushions and a large battery.",
+      "performance": "The audio performance is one of the strongest parts of this product. Music sounds clear and balanced, while the bass has enough power without becoming overwhelming. Vocals remain easy to hear even at higher volume levels.",
+      "comfort": "The soft ear cushions provide a comfortable fit around the ears. The padded headband also helps reduce pressure during long listening sessions.",
+      "batteryExperience": "Battery performance has been excellent during my testing. With normal usage, I was able to use the headphones for several days before needing to recharge them.",
+      "finalOpinion": "Overall, the SoundMax Pro is an excellent option for students, remote workers, travelers and anyone who wants reliable wireless headphones with strong sound quality."
+    },
+    "product": {
+      "id": "product_501",
+      "sku": "SMP-WH-2026",
+      "name": "SoundMax Pro Wireless Headphones",
+      "brand": "SoundMax",
+      "model": "Pro X500",
+      "category": "Electronics",
+      "subcategory": "Headphones",
+      "price": 89.99,
+      "oldPrice": 119.99,
+      "currency": "USD",
+      "discount": 25,
+      "rating": 4.8,
+      "reviewCount": 324,
+      "soldCount": 1847,
+      "stock": 42,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944",
+        "https://images.unsplash.com/photo-1546435770-a3e426bf472b",
+        "https://images.unsplash.com/photo-1578319439584-104c94d37305"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+      "colors": [
+        {
+          "name": "Matte Black",
+          "hex": "#111111",
+          "available": true
+        },
+        {
+          "name": "Silver",
+          "hex": "#C0C0C0",
+          "available": true
+        },
+        {
+          "name": "Midnight Blue",
+          "hex": "#172554",
+          "available": false
+        }
+      ],
+      "sizes": ["Standard"],
+      "features": [
+        "Active Noise Cancellation",
+        "Bluetooth 5.3",
+        "USB-C Fast Charging",
+        "Built-in Microphones",
+        "40 Hours Battery Life",
+        "Touch Controls",
+        "Over-Ear Comfortable Design",
+        "Multi-Device Connection"
+      ],
+      "specifications": {
+        "driverSize": "40mm",
+        "connectivity": "Bluetooth 5.3",
+        "batteryLife": "Up to 40 hours",
+        "chargingPort": "USB Type-C",
+        "chargingTime": "Approximately 2 hours",
+        "noiseCancellation": "Active ANC",
+        "microphones": "4 built-in microphones",
+        "weight": "265g",
+        "frequencyResponse": "20Hz - 20kHz",
+        "waterResistance": "IPX4",
+        "compatibility": ["Android", "iOS", "Windows", "macOS"],
+        "warranty": "1 Year"
+      },
+      "boxContents": [
+        "SoundMax Pro Headphones",
+        "USB-C Charging Cable",
+        "3.5mm Audio Cable",
+        "Protective Carrying Case",
+        "User Manual"
+      ]
+    },
+    "pros": [
+      "Excellent sound quality",
+      "Long battery life",
+      "Comfortable for extended use",
+      "Useful active noise cancellation",
+      "Bluetooth 5.3 connectivity",
+      "USB-C charging"
+    ],
+    "cons": [
+      "ANC could be stronger",
+      "No wireless charging",
+      "Slightly heavy compared with some competitors"
+    ],
+    "ratingBreakdown": {
+      "5": 265,
+      "4": 42,
+      "3": 12,
+      "2": 3,
+      "1": 2
+    },
+    "reviews": [
+      {
+        "id": "review_1001",
+        "user": {
+          "name": "Daniel Smith",
+          "avatar": "https://i.pravatar.cc/150?img=33"
+        },
+        "rating": 5,
+        "title": "Amazing headphones",
+        "comment": "The sound quality is excellent and the battery lasts much longer than expected.",
+        "helpful": 42,
+        "verifiedPurchase": true,
+        "createdAt": "2026-07-21T09:30:00Z"
+      },
+      {
+        "id": "review_1002",
+        "user": {
+          "name": "Emma Johnson",
+          "avatar": "https://i.pravatar.cc/150?img=44"
+        },
+        "rating": 4,
+        "title": "Very comfortable",
+        "comment": "I use these headphones every day for online classes and meetings.",
+        "helpful": 27,
+        "verifiedPurchase": true,
+        "createdAt": "2026-07-24T14:20:00Z"
+      }
+    ],
+    "seller": {
+      "id": "seller_501",
+      "name": "TechWorld Store",
+      "logo": "https://i.pravatar.cc/200?img=60",
+      "rating": 4.7,
+      "totalProducts": 842,
+      "positiveFeedback": 96,
+      "verified": true
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnAvailable": true
+    },
+    "engagement": {
+      "likes": 1284,
+      "comments": 186,
+      "shares": 94,
+      "bookmarks": 342,
+      "views": 12874
+    },
+    "tags": [
+      "headphones",
+      "wireless",
+      "bluetooth",
+      "electronics",
+      "technology",
+      "product-review"
+    ],
+    "createdAt": "2026-08-01T10:30:00Z",
+    "updatedAt": "2026-08-05T12:45:00Z"
+  },
+
+  {
+    "id": "post_002",
+    "slug": "urban-explorer-laptop-backpack-review",
+    "postType": "product_review",
+    "user": {
+      "id": "user_102",
+      "name": "Sophia Williams",
+      "username": "sophiaw",
+      "avatar": "https://i.pravatar.cc/300?img=47",
+      "verified": true,
+      "location": "London, UK",
+      "bio": "Traveler, student and lifestyle product reviewer.",
+      "followers": 2345
+    },
+    "title": "Urban Explorer Laptop Backpack – Perfect for Work, Study and Travel",
+    "shortDescription": "A detailed look at a practical laptop backpack with large storage capacity, laptop protection and comfortable shoulder straps.",
+    "content": {
+      "introduction": "I purchased the Urban Explorer Laptop Backpack because I needed something suitable for university, work and short trips.",
+      "fullDescription": "The Urban Explorer is a multi-purpose everyday backpack with a dedicated laptop compartment, multiple internal storage areas, a front organization pocket and side pockets.",
+      "design": "The backpack has a clean and modern design that works well for students and professionals.",
+      "storage": "The main compartment can hold books, clothing and accessories while the padded laptop section provides additional protection.",
+      "comfort": "The padded shoulder straps and breathable back panel make it comfortable during longer walks.",
+      "durability": "The stitching and zippers remained in excellent condition after several weeks of regular use.",
+      "finalOpinion": "For students, remote workers, commuters and travelers, this backpack offers an excellent balance between appearance, storage and comfort."
+    },
+    "product": {
+      "id": "product_502",
+      "sku": "UEB-2026-15",
+      "name": "Urban Explorer Laptop Backpack",
+      "brand": "Urban Explorer",
+      "model": "UE-15 Pro",
+      "category": "Fashion",
+      "subcategory": "Bags & Backpacks",
+      "price": 49.99,
+      "oldPrice": 69.99,
+      "currency": "USD",
+      "discount": 29,
+      "rating": 4.7,
+      "reviewCount": 512,
+      "soldCount": 3218,
+      "stock": 76,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+        "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3",
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#111111",
+          "available": true
+        },
+        {
+          "name": "Gray",
+          "hex": "#6B7280",
+          "available": true
+        },
+        {
+          "name": "Navy Blue",
+          "hex": "#172554",
+          "available": true
+        }
+      ],
+      "features": [
+        "Dedicated 15.6-inch Laptop Compartment",
+        "Water-Resistant Exterior",
+        "Padded Shoulder Straps",
+        "Breathable Back Panel",
+        "Multiple Storage Compartments",
+        "Heavy-Duty Zippers",
+        "Lightweight Construction",
+        "USB Charging Port"
+      ],
+      "specifications": {
+        "material": "Water-resistant polyester",
+        "laptopSize": "Up to 15.6 inches",
+        "capacity": "28 Liters",
+        "weight": "850g",
+        "dimensions": "46cm x 31cm x 18cm",
+        "waterResistance": "Water Resistant",
+        "closure": "Heavy-duty zipper",
+        "warranty": "1 Year"
+      },
+      "boxContents": [
+        "Urban Explorer Backpack",
+        "Warranty Card",
+        "Product Information Guide"
+      ]
+    },
+    "pros": [
+      "Modern design",
+      "Large storage capacity",
+      "Dedicated laptop compartment",
+      "Comfortable shoulder straps",
+      "Water-resistant material",
+      "Strong zippers"
+    ],
+    "cons": [
+      "Side pockets are relatively small",
+      "USB charging port requires a power bank",
+      "Not completely waterproof"
+    ],
+    "ratingBreakdown": {
+      "5": 391,
+      "4": 89,
+      "3": 23,
+      "2": 6,
+      "1": 3
+    },
+    "reviews": [
+      {
+        "id": "review_2001",
+        "user": {
+          "name": "James Anderson",
+          "avatar": "https://i.pravatar.cc/150?img=18"
+        },
+        "rating": 5,
+        "title": "Great everyday backpack",
+        "comment": "I carry my laptop, books and charger every day and everything fits perfectly.",
+        "helpful": 51,
+        "verifiedPurchase": true,
+        "createdAt": "2026-07-19T11:10:00Z"
+      },
+      {
+        "id": "review_2002",
+        "user": {
+          "name": "Olivia Martin",
+          "avatar": "https://i.pravatar.cc/150?img=32"
+        },
+        "rating": 4,
+        "title": "Good quality",
+        "comment": "The material feels durable and the backpack looks very nice.",
+        "helpful": 36,
+        "verifiedPurchase": true,
+        "createdAt": "2026-07-26T16:40:00Z"
+      }
+    ],
+    "seller": {
+      "id": "seller_502",
+      "name": "Urban Lifestyle Store",
+      "logo": "https://i.pravatar.cc/200?img=52",
+      "rating": 4.8,
+      "totalProducts": 1254,
+      "positiveFeedback": 97,
+      "verified": true
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "4-7 business days",
+      "returnPeriod": "30 days",
+      "returnAvailable": true
+    },
+    "engagement": {
+      "likes": 982,
+      "comments": 124,
+      "shares": 73,
+      "bookmarks": 287,
+      "views": 9342
+    },
+    "tags": ["backpack", "laptop-bag", "travel", "fashion", "student", "work"],
+    "createdAt": "2026-08-02T08:15:00Z",
+    "updatedAt": "2026-08-06T17:20:00Z"
+  },
+
+  {
+    "id": "post_003",
+    "slug": "apple-airstyle-smartwatch-review",
+    "postType": "product_review",
+    "user": {
+      "id": "user_103",
+      "name": "Ryan Cooper",
+      "username": "ryancooper",
+      "avatar": "https://i.pravatar.cc/300?img=14",
+      "verified": true,
+      "location": "Toronto, Canada",
+      "bio": "Gadget lover and smartwatch enthusiast.",
+      "followers": 1890
+    },
+    "title": "AirStyle Smartwatch – A Stylish Everyday Smartwatch",
+    "shortDescription": "My detailed experience with this modern smartwatch including display quality, notifications, battery performance and daily usability.",
+    "content": {
+      "introduction": "I have been using the AirStyle Smartwatch for several weeks and it quickly became part of my daily routine.",
+      "fullDescription": "The watch combines a bright AMOLED display with health tracking, notifications, music controls and customizable watch faces.",
+      "displayExperience": "The AMOLED display is bright and easy to read both indoors and outdoors.",
+      "batteryExperience": "The battery comfortably lasts several days under normal daily usage.",
+      "smartFeatures": "Notifications, alarms, music controls and customizable watch faces make the watch useful throughout the day.",
+      "finalOpinion": "This smartwatch is a good choice for users who want a stylish wearable with practical smart features."
+    },
+    "product": {
+      "id": "product_503",
+      "sku": "ASW-700-2026",
+      "name": "AirStyle AMOLED Smartwatch",
+      "brand": "AirStyle",
+      "model": "ASW 700",
+      "category": "Electronics",
+      "subcategory": "Smartwatches",
+      "price": 129.99,
+      "oldPrice": 159.99,
+      "currency": "USD",
+      "discount": 19,
+      "rating": 4.6,
+      "reviewCount": 428,
+      "soldCount": 2190,
+      "stock": 31,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+        "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1",
+        "https://images.unsplash.com/photo-1544117519-31a4b719223d"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#111111",
+          "available": true
+        },
+        {
+          "name": "Silver",
+          "hex": "#D1D5DB",
+          "available": true
+        }
+      ],
+      "sizes": ["42mm", "46mm"],
+      "features": [
+        "AMOLED Display",
+        "Bluetooth Calling",
+        "Heart Rate Monitoring",
+        "Sleep Tracking",
+        "Music Controls",
+        "Custom Watch Faces",
+        "Water Resistance",
+        "Multiple Sports Modes"
+      ],
+      "specifications": {
+        "display": "1.46-inch AMOLED",
+        "resolution": "466 x 466",
+        "batteryLife": "Up to 7 days",
+        "charging": "Magnetic charging",
+        "connectivity": "Bluetooth 5.2",
+        "waterResistance": "5ATM",
+        "weight": "48g",
+        "compatibility": ["Android", "iOS"],
+        "warranty": "1 Year"
+      },
+      "boxContents": [
+        "Smartwatch",
+        "Magnetic Charging Cable",
+        "User Manual",
+        "Warranty Card"
+      ]
+    },
+    "pros": [
+      "Bright AMOLED display",
+      "Good battery life",
+      "Premium design",
+      "Many watch faces",
+      "Useful notifications",
+      "Comfortable strap"
+    ],
+    "cons": [
+      "Some advanced features require the companion app",
+      "Limited third-party app support",
+      "Charging cable is proprietary"
+    ],
+    "ratingBreakdown": {
+      "5": 302,
+      "4": 89,
+      "3": 27,
+      "2": 7,
+      "1": 3
+    },
+    "reviews": [
+      {
+        "id": "review_3001",
+        "user": {
+          "name": "Lucas Green",
+          "avatar": "https://i.pravatar.cc/150?img=20"
+        },
+        "rating": 5,
+        "title": "Beautiful display",
+        "comment": "The screen looks fantastic and notifications are very easy to read.",
+        "helpful": 32,
+        "verifiedPurchase": true,
+        "createdAt": "2026-07-22T10:30:00Z"
+      }
+    ],
+    "seller": {
+      "id": "seller_503",
+      "name": "Digital Planet",
+      "logo": "https://i.pravatar.cc/200?img=58",
+      "rating": 4.6,
+      "totalProducts": 635,
+      "positiveFeedback": 94,
+      "verified": true
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-6 business days",
+      "returnPeriod": "30 days",
+      "returnAvailable": true
+    },
+    "engagement": {
+      "likes": 1132,
+      "comments": 97,
+      "shares": 65,
+      "bookmarks": 214,
+      "views": 10421
+    },
+    "tags": ["smartwatch", "wearable", "electronics", "amoled", "technology"],
+    "createdAt": "2026-08-03T09:20:00Z",
+    "updatedAt": "2026-08-06T11:30:00Z"
+  },
+
+  {
+    "id": "post_004",
+    "slug": "classic-cotton-oversized-hoodie-review",
+    "postType": "product_review",
+    "user": {
+      "id": "user_104",
+      "name": "Mia Thompson",
+      "username": "miathompson",
+      "avatar": "https://i.pravatar.cc/300?img=48",
+      "verified": false,
+      "location": "Sydney, Australia",
+      "bio": "Fashion and lifestyle content creator.",
+      "followers": 3260
+    },
+    "title": "Classic Cotton Oversized Hoodie – Comfortable Everyday Fashion",
+    "shortDescription": "A complete review of a soft cotton hoodie designed for casual everyday wear.",
+    "content": {
+      "introduction": "I wanted a simple hoodie that would be comfortable for everyday use and easy to combine with different outfits.",
+      "fullDescription": "The Classic Cotton Oversized Hoodie uses a soft cotton blend and features a relaxed fit, ribbed cuffs, adjustable hood and front kangaroo pocket.",
+      "materialExperience": "The fabric feels soft against the skin and maintains its shape well after washing.",
+      "fitExperience": "The oversized design gives the hoodie a relaxed appearance without feeling excessively large.",
+      "durability": "The stitching and cuffs feel strong and have held up well during regular use.",
+      "finalOpinion": "This hoodie is a reliable everyday fashion piece for casual outfits, travel and cooler evenings."
+    },
+    "product": {
+      "id": "product_504",
+      "sku": "CCH-2026",
+      "name": "Classic Cotton Oversized Hoodie",
+      "brand": "UrbanWear",
+      "model": "Classic 2026",
+      "category": "Fashion",
+      "subcategory": "Clothing",
+      "price": 39.99,
+      "oldPrice": 54.99,
+      "currency": "USD",
+      "discount": 27,
+      "rating": 4.7,
+      "reviewCount": 689,
+      "soldCount": 4218,
+      "stock": 115,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7",
+        "https://images.unsplash.com/photo-1578681994506-b8f463449011",
+        "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1556821840-3a63f95609a7",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#111111",
+          "available": true
+        },
+        {
+          "name": "Cream",
+          "hex": "#F5F5DC",
+          "available": true
+        },
+        {
+          "name": "Gray",
+          "hex": "#9CA3AF",
+          "available": true
+        }
+      ],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "features": [
+        "Premium Cotton Blend",
+        "Oversized Fit",
+        "Adjustable Hood",
+        "Kangaroo Pocket",
+        "Ribbed Cuffs",
+        "Soft Interior",
+        "Machine Washable"
+      ],
+      "specifications": {
+        "material": "80% Cotton, 20% Polyester",
+        "fit": "Oversized",
+        "fabricWeight": "380 GSM",
+        "closure": "Pullover",
+        "care": "Machine Wash Cold",
+        "season": "Fall, Winter, Spring",
+        "warranty": "30 Days"
+      },
+      "boxContents": ["Classic Cotton Oversized Hoodie"]
+    },
+    "pros": [
+      "Soft fabric",
+      "Comfortable fit",
+      "Good stitching",
+      "Multiple colors",
+      "Good value"
+    ],
+    "cons": [
+      "Oversized fit may not suit everyone",
+      "Fabric is slightly thick for warm weather"
+    ],
+    "ratingBreakdown": {
+      "5": 514,
+      "4": 121,
+      "3": 39,
+      "2": 10,
+      "1": 5
+    },
+    "reviews": [
+      {
+        "id": "review_4001",
+        "user": {
+          "name": "Ella Brown",
+          "avatar": "https://i.pravatar.cc/150?img=45"
+        },
+        "rating": 5,
+        "title": "Super comfortable",
+        "comment": "The hoodie is soft and warm. The oversized style looks great.",
+        "helpful": 47,
+        "verifiedPurchase": true,
+        "createdAt": "2026-07-18T12:20:00Z"
+      }
+    ],
+    "seller": {
+      "id": "seller_504",
+      "name": "UrbanWear Official",
+      "logo": "https://i.pravatar.cc/200?img=49",
+      "rating": 4.8,
+      "totalProducts": 1840,
+      "positiveFeedback": 98,
+      "verified": true
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "5-8 business days",
+      "returnPeriod": "30 days",
+      "returnAvailable": true
+    },
+    "engagement": {
+      "likes": 1574,
+      "comments": 213,
+      "shares": 118,
+      "bookmarks": 398,
+      "views": 15890
+    },
+    "tags": ["hoodie", "fashion", "clothing", "casual", "cotton", "streetwear"],
+    "createdAt": "2026-08-01T14:20:00Z",
+    "updatedAt": "2026-08-04T16:10:00Z"
+  },
+
+  {
+    "id": "post_005",
+    "slug": "lumina-portable-bluetooth-speaker-review",
+    "postType": "product_review",
+    "user": {
+      "id": "user_105",
+      "name": "Noah Wilson",
+      "username": "noahwilson",
+      "avatar": "https://i.pravatar.cc/300?img=8",
+      "verified": true,
+      "location": "Los Angeles, USA",
+      "bio": "Music lover and technology reviewer.",
+      "followers": 1764
+    },
+    "title": "Lumina Portable Bluetooth Speaker – Small Size, Big Sound",
+    "shortDescription": "My detailed experience with a compact Bluetooth speaker designed for home, travel and outdoor listening.",
+    "content": {
+      "introduction": "I wanted a compact speaker that I could easily carry while traveling without sacrificing sound quality.",
+      "fullDescription": "The Lumina Portable Speaker combines a compact body with surprisingly powerful audio, Bluetooth connectivity and a long-lasting battery.",
+      "soundQuality": "The speaker produces clear vocals and strong bass for its size. It performs particularly well in small rooms and outdoor gatherings.",
+      "portability": "Its lightweight construction makes it easy to place inside a backpack or carry around the house.",
+      "batteryExperience": "The battery easily lasts through a full day of moderate listening.",
+      "finalOpinion": "The Lumina is an excellent choice for anyone who wants portable audio without carrying a large speaker."
+    },
+    "product": {
+      "id": "product_505",
+      "sku": "LBS-2026",
+      "name": "Lumina Portable Bluetooth Speaker",
+      "brand": "Lumina Audio",
+      "model": "L-360",
+      "category": "Electronics",
+      "subcategory": "Speakers",
+      "price": 59.99,
+      "oldPrice": 79.99,
+      "currency": "USD",
+      "discount": 25,
+      "rating": 4.5,
+      "reviewCount": 372,
+      "soldCount": 2764,
+      "stock": 68,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1",
+        "https://images.unsplash.com/photo-1589003077984-894e133dabab",
+        "https://images.unsplash.com/photo-1545454675-3531b543be5d"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#111111",
+          "available": true
+        },
+        {
+          "name": "Blue",
+          "hex": "#2563EB",
+          "available": true
+        }
+      ],
+      "features": [
+        "Bluetooth 5.2",
+        "360-Degree Sound",
+        "12-Hour Battery",
+        "USB-C Charging",
+        "Built-in Microphone",
+        "Compact Design",
+        "Water Resistant"
+      ],
+      "specifications": {
+        "outputPower": "20W",
+        "bluetooth": "5.2",
+        "batteryLife": "Up to 12 hours",
+        "chargingPort": "USB-C",
+        "waterResistance": "IPX6",
+        "weight": "620g",
+        "range": "15 meters",
+        "warranty": "1 Year"
+      },
+      "boxContents": [
+        "Lumina Speaker",
+        "USB-C Cable",
+        "Quick Start Guide",
+        "Warranty Card"
+      ]
+    },
+    "pros": [
+      "Good sound quality",
+      "Portable",
+      "Long battery life",
+      "Water resistant",
+      "USB-C charging"
+    ],
+    "cons": [
+      "Bass becomes less powerful at maximum volume",
+      "No built-in equalizer"
+    ],
+    "ratingBreakdown": {
+      "5": 241,
+      "4": 91,
+      "3": 30,
+      "2": 7,
+      "1": 3
+    },
+    "reviews": [
+      {
+        "id": "review_5001",
+        "user": {
+          "name": "William Harris",
+          "avatar": "https://i.pravatar.cc/150?img=13"
+        },
+        "rating": 5,
+        "title": "Great little speaker",
+        "comment": "The sound is much louder and clearer than I expected from such a small speaker.",
+        "helpful": 39,
+        "verifiedPurchase": true,
+        "createdAt": "2026-07-20T08:40:00Z"
+      }
+    ],
+    "seller": {
+      "id": "seller_505",
+      "name": "AudioHub",
+      "logo": "https://i.pravatar.cc/200?img=57",
+      "rating": 4.6,
+      "totalProducts": 921,
+      "positiveFeedback": 95,
+      "verified": true
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnAvailable": true
+    },
+    "engagement": {
+      "likes": 867,
+      "comments": 102,
+      "shares": 58,
+      "bookmarks": 189,
+      "views": 8430
+    },
+    "tags": [
+      "speaker",
+      "bluetooth",
+      "audio",
+      "music",
+      "portable",
+      "electronics"
+    ],
+    "createdAt": "2026-08-02T12:00:00Z",
+    "updatedAt": "2026-08-05T10:20:00Z"
+  },
+
+  {
+    "id": "post_006",
+    "slug": "ergopro-office-chair-review",
+    "postType": "product_review",
+    "user": {
+      "id": "user_106",
+      "name": "Ethan Clark",
+      "username": "ethanclark",
+      "avatar": "https://i.pravatar.cc/300?img=17",
+      "verified": true,
+      "location": "Berlin, Germany",
+      "bio": "Remote developer and workspace enthusiast.",
+      "followers": 2180
+    },
+    "title": "ErgoPro Office Chair – A Better Chair for Long Work Sessions",
+    "shortDescription": "A detailed review of an ergonomic office chair designed for home offices and long work sessions.",
+    "content": {
+      "introduction": "As someone who spends many hours working at a desk, I wanted a chair that provided better support and comfort.",
+      "fullDescription": "The ErgoPro Office Chair features adjustable lumbar support, a breathable mesh back, padded seat, adjustable armrests and a reclining mechanism.",
+      "comfort": "The seat provides enough cushioning without feeling excessively soft. The breathable back helps keep the chair comfortable during long work sessions.",
+      "adjustability": "The height, armrests, lumbar support and recline angle can all be adjusted to suit different users.",
+      "buildQuality": "The frame feels sturdy and the base provides good stability while moving around the desk.",
+      "finalOpinion": "The ErgoPro is a strong option for students, remote workers and office professionals who want a comfortable adjustable workspace chair."
+    },
+    "product": {
+      "id": "product_506",
+      "sku": "EPC-2026",
+      "name": "ErgoPro Ergonomic Office Chair",
+      "brand": "ErgoPro",
+      "model": "EP-900",
+      "category": "Furniture",
+      "subcategory": "Office Chairs",
+      "price": 179.99,
+      "oldPrice": 229.99,
+      "currency": "USD",
+      "discount": 22,
+      "rating": 4.6,
+      "reviewCount": 287,
+      "soldCount": 1152,
+      "stock": 24,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1580480055273-228ff5388ef8",
+        "https://images.unsplash.com/photo-1592078615290-033ee584e267",
+        "https://images.unsplash.com/photo-1589384267710-7a170981ca78"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#111111",
+          "available": true
+        },
+        {
+          "name": "Gray",
+          "hex": "#6B7280",
+          "available": true
+        }
+      ],
+      "features": [
+        "Adjustable Lumbar Support",
+        "Breathable Mesh Back",
+        "Adjustable Armrests",
+        "Height Adjustment",
+        "135-Degree Recline",
+        "360-Degree Wheels",
+        "Heavy-Duty Base"
+      ],
+      "specifications": {
+        "material": "Mesh and high-density foam",
+        "seatHeight": "45-55cm",
+        "maximumWeight": "120kg",
+        "recline": "135 degrees",
+        "base": "Aluminum alloy",
+        "wheels": "Silent rolling wheels",
+        "assembly": "Required",
+        "warranty": "2 Years"
+      },
+      "boxContents": [
+        "Chair Components",
+        "Assembly Tools",
+        "Assembly Guide",
+        "Warranty Card"
+      ]
+    },
+    "pros": [
+      "Comfortable seat",
+      "Adjustable lumbar support",
+      "Breathable back",
+      "Strong build quality",
+      "Smooth wheels",
+      "Good adjustability"
+    ],
+    "cons": [
+      "Assembly takes some time",
+      "Armrests could have more adjustment options"
+    ],
+    "ratingBreakdown": {
+      "5": 174,
+      "4": 76,
+      "3": 25,
+      "2": 8,
+      "1": 4
+    },
+    "reviews": [
+      {
+        "id": "review_6001",
+        "user": {
+          "name": "Henry Adams",
+          "avatar": "https://i.pravatar.cc/150?img=19"
+        },
+        "rating": 5,
+        "title": "Excellent office chair",
+        "comment": "I work from home and this chair has made my desk setup much more comfortable.",
+        "helpful": 63,
+        "verifiedPurchase": true,
+        "createdAt": "2026-07-15T13:00:00Z"
+      }
+    ],
+    "seller": {
+      "id": "seller_506",
+      "name": "OfficeSpace Store",
+      "logo": "https://i.pravatar.cc/200?img=61",
+      "rating": 4.7,
+      "totalProducts": 458,
+      "positiveFeedback": 96,
+      "verified": true
+    },
+    "shipping": {
+      "freeShipping": false,
+      "shippingCost": 12.99,
+      "estimatedDelivery": "5-9 business days",
+      "returnPeriod": "30 days",
+      "returnAvailable": true
+    },
+    "engagement": {
+      "likes": 721,
+      "comments": 84,
+      "shares": 41,
+      "bookmarks": 164,
+      "views": 6920
+    },
+    "tags": [
+      "office-chair",
+      "ergonomic",
+      "workspace",
+      "office",
+      "furniture",
+      "home-office"
+    ],
+    "createdAt": "2026-08-03T15:30:00Z",
+    "updatedAt": "2026-08-06T09:10:00Z"
+  },
+
+  {
+    "id": "post_007",
+    "slug": "brewmaster-smart-coffee-maker-review",
+    "postType": "product_review",
+    "user": {
+      "id": "user_107",
+      "name": "Grace Miller",
+      "username": "gracemiller",
+      "avatar": "https://i.pravatar.cc/300?img=49",
+      "verified": false,
+      "location": "Seattle, USA",
+      "bio": "Coffee enthusiast and home lifestyle reviewer.",
+      "followers": 1450
+    },
+    "title": "BrewMaster Smart Coffee Maker – Making Better Coffee at Home",
+    "shortDescription": "A complete review of a smart programmable coffee maker with temperature control and multiple brewing modes.",
+    "content": {
+      "introduction": "I enjoy making coffee at home, so I decided to try the BrewMaster Smart Coffee Maker.",
+      "fullDescription": "The BrewMaster combines programmable brewing, temperature control, multiple brewing strengths and a large water reservoir.",
+      "brewingExperience": "The brewing process is simple and consistent. The temperature control helps produce a balanced cup of coffee.",
+      "design": "The machine has a clean modern design that fits nicely on a kitchen counter.",
+      "cleaning": "The removable water tank and filter basket make cleaning relatively straightforward.",
+      "finalOpinion": "This is a useful coffee maker for people who want convenience and more control over their daily coffee routine."
+    },
+    "product": {
+      "id": "product_507",
+      "sku": "BMC-2026",
+      "name": "BrewMaster Smart Coffee Maker",
+      "brand": "BrewMaster",
+      "model": "Smart Brew 500",
+      "category": "Home & Kitchen",
+      "subcategory": "Coffee Makers",
+      "price": 109.99,
+      "oldPrice": 139.99,
+      "currency": "USD",
+      "discount": 21,
+      "rating": 4.5,
+      "reviewCount": 318,
+      "soldCount": 1782,
+      "stock": 36,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6",
+        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+        "https://images.unsplash.com/photo-1509042239860-f550ce710b93"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#111111",
+          "available": true
+        },
+        {
+          "name": "White",
+          "hex": "#FFFFFF",
+          "available": true
+        }
+      ],
+      "features": [
+        "Programmable Brewing",
+        "Temperature Control",
+        "Multiple Brew Strengths",
+        "1.5L Water Reservoir",
+        "Keep-Warm Function",
+        "Auto Shut-Off",
+        "Reusable Filter"
+      ],
+      "specifications": {
+        "capacity": "1.5 Liters",
+        "power": "1100W",
+        "temperatureRange": "90-96°C",
+        "brewTime": "5-8 minutes",
+        "reservoir": "Removable",
+        "display": "Digital LCD",
+        "autoShutOff": "30 minutes",
+        "warranty": "2 Years"
+      },
+      "boxContents": [
+        "Coffee Maker",
+        "Reusable Filter",
+        "Measuring Spoon",
+        "Water Tank",
+        "User Manual"
+      ]
+    },
+    "pros": [
+      "Easy to use",
+      "Good temperature control",
+      "Large water tank",
+      "Programmable",
+      "Modern design"
+    ],
+    "cons": ["Large footprint", "No built-in coffee grinder"],
+    "ratingBreakdown": {
+      "5": 205,
+      "4": 75,
+      "3": 29,
+      "2": 6,
+      "1": 3
+    },
+    "reviews": [
+      {
+        "id": "review_7001",
+        "user": {
+          "name": "Ava Moore",
+          "avatar": "https://i.pravatar.cc/150?img=31"
+        },
+        "rating": 5,
+        "title": "Great coffee maker",
+        "comment": "The programmable function is very convenient for busy mornings.",
+        "helpful": 35,
+        "verifiedPurchase": true,
+        "createdAt": "2026-07-23T07:30:00Z"
+      }
+    ],
+    "seller": {
+      "id": "seller_507",
+      "name": "HomeTech Market",
+      "logo": "https://i.pravatar.cc/200?img=63",
+      "rating": 4.5,
+      "totalProducts": 735,
+      "positiveFeedback": 94,
+      "verified": true
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "4-6 business days",
+      "returnPeriod": "30 days",
+      "returnAvailable": true
+    },
+    "engagement": {
+      "likes": 638,
+      "comments": 72,
+      "shares": 39,
+      "bookmarks": 151,
+      "views": 6412
+    },
+    "tags": ["coffee", "coffee-maker", "kitchen", "home", "smart-appliance"],
+    "createdAt": "2026-08-04T08:45:00Z",
+    "updatedAt": "2026-08-07T11:20:00Z"
+  },
+
+  {
+    "id": "post_008",
+    "slug": "trailrunner-performance-shoes-review",
+    "postType": "product_review",
+    "user": {
+      "id": "user_108",
+      "name": "Liam Taylor",
+      "username": "liamtaylor",
+      "avatar": "https://i.pravatar.cc/300?img=68",
+      "verified": true,
+      "location": "Vancouver, Canada",
+      "bio": "Outdoor enthusiast and running gear reviewer.",
+      "followers": 2785
+    },
+    "title": "TrailRunner Performance Shoes – Lightweight and Comfortable",
+    "shortDescription": "My detailed review of lightweight running shoes designed for daily training, walking and outdoor activities.",
+    "content": {
+      "introduction": "I have been testing the TrailRunner Performance Shoes during daily walks and running sessions.",
+      "fullDescription": "The TrailRunner shoes are designed with a lightweight mesh upper, cushioned midsole and durable rubber outsole.",
+      "comfort": "The cushioning provides a comfortable feeling during everyday walking and running.",
+      "breathability": "The mesh upper allows airflow and helps keep the feet comfortable during longer sessions.",
+      "grip": "The rubber outsole provides good traction on normal roads and light outdoor trails.",
+      "durability": "The materials feel durable and the outsole has maintained its grip after regular use.",
+      "finalOpinion": "The TrailRunner is a versatile option for people looking for comfortable everyday footwear for walking, running and casual outdoor activities."
+    },
+    "product": {
+      "id": "product_508",
+      "sku": "TRP-2026",
+      "name": "TrailRunner Performance Shoes",
+      "brand": "TrailRunner",
+      "model": "TR-500",
+      "category": "Fashion",
+      "subcategory": "Shoes",
+      "price": 74.99,
+      "oldPrice": 99.99,
+      "currency": "USD",
+      "discount": 25,
+      "rating": 4.8,
+      "reviewCount": 845,
+      "soldCount": 5230,
+      "stock": 94,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772",
+        "https://images.unsplash.com/photo-1460353581641-37baddab0fa2",
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#111111",
+          "available": true
+        },
+        {
+          "name": "White",
+          "hex": "#FFFFFF",
+          "available": true
+        },
+        {
+          "name": "Red",
+          "hex": "#DC2626",
+          "available": true
+        }
+      ],
+      "sizes": ["39", "40", "41", "42", "43", "44", "45"],
+      "features": [
+        "Lightweight Mesh Upper",
+        "Cushioned Midsole",
+        "Breathable Design",
+        "Durable Rubber Outsole",
+        "Shock Absorption",
+        "Padded Collar",
+        "Flexible Construction"
+      ],
+      "specifications": {
+        "upperMaterial": "Breathable mesh",
+        "midsole": "Responsive foam",
+        "outsole": "Durable rubber",
+        "heelDrop": "8mm",
+        "weight": "285g per shoe",
+        "closure": "Lace-up",
+        "usage": ["Running", "Walking", "Training", "Casual"],
+        "warranty": "90 Days"
+      },
+      "boxContents": ["Pair of TrailRunner Shoes", "Product Information Card"]
+    },
+    "pros": [
+      "Lightweight",
+      "Comfortable cushioning",
+      "Good breathability",
+      "Strong grip",
+      "Modern design",
+      "Many sizes available"
+    ],
+    "cons": [
+      "Not designed for extreme terrain",
+      "White version requires regular cleaning"
+    ],
+    "ratingBreakdown": {
+      "5": 641,
+      "4": 154,
+      "3": 37,
+      "2": 9,
+      "1": 4
+    },
+    "reviews": [
+      {
+        "id": "review_8001",
+        "user": {
+          "name": "Jack Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=52"
+        },
+        "rating": 5,
+        "title": "Very comfortable",
+        "comment": "These shoes are lightweight and comfortable enough for everyday walking.",
+        "helpful": 72,
+        "verifiedPurchase": true,
+        "createdAt": "2026-07-17T09:15:00Z"
+      },
+      {
+        "id": "review_8002",
+        "user": {
+          "name": "Sophie Davis",
+          "avatar": "https://i.pravatar.cc/150?img=37"
+        },
+        "rating": 5,
+        "title": "Great value",
+        "comment": "The shoes look great and feel comfortable during my daily runs.",
+        "helpful": 54,
+        "verifiedPurchase": true,
+        "createdAt": "2026-07-25T15:50:00Z"
+      }
+    ],
+    "seller": {
+      "id": "seller_508",
+      "name": "RunGear Official",
+      "logo": "https://i.pravatar.cc/200?img=66",
+      "rating": 4.9,
+      "totalProducts": 968,
+      "positiveFeedback": 98,
+      "verified": true
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-6 business days",
+      "returnPeriod": "30 days",
+      "returnAvailable": true
+    },
+    "engagement": {
+      "likes": 1842,
+      "comments": 267,
+      "shares": 142,
+      "bookmarks": 436,
+      "views": 18932
+    },
+    "tags": [
+      "shoes",
+      "running",
+      "sports",
+      "fashion",
+      "walking",
+      "outdoor",
+      "footwear"
+    ],
+    "createdAt": "2026-08-04T17:10:00Z",
+    "updatedAt": "2026-08-07T14:30:00Z"
+  }
+]

@@ -2,6 +2,7 @@ import Category from "../components/category/Category";
 import Banner from "../components/home/Banner";
 import HomeProducts from "../components/home/HomeProducts";
 import Testimonials from "../components/home/Testimonials";
+import UserPost from "../components/post/UserPost";
 
 
 const Home = () => {
@@ -10,7 +11,8 @@ const Home = () => {
       <Banner />
       <Category />
       <HomeProducts />
-      <Testimonials/>
+      <UserPost/>
+      <Testimonials />
     </div>
   );
 };

@@ -5,6 +5,8 @@ import Products from "../pages/Products";
 import ProductDetails from "../components/products/ProductDetails";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
+import PostCardDetails from "../components/post/PostCardDetails";
+import UserPost from "../components/post/UserPost";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +32,14 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact/>
+      },
+      {
+        path: "/posts",
+        element:<UserPost/>
+      },
+      {
+        path: "/posts/details",
+        element: <PostCardDetails/>
       }
     ]
   }

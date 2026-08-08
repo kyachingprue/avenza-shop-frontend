@@ -80,7 +80,7 @@ const CategoryCard = ({ category }) => {
       <div className="absolute bottom-0 w-full p-6">
         <h3 className="text-2xl font-bold text-white">{category}</h3>
 
-        <button className="mt-4 rounded-full bg-sky-500 px-5 py-2 text-white transition hover:bg-sky-600">
+        <button className="mt-4 rounded-full cursor-pointer bg-sky-500 px-5 py-2 text-white transition hover:bg-sky-600">
           Shop Now
         </button>
       </div>
