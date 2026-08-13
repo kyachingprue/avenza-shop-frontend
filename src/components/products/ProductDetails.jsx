@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router";
+import { Link, useParams } from "react-router";
 import { motion } from "motion/react";
 import {
   FaStar,
@@ -7,12 +7,10 @@ import {
   FaCheckCircle,
 } from "react-icons/fa";
 import { GoArrowRight } from "react-icons/go";
-import { FaArrowLeft } from "react-icons/fa6";
 import LocomotiveScroll from "locomotive-scroll";
 
 const ProductDetails = () => {
   const { id } = useParams()
-  const navigate = useNavigate();
   const [product, setProduct] = useState(null)
   const [selectedImage, setSelectedImage] = useState('')
 
@@ -43,9 +41,6 @@ const ProductDetails = () => {
      }
    }, [])
 
-  const handleBack = () => {
-    navigate(-1)
-  }
 
   if (!product) {
     return (
@@ -56,14 +51,22 @@ const ProductDetails = () => {
   }
   return (
     <main className="bg-linear-to-r from-blue-50 to-white">
-      <section className="w-11/12 mx-auto px-5 pt-20 pb-10">
-        <div className="mt-4">
-          <button
-            onClick={handleBack}
-            className="mb-5 flex items-center gap-2 rounded-lg bg-cyan-600 px-4 py-2 text-white hover:bg-cyan-700 transition"
-          >
-            <FaArrowLeft /> Back
-          </button>
+      <section className="w-11/12 mx-auto px-5 pt-28 pb-10">
+        {/* Breadcrumb */}
+        <div className="mb-6 flex flex-wrap items-center gap-2 text-sm text-gray-500">
+          <Link to="/" className="transition hover:text-gray-900">
+            Home
+          </Link>
+
+          <span>/</span>
+
+          <Link to="/products" className="transition hover:text-gray-900">
+            Products
+          </Link>
+
+          <span>/</span>
+
+          <span className="text-gray-900">{product.category}</span>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">

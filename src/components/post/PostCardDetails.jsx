@@ -93,13 +93,12 @@ const PostCardDetails = () => {
     <main className="min-h-screen bg-gray-50 py-20">
       {/* ================= HEADER ================= */}
       <section className="border-b border-gray-200 bg-white">
-        <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+        <div className="mx-auto w-11/12 px-4 py-8 lg:px-5">
           {/* Breadcrumb */}
           <div className="mb-6 flex flex-wrap items-center gap-2 text-sm text-gray-500">
             <Link to="/" className="transition hover:text-gray-900">
               Home
             </Link>
-
             <span>/</span>
 
             <Link to="/posts" className="transition hover:text-gray-900">
@@ -149,8 +148,8 @@ const PostCardDetails = () => {
       </section>
 
       {/* ================= PRODUCT ================= */}
-      <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
+      <section className="mx-auto w-11/12 px-4 py-10 lg:px-5">
+        <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
           {/* ================= IMAGE GALLERY ================= */}
           <div>
             {/* Main Image */}
@@ -166,16 +165,15 @@ const PostCardDetails = () => {
                 -{product.discount}% OFF
               </div>
             </div>
-
             {/* Thumbnails */}
-            <div className="mt-4 grid grid-cols-4 gap-3">
+            <div className="mt-4 grid grid-cols-4 mx-auto gap-3">
               {product.images.map((image, index) => (
                 <button
                   key={image}
                   onClick={() => setSelectedImage(image)}
-                  className={`overflow-hidden rounded-xl border-2 bg-white transition ${
+                  className={`overflow-hidden rounded-xl border-4 bg-white transition ${
                     selectedImage === image
-                      ? 'border-gray-900'
+                      ? 'border-blue-900'
                       : 'border-transparent hover:border-gray-300'
                   }`}
                 >

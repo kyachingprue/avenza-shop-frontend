@@ -65,13 +65,13 @@ const AllProducts = () => {
   }
 
   return (
-    <div className="w-11/12 h-full mx-auto px-4 py-3">
-      <div className="relative overflow-hidden rounded-md bg-linear-to-r from-cyan-900 via-sky-500 to-blue-900 py-16 px-6 text-center text-white mb-12">
+    <div className="w-full h-full mx-auto">
+      <div className="relative overflow-hidden bg-linear-to-r from-cyan-900 via-sky-500 to-blue-900 py-20 w-full mx-auto text-center text-white mb-12">
         <div className="absolute -top-20 -left-20 w-72 h-72 rounded-full bg-white/10 blur-3xl"></div>
 
         <div className="absolute -bottom-24 -right-20 w-80 h-80 rounded-full bg-cyan-300/20 blur-3xl"></div>
 
-        <div className="relative z-10">
+        <div className="relative z-10 w-8/12 mx-auto">
           <h2 className="text-4xl font-serif md:text-5xl font-black mb-5">
             Discover Amazing Products
           </h2>
@@ -88,7 +88,7 @@ const AllProducts = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+      <div className="w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
         {currentProducts.map(product => (
           <ProductCard key={product.id} product={product} />
         ))}

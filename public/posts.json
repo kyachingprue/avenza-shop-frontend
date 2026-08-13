@@ -41,12 +41,12 @@
       "stock": 42,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
-        "https://images.unsplash.com/photo-1484704849700-f032a568e944",
-        "https://images.unsplash.com/photo-1546435770-a3e426bf472b",
-        "https://images.unsplash.com/photo-1578319439584-104c94d37305"
+        "https://i.ibb.co.com/0j9FZ2yW/7f1dc17e4a95120e5679614f29cf4bc3-jpg-720x720q80.jpg",
+        "https://i.ibb.co.com/RTJmSzn9/bose-quietcomfort-ultra-headphones-2nd-gen826.jpg",
+        "https://i.ibb.co.com/k6KWH4fh/4-80-H-10min10-H.jpg",
+        "https://i.ibb.co.com/r2VR5sJK/images.jpg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+      "thumbnail": "https://i.ibb.co.com/0j9FZ2yW/7f1dc17e4a95120e5679614f29cf4bc3-jpg-720x720q80.jpg",
       "colors": [
         {
           "name": "Matte Black",
@@ -180,169 +180,203 @@
   },
 
   {
-    "id": "post_002",
-    "slug": "urban-explorer-laptop-backpack-review",
-    "postType": "product_review",
-    "user": {
-      "id": "user_102",
-      "name": "Sophia Williams",
-      "username": "sophiaw",
-      "avatar": "https://i.pravatar.cc/300?img=47",
-      "verified": true,
-      "location": "London, UK",
-      "bio": "Traveler, student and lifestyle product reviewer.",
-      "followers": 2345
-    },
-    "title": "Urban Explorer Laptop Backpack – Perfect for Work, Study and Travel",
-    "shortDescription": "A detailed look at a practical laptop backpack with large storage capacity, laptop protection and comfortable shoulder straps.",
-    "content": {
-      "introduction": "I purchased the Urban Explorer Laptop Backpack because I needed something suitable for university, work and short trips.",
-      "fullDescription": "The Urban Explorer is a multi-purpose everyday backpack with a dedicated laptop compartment, multiple internal storage areas, a front organization pocket and side pockets.",
-      "design": "The backpack has a clean and modern design that works well for students and professionals.",
-      "storage": "The main compartment can hold books, clothing and accessories while the padded laptop section provides additional protection.",
-      "comfort": "The padded shoulder straps and breathable back panel make it comfortable during longer walks.",
-      "durability": "The stitching and zippers remained in excellent condition after several weeks of regular use.",
-      "finalOpinion": "For students, remote workers, commuters and travelers, this backpack offers an excellent balance between appearance, storage and comfort."
-    },
-    "product": {
-      "id": "product_502",
-      "sku": "UEB-2026-15",
-      "name": "Urban Explorer Laptop Backpack",
-      "brand": "Urban Explorer",
-      "model": "UE-15 Pro",
-      "category": "Fashion",
-      "subcategory": "Bags & Backpacks",
-      "price": 49.99,
-      "oldPrice": 69.99,
-      "currency": "USD",
-      "discount": 29,
-      "rating": 4.7,
-      "reviewCount": 512,
-      "soldCount": 3218,
-      "stock": 76,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
-        "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3",
-        "https://images.unsplash.com/photo-1542291026-7eec264c27ff"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
-      "colors": [
-        {
-          "name": "Black",
-          "hex": "#111111",
-          "available": true
-        },
-        {
-          "name": "Gray",
-          "hex": "#6B7280",
-          "available": true
-        },
-        {
-          "name": "Navy Blue",
-          "hex": "#172554",
-          "available": true
-        }
-      ],
-      "features": [
-        "Dedicated 15.6-inch Laptop Compartment",
-        "Water-Resistant Exterior",
-        "Padded Shoulder Straps",
-        "Breathable Back Panel",
-        "Multiple Storage Compartments",
-        "Heavy-Duty Zippers",
-        "Lightweight Construction",
-        "USB Charging Port"
-      ],
-      "specifications": {
-        "material": "Water-resistant polyester",
-        "laptopSize": "Up to 15.6 inches",
-        "capacity": "28 Liters",
-        "weight": "850g",
-        "dimensions": "46cm x 31cm x 18cm",
-        "waterResistance": "Water Resistant",
-        "closure": "Heavy-duty zipper",
-        "warranty": "1 Year"
-      },
-      "boxContents": [
-        "Urban Explorer Backpack",
-        "Warranty Card",
-        "Product Information Guide"
-      ]
-    },
-    "pros": [
-      "Modern design",
-      "Large storage capacity",
-      "Dedicated laptop compartment",
-      "Comfortable shoulder straps",
-      "Water-resistant material",
-      "Strong zippers"
+  "id": "post_002",
+  "slug": "urban-explorer-laptop-backpack-review",
+  "postType": "product_review",
+  "user": {
+    "id": "user_102",
+    "name": "Sophia Williams",
+    "username": "sophiaw",
+    "avatar": "https://i.pravatar.cc/300?img=47",
+    "verified": true,
+    "location": "London, UK",
+    "bio": "Traveler, student and lifestyle product reviewer.",
+    "followers": 2345
+  },
+  "title": "Urban Explorer Laptop Backpack – Perfect for Work, Study and Travel",
+  "shortDescription": "A detailed look at a practical laptop backpack with large storage capacity, laptop protection and comfortable shoulder straps.",
+  "content": {
+    "introduction": "I purchased the Urban Explorer Laptop Backpack because I needed something suitable for university, work and short trips.",
+    "fullDescription": "The Urban Explorer is a multi-purpose everyday backpack with a dedicated laptop compartment, multiple internal storage areas, a front organization pocket and side pockets.",
+    "design": "The backpack has a clean and modern design that works well for students and professionals.",
+    "storage": "The main compartment can hold books, clothing and accessories while the padded laptop section provides additional protection.",
+    "comfort": "The padded shoulder straps and breathable back panel make it comfortable during longer walks.",
+    "durability": "The stitching and zippers remained in excellent condition after several weeks of regular use.",
+    "finalOpinion": "For students, remote workers, commuters and travelers, this backpack offers an excellent balance between appearance, storage and comfort."
+  },
+  "product": {
+    "id": "product_502",
+    "sku": "UEB-2026-15",
+    "name": "Urban Explorer Laptop Backpack",
+    "brand": "Urban Explorer",
+    "model": "UE-15 Pro",
+    "category": "Fashion",
+    "subcategory": "Bags & Backpacks",
+    "price": 49.99,
+    "oldPrice": 69.99,
+    "currency": "USD",
+    "discount": 29,
+    "rating": 4.7,
+    "reviewCount": 512,
+    "soldCount": 3218,
+    "stock": 76,
+    "availability": "In Stock",
+
+    "images": [
+      "https://i.ibb.co.com/yntNSJMt/063103f92228a94c196b2ee69342b169.jpg",
+      "https://i.ibb.co.com/1Ymf8Lbq/images-1.jpg",
+      "https://i.ibb.co.com/GQbfyt8j/bag-hanging-from-furniture-item-indoors-23-2151073506.avif",
+      "https://i.ibb.co.com/DgbgWTHF/5a712bf4b8f7e75a3db1ec85015e55df.jpg"
     ],
-    "cons": [
-      "Side pockets are relatively small",
-      "USB charging port requires a power bank",
-      "Not completely waterproof"
-    ],
-    "ratingBreakdown": {
-      "5": 391,
-      "4": 89,
-      "3": 23,
-      "2": 6,
-      "1": 3
-    },
-    "reviews": [
+
+    "thumbnail": "https://i.ibb.co.com/yntNSJMt/063103f92228a94c196b2ee69342b169.jpg",
+
+    "colors": [
       {
-        "id": "review_2001",
-        "user": {
-          "name": "James Anderson",
-          "avatar": "https://i.pravatar.cc/150?img=18"
-        },
-        "rating": 5,
-        "title": "Great everyday backpack",
-        "comment": "I carry my laptop, books and charger every day and everything fits perfectly.",
-        "helpful": 51,
-        "verifiedPurchase": true,
-        "createdAt": "2026-07-19T11:10:00Z"
+        "name": "Black",
+        "hex": "#111111",
+        "available": true
       },
       {
-        "id": "review_2002",
-        "user": {
-          "name": "Olivia Martin",
-          "avatar": "https://i.pravatar.cc/150?img=32"
-        },
-        "rating": 4,
-        "title": "Good quality",
-        "comment": "The material feels durable and the backpack looks very nice.",
-        "helpful": 36,
-        "verifiedPurchase": true,
-        "createdAt": "2026-07-26T16:40:00Z"
+        "name": "Gray",
+        "hex": "#6B7280",
+        "available": true
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#172554",
+        "available": true
       }
     ],
-    "seller": {
-      "id": "seller_502",
-      "name": "Urban Lifestyle Store",
-      "logo": "https://i.pravatar.cc/200?img=52",
-      "rating": 4.8,
-      "totalProducts": 1254,
-      "positiveFeedback": 97,
-      "verified": true
+
+    "sizes": [
+      "15.6-inch"
+    ],
+
+    "features": [
+      "Dedicated 15.6-inch Laptop Compartment",
+      "Water-Resistant Exterior",
+      "Padded Shoulder Straps",
+      "Breathable Back Panel",
+      "Multiple Storage Compartments",
+      "Heavy-Duty Zippers",
+      "Lightweight Construction",
+      "USB Charging Port"
+    ],
+
+    "specifications": {
+      "material": "Water-resistant polyester",
+      "laptopSize": "Up to 15.6 inches",
+      "capacity": "28 Liters",
+      "weight": "850g",
+      "dimensions": "46cm x 31cm x 18cm",
+      "waterResistance": "Water Resistant",
+      "closure": "Heavy-duty zipper",
+      "compatibility": [
+        "15-inch Laptops",
+        "15.6-inch Laptops",
+        "MacBook",
+        "Windows Laptops",
+        "Tablets"
+      ],
+      "warranty": "1 Year"
     },
-    "shipping": {
-      "freeShipping": true,
-      "estimatedDelivery": "4-7 business days",
-      "returnPeriod": "30 days",
-      "returnAvailable": true
+
+    "boxContents": [
+      "Urban Explorer Backpack",
+      "Warranty Card",
+      "Product Information Guide"
+    ]
+  },
+
+  "pros": [
+    "Modern design",
+    "Large storage capacity",
+    "Dedicated laptop compartment",
+    "Comfortable shoulder straps",
+    "Water-resistant material",
+    "Strong zippers"
+  ],
+
+  "cons": [
+    "Side pockets are relatively small",
+    "USB charging port requires a power bank",
+    "Not completely waterproof"
+  ],
+
+  "ratingBreakdown": {
+    "5": 391,
+    "4": 89,
+    "3": 23,
+    "2": 6,
+    "1": 3
+  },
+
+  "reviews": [
+    {
+      "id": "review_2001",
+      "user": {
+        "name": "James Anderson",
+        "avatar": "https://i.pravatar.cc/150?img=18"
+      },
+      "rating": 5,
+      "title": "Great everyday backpack",
+      "comment": "I carry my laptop, books and charger every day and everything fits perfectly.",
+      "helpful": 51,
+      "verifiedPurchase": true,
+      "createdAt": "2026-07-19T11:10:00Z"
     },
-    "engagement": {
-      "likes": 982,
-      "comments": 124,
-      "shares": 73,
-      "bookmarks": 287,
-      "views": 9342
-    },
-    "tags": ["backpack", "laptop-bag", "travel", "fashion", "student", "work"],
-    "createdAt": "2026-08-02T08:15:00Z",
-    "updatedAt": "2026-08-06T17:20:00Z"
+    {
+      "id": "review_2002",
+      "user": {
+        "name": "Olivia Martin",
+        "avatar": "https://i.pravatar.cc/150?img=32"
+      },
+      "rating": 4,
+      "title": "Good quality",
+      "comment": "The material feels durable and the backpack looks very nice.",
+      "helpful": 36,
+      "verifiedPurchase": true,
+      "createdAt": "2026-07-26T16:40:00Z"
+    }
+  ],
+
+  "seller": {
+    "id": "seller_502",
+    "name": "Urban Lifestyle Store",
+    "logo": "https://i.pravatar.cc/200?img=52",
+    "rating": 4.8,
+    "totalProducts": 1254,
+    "positiveFeedback": 97,
+    "verified": true
+  },
+
+  "shipping": {
+    "freeShipping": true,
+    "estimatedDelivery": "4-7 business days",
+    "returnPeriod": "30 days",
+    "returnAvailable": true
+  },
+
+  "engagement": {
+    "likes": 982,
+    "comments": 124,
+    "shares": 73,
+    "bookmarks": 287,
+    "views": 9342
+  },
+
+  "tags": [
+    "backpack",
+    "laptop-bag",
+    "travel",
+    "fashion",
+    "student",
+    "work"
+  ],
+
+  "createdAt": "2026-08-02T08:15:00Z",
+  "updatedAt": "2026-08-06T17:20:00Z"
   },
 
   {
@@ -388,8 +422,9 @@
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
-        "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1",
-        "https://images.unsplash.com/photo-1544117519-31a4b719223d"
+        "https://i.ibb.co.com/ymCZX1PJ/6e79c7872cf4437ffe067d32f60e58dc-jpg-720x720q80.jpg",
+        "https://i.ibb.co.com/KcGFD0Bk/d98ca96c6883b8fa94d313ca267f4ecf-jpg-720x720q80.jpg",
+        "https://i.ibb.co.com/VW7q8rbS/Apple-Watch-Ultra-3-Black-Titanium-Screen-Size-Case-16.jpg"
       ],
       "thumbnail": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
       "colors": [
@@ -537,11 +572,12 @@
       "stock": 115,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1556821840-3a63f95609a7",
-        "https://images.unsplash.com/photo-1578681994506-b8f463449011",
-        "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633"
+        "https://i.ibb.co.com/tMbFVYZT/3fafbfc8-f294-4095-af97-e05c2486d4b2-873541ffd150a5a8a14592ed2902646b.avif",
+        "https://i.ibb.co.com/LdzhZmdr/z2rx8f2k4fbxpwcim0uij2kb.png",
+        "https://i.ibb.co.com/23vGnGFY/hoodie-beige-vintage-oversized-front-classic-jpg.jpg",
+        "https://i.ibb.co.com/9mhC7J6V/images-2.jpg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1556821840-3a63f95609a7",
+      "thumbnail": "https://i.ibb.co.com/tMbFVYZT/3fafbfc8-f294-4095-af97-e05c2486d4b2-873541ffd150a5a8a14592ed2902646b.avif",
       "colors": [
         {
           "name": "Black",
@@ -641,453 +677,540 @@
   },
 
   {
-    "id": "post_005",
-    "slug": "lumina-portable-bluetooth-speaker-review",
-    "postType": "product_review",
-    "user": {
-      "id": "user_105",
-      "name": "Noah Wilson",
-      "username": "noahwilson",
-      "avatar": "https://i.pravatar.cc/300?img=8",
-      "verified": true,
-      "location": "Los Angeles, USA",
-      "bio": "Music lover and technology reviewer.",
-      "followers": 1764
-    },
-    "title": "Lumina Portable Bluetooth Speaker – Small Size, Big Sound",
-    "shortDescription": "My detailed experience with a compact Bluetooth speaker designed for home, travel and outdoor listening.",
-    "content": {
-      "introduction": "I wanted a compact speaker that I could easily carry while traveling without sacrificing sound quality.",
-      "fullDescription": "The Lumina Portable Speaker combines a compact body with surprisingly powerful audio, Bluetooth connectivity and a long-lasting battery.",
-      "soundQuality": "The speaker produces clear vocals and strong bass for its size. It performs particularly well in small rooms and outdoor gatherings.",
-      "portability": "Its lightweight construction makes it easy to place inside a backpack or carry around the house.",
-      "batteryExperience": "The battery easily lasts through a full day of moderate listening.",
-      "finalOpinion": "The Lumina is an excellent choice for anyone who wants portable audio without carrying a large speaker."
-    },
-    "product": {
-      "id": "product_505",
-      "sku": "LBS-2026",
-      "name": "Lumina Portable Bluetooth Speaker",
-      "brand": "Lumina Audio",
-      "model": "L-360",
-      "category": "Electronics",
-      "subcategory": "Speakers",
-      "price": 59.99,
-      "oldPrice": 79.99,
-      "currency": "USD",
-      "discount": 25,
-      "rating": 4.5,
-      "reviewCount": 372,
-      "soldCount": 2764,
-      "stock": 68,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1",
-        "https://images.unsplash.com/photo-1589003077984-894e133dabab",
-        "https://images.unsplash.com/photo-1545454675-3531b543be5d"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1",
-      "colors": [
-        {
-          "name": "Black",
-          "hex": "#111111",
-          "available": true
-        },
-        {
-          "name": "Blue",
-          "hex": "#2563EB",
-          "available": true
-        }
-      ],
-      "features": [
-        "Bluetooth 5.2",
-        "360-Degree Sound",
-        "12-Hour Battery",
-        "USB-C Charging",
-        "Built-in Microphone",
-        "Compact Design",
-        "Water Resistant"
-      ],
-      "specifications": {
-        "outputPower": "20W",
-        "bluetooth": "5.2",
-        "batteryLife": "Up to 12 hours",
-        "chargingPort": "USB-C",
-        "waterResistance": "IPX6",
-        "weight": "620g",
-        "range": "15 meters",
-        "warranty": "1 Year"
-      },
-      "boxContents": [
-        "Lumina Speaker",
-        "USB-C Cable",
-        "Quick Start Guide",
-        "Warranty Card"
-      ]
-    },
-    "pros": [
-      "Good sound quality",
-      "Portable",
-      "Long battery life",
-      "Water resistant",
-      "USB-C charging"
+  "id": "post_005",
+  "slug": "lumina-portable-bluetooth-speaker-review",
+  "postType": "product_review",
+  "user": {
+    "id": "user_105",
+    "name": "Noah Wilson",
+    "username": "noahwilson",
+    "avatar": "https://i.pravatar.cc/300?img=8",
+    "verified": true,
+    "location": "Los Angeles, USA",
+    "bio": "Music lover and technology reviewer.",
+    "followers": 1764
+  },
+  "title": "Lumina Portable Bluetooth Speaker – Small Size, Big Sound",
+  "shortDescription": "My detailed experience with a compact Bluetooth speaker designed for home, travel and outdoor listening.",
+  "content": {
+    "introduction": "I wanted a compact speaker that I could easily carry while traveling without sacrificing sound quality.",
+    "fullDescription": "The Lumina Portable Speaker combines a compact body with surprisingly powerful audio, Bluetooth connectivity and a long-lasting battery.",
+    "soundQuality": "The speaker produces clear vocals and strong bass for its size. It performs particularly well in small rooms and outdoor gatherings.",
+    "portability": "Its lightweight construction makes it easy to place inside a backpack or carry around the house.",
+    "batteryExperience": "The battery easily lasts through a full day of moderate listening.",
+    "finalOpinion": "The Lumina is an excellent choice for anyone who wants portable audio without carrying a large speaker."
+  },
+  "product": {
+    "id": "product_505",
+    "sku": "LBS-2026",
+    "name": "Lumina Portable Bluetooth Speaker",
+    "brand": "Lumina Audio",
+    "model": "L-360",
+    "category": "Electronics",
+    "subcategory": "Speakers",
+    "price": 59.99,
+    "oldPrice": 79.99,
+    "currency": "USD",
+    "discount": 25,
+    "rating": 4.5,
+    "reviewCount": 372,
+    "soldCount": 2764,
+    "stock": 68,
+    "availability": "In Stock",
+
+    "images": [
+      "https://i.ibb.co.com/ycQwcT1x/2f21095e-e213-42f4-97af-448cf4fbf03e.webp",
+      "https://i.ibb.co.com/HTN1RZkd/S12641964d1f34c4bb0e1398e52673b80i-png-720x720q80.png",
+      "https://i.ibb.co.com/PZXMqvT4/f811bcd0-7948-472e-bb7f-810b5d4023c4-CR0-0-600-450-PT0-SX600-V1.jpg",
+      "https://i.ibb.co.com/GQYyYR8Q/BDJc-Joq-A7u0hd-J1p6g-Tv-W9-FBmw-Iu-Ox3qs48-UIms-P.jpg"
     ],
-    "cons": [
-      "Bass becomes less powerful at maximum volume",
-      "No built-in equalizer"
-    ],
-    "ratingBreakdown": {
-      "5": 241,
-      "4": 91,
-      "3": 30,
-      "2": 7,
-      "1": 3
-    },
-    "reviews": [
+
+    "thumbnail": "https://i.ibb.co.com/ycQwcT1x/2f21095e-e213-42f4-97af-448cf4fbf03e.webp",
+
+    "colors": [
       {
-        "id": "review_5001",
-        "user": {
-          "name": "William Harris",
-          "avatar": "https://i.pravatar.cc/150?img=13"
-        },
-        "rating": 5,
-        "title": "Great little speaker",
-        "comment": "The sound is much louder and clearer than I expected from such a small speaker.",
-        "helpful": 39,
-        "verifiedPurchase": true,
-        "createdAt": "2026-07-20T08:40:00Z"
+        "name": "Black",
+        "hex": "#111111",
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#2563EB",
+        "available": true
       }
     ],
-    "seller": {
-      "id": "seller_505",
-      "name": "AudioHub",
-      "logo": "https://i.pravatar.cc/200?img=57",
-      "rating": 4.6,
-      "totalProducts": 921,
-      "positiveFeedback": 95,
-      "verified": true
-    },
-    "shipping": {
-      "freeShipping": true,
-      "estimatedDelivery": "3-5 business days",
-      "returnPeriod": "30 days",
-      "returnAvailable": true
-    },
-    "engagement": {
-      "likes": 867,
-      "comments": 102,
-      "shares": 58,
-      "bookmarks": 189,
-      "views": 8430
-    },
-    "tags": [
-      "speaker",
-      "bluetooth",
-      "audio",
-      "music",
-      "portable",
-      "electronics"
+
+    "sizes": [
+      "Standard"
     ],
-    "createdAt": "2026-08-02T12:00:00Z",
-    "updatedAt": "2026-08-05T10:20:00Z"
+
+    "features": [
+      "Bluetooth 5.2",
+      "360-Degree Sound",
+      "12-Hour Battery",
+      "USB-C Charging",
+      "Built-in Microphone",
+      "Compact Design",
+      "Water Resistant"
+    ],
+
+    "specifications": {
+      "outputPower": "20W",
+      "bluetooth": "5.2",
+      "batteryLife": "Up to 12 hours",
+      "chargingPort": "USB-C",
+      "waterResistance": "IPX6",
+      "weight": "620g",
+      "range": "15 meters",
+      "compatibility": [
+        "Android",
+        "iOS",
+        "Windows",
+        "macOS"
+      ],
+      "warranty": "1 Year"
+    },
+
+    "boxContents": [
+      "Lumina Speaker",
+      "USB-C Cable",
+      "Quick Start Guide",
+      "Warranty Card"
+    ]
   },
 
-  {
-    "id": "post_006",
-    "slug": "ergopro-office-chair-review",
-    "postType": "product_review",
-    "user": {
-      "id": "user_106",
-      "name": "Ethan Clark",
-      "username": "ethanclark",
-      "avatar": "https://i.pravatar.cc/300?img=17",
-      "verified": true,
-      "location": "Berlin, Germany",
-      "bio": "Remote developer and workspace enthusiast.",
-      "followers": 2180
-    },
-    "title": "ErgoPro Office Chair – A Better Chair for Long Work Sessions",
-    "shortDescription": "A detailed review of an ergonomic office chair designed for home offices and long work sessions.",
-    "content": {
-      "introduction": "As someone who spends many hours working at a desk, I wanted a chair that provided better support and comfort.",
-      "fullDescription": "The ErgoPro Office Chair features adjustable lumbar support, a breathable mesh back, padded seat, adjustable armrests and a reclining mechanism.",
-      "comfort": "The seat provides enough cushioning without feeling excessively soft. The breathable back helps keep the chair comfortable during long work sessions.",
-      "adjustability": "The height, armrests, lumbar support and recline angle can all be adjusted to suit different users.",
-      "buildQuality": "The frame feels sturdy and the base provides good stability while moving around the desk.",
-      "finalOpinion": "The ErgoPro is a strong option for students, remote workers and office professionals who want a comfortable adjustable workspace chair."
-    },
-    "product": {
-      "id": "product_506",
-      "sku": "EPC-2026",
-      "name": "ErgoPro Ergonomic Office Chair",
-      "brand": "ErgoPro",
-      "model": "EP-900",
-      "category": "Furniture",
-      "subcategory": "Office Chairs",
-      "price": 179.99,
-      "oldPrice": 229.99,
-      "currency": "USD",
-      "discount": 22,
-      "rating": 4.6,
-      "reviewCount": 287,
-      "soldCount": 1152,
-      "stock": 24,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1580480055273-228ff5388ef8",
-        "https://images.unsplash.com/photo-1592078615290-033ee584e267",
-        "https://images.unsplash.com/photo-1589384267710-7a170981ca78"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8",
-      "colors": [
-        {
-          "name": "Black",
-          "hex": "#111111",
-          "available": true
-        },
-        {
-          "name": "Gray",
-          "hex": "#6B7280",
-          "available": true
-        }
-      ],
-      "features": [
-        "Adjustable Lumbar Support",
-        "Breathable Mesh Back",
-        "Adjustable Armrests",
-        "Height Adjustment",
-        "135-Degree Recline",
-        "360-Degree Wheels",
-        "Heavy-Duty Base"
-      ],
-      "specifications": {
-        "material": "Mesh and high-density foam",
-        "seatHeight": "45-55cm",
-        "maximumWeight": "120kg",
-        "recline": "135 degrees",
-        "base": "Aluminum alloy",
-        "wheels": "Silent rolling wheels",
-        "assembly": "Required",
-        "warranty": "2 Years"
-      },
-      "boxContents": [
-        "Chair Components",
-        "Assembly Tools",
-        "Assembly Guide",
-        "Warranty Card"
-      ]
-    },
-    "pros": [
-      "Comfortable seat",
-      "Adjustable lumbar support",
-      "Breathable back",
-      "Strong build quality",
-      "Smooth wheels",
-      "Good adjustability"
-    ],
-    "cons": [
-      "Assembly takes some time",
-      "Armrests could have more adjustment options"
-    ],
-    "ratingBreakdown": {
-      "5": 174,
-      "4": 76,
-      "3": 25,
-      "2": 8,
-      "1": 4
-    },
-    "reviews": [
-      {
-        "id": "review_6001",
-        "user": {
-          "name": "Henry Adams",
-          "avatar": "https://i.pravatar.cc/150?img=19"
-        },
-        "rating": 5,
-        "title": "Excellent office chair",
-        "comment": "I work from home and this chair has made my desk setup much more comfortable.",
-        "helpful": 63,
-        "verifiedPurchase": true,
-        "createdAt": "2026-07-15T13:00:00Z"
-      }
-    ],
-    "seller": {
-      "id": "seller_506",
-      "name": "OfficeSpace Store",
-      "logo": "https://i.pravatar.cc/200?img=61",
-      "rating": 4.7,
-      "totalProducts": 458,
-      "positiveFeedback": 96,
-      "verified": true
-    },
-    "shipping": {
-      "freeShipping": false,
-      "shippingCost": 12.99,
-      "estimatedDelivery": "5-9 business days",
-      "returnPeriod": "30 days",
-      "returnAvailable": true
-    },
-    "engagement": {
-      "likes": 721,
-      "comments": 84,
-      "shares": 41,
-      "bookmarks": 164,
-      "views": 6920
-    },
-    "tags": [
-      "office-chair",
-      "ergonomic",
-      "workspace",
-      "office",
-      "furniture",
-      "home-office"
-    ],
-    "createdAt": "2026-08-03T15:30:00Z",
-    "updatedAt": "2026-08-06T09:10:00Z"
+  "pros": [
+    "Good sound quality",
+    "Portable",
+    "Long battery life",
+    "Water resistant",
+    "USB-C charging"
+  ],
+
+  "cons": [
+    "Bass becomes less powerful at maximum volume",
+    "No built-in equalizer"
+  ],
+
+  "ratingBreakdown": {
+    "5": 241,
+    "4": 91,
+    "3": 30,
+    "2": 7,
+    "1": 3
   },
 
-  {
-    "id": "post_007",
-    "slug": "brewmaster-smart-coffee-maker-review",
-    "postType": "product_review",
-    "user": {
-      "id": "user_107",
-      "name": "Grace Miller",
-      "username": "gracemiller",
-      "avatar": "https://i.pravatar.cc/300?img=49",
-      "verified": false,
-      "location": "Seattle, USA",
-      "bio": "Coffee enthusiast and home lifestyle reviewer.",
-      "followers": 1450
-    },
-    "title": "BrewMaster Smart Coffee Maker – Making Better Coffee at Home",
-    "shortDescription": "A complete review of a smart programmable coffee maker with temperature control and multiple brewing modes.",
-    "content": {
-      "introduction": "I enjoy making coffee at home, so I decided to try the BrewMaster Smart Coffee Maker.",
-      "fullDescription": "The BrewMaster combines programmable brewing, temperature control, multiple brewing strengths and a large water reservoir.",
-      "brewingExperience": "The brewing process is simple and consistent. The temperature control helps produce a balanced cup of coffee.",
-      "design": "The machine has a clean modern design that fits nicely on a kitchen counter.",
-      "cleaning": "The removable water tank and filter basket make cleaning relatively straightforward.",
-      "finalOpinion": "This is a useful coffee maker for people who want convenience and more control over their daily coffee routine."
-    },
-    "product": {
-      "id": "product_507",
-      "sku": "BMC-2026",
-      "name": "BrewMaster Smart Coffee Maker",
-      "brand": "BrewMaster",
-      "model": "Smart Brew 500",
-      "category": "Home & Kitchen",
-      "subcategory": "Coffee Makers",
-      "price": 109.99,
-      "oldPrice": 139.99,
-      "currency": "USD",
-      "discount": 21,
-      "rating": 4.5,
-      "reviewCount": 318,
-      "soldCount": 1782,
-      "stock": 36,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6",
-        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
-        "https://images.unsplash.com/photo-1509042239860-f550ce710b93"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6",
-      "colors": [
-        {
-          "name": "Black",
-          "hex": "#111111",
-          "available": true
-        },
-        {
-          "name": "White",
-          "hex": "#FFFFFF",
-          "available": true
-        }
-      ],
-      "features": [
-        "Programmable Brewing",
-        "Temperature Control",
-        "Multiple Brew Strengths",
-        "1.5L Water Reservoir",
-        "Keep-Warm Function",
-        "Auto Shut-Off",
-        "Reusable Filter"
-      ],
-      "specifications": {
-        "capacity": "1.5 Liters",
-        "power": "1100W",
-        "temperatureRange": "90-96°C",
-        "brewTime": "5-8 minutes",
-        "reservoir": "Removable",
-        "display": "Digital LCD",
-        "autoShutOff": "30 minutes",
-        "warranty": "2 Years"
+  "reviews": [
+    {
+      "id": "review_5001",
+      "user": {
+        "name": "William Harris",
+        "avatar": "https://i.pravatar.cc/150?img=13"
       },
-      "boxContents": [
-        "Coffee Maker",
-        "Reusable Filter",
-        "Measuring Spoon",
-        "Water Tank",
-        "User Manual"
-      ]
-    },
-    "pros": [
-      "Easy to use",
-      "Good temperature control",
-      "Large water tank",
-      "Programmable",
-      "Modern design"
+      "rating": 5,
+      "title": "Great little speaker",
+      "comment": "The sound is much louder and clearer than I expected from such a small speaker.",
+      "helpful": 39,
+      "verifiedPurchase": true,
+      "createdAt": "2026-07-20T08:40:00Z"
+    }
+  ],
+
+  "seller": {
+    "id": "seller_505",
+    "name": "AudioHub",
+    "logo": "https://i.pravatar.cc/200?img=57",
+    "rating": 4.6,
+    "totalProducts": 921,
+    "positiveFeedback": 95,
+    "verified": true
+  },
+
+  "shipping": {
+    "freeShipping": true,
+    "estimatedDelivery": "3-5 business days",
+    "returnPeriod": "30 days",
+    "returnAvailable": true
+  },
+
+  "engagement": {
+    "likes": 867,
+    "comments": 102,
+    "shares": 58,
+    "bookmarks": 189,
+    "views": 8430
+  },
+
+  "tags": [
+    "speaker",
+    "bluetooth",
+    "audio",
+    "music",
+    "portable",
+    "electronics"
+  ],
+
+  "createdAt": "2026-08-02T12:00:00Z",
+  "updatedAt": "2026-08-05T10:20:00Z"
+},
+
+ {
+  "id": "post_006",
+  "slug": "ergopro-office-chair-review",
+  "postType": "product_review",
+  "user": {
+    "id": "user_106",
+    "name": "Ethan Clark",
+    "username": "ethanclark",
+    "avatar": "https://i.pravatar.cc/300?img=17",
+    "verified": true,
+    "location": "Berlin, Germany",
+    "bio": "Remote developer and workspace enthusiast.",
+    "followers": 2180
+  },
+  "title": "ErgoPro Office Chair – A Better Chair for Long Work Sessions",
+  "shortDescription": "A detailed review of an ergonomic office chair designed for home offices and long work sessions.",
+  "content": {
+    "introduction": "As someone who spends many hours working at a desk, I wanted a chair that provided better support and comfort.",
+    "fullDescription": "The ErgoPro Office Chair features adjustable lumbar support, a breathable mesh back, padded seat, adjustable armrests and a reclining mechanism.",
+    "comfort": "The seat provides enough cushioning without feeling excessively soft. The breathable back helps keep the chair comfortable during long work sessions.",
+    "adjustability": "The height, armrests, lumbar support and recline angle can all be adjusted to suit different users.",
+    "buildQuality": "The frame feels sturdy and the base provides good stability while moving around the desk.",
+    "finalOpinion": "The ErgoPro is a strong option for students, remote workers and office professionals who want a comfortable adjustable workspace chair."
+  },
+  "product": {
+    "id": "product_506",
+    "sku": "EPC-2026",
+    "name": "ErgoPro Ergonomic Office Chair",
+    "brand": "ErgoPro",
+    "model": "EP-900",
+    "category": "Furniture",
+    "subcategory": "Office Chairs",
+    "price": 179.99,
+    "oldPrice": 229.99,
+    "currency": "USD",
+    "discount": 22,
+    "rating": 4.6,
+    "reviewCount": 287,
+    "soldCount": 1152,
+    "stock": 24,
+    "availability": "In Stock",
+
+    "images": [
+      "https://i.ibb.co.com/zWghZLmZ/ERGO-PRO-BG.jpg",
+      "https://i.ibb.co.com/1fFJ27L0/Resize-file-1.png",
+      "https://i.ibb.co.com/5hRNrR1J/Ergo-Pro-Ergonomic-Office-Chair-Rolling-Desk-Mesh-Computer-Gaming-Executive-Chair-with-Blade-Wheels.jpg",
+      "https://i.ibb.co.com/d433935p/Odin-Lake-Ergo-PRO6331024-V112.jpg"
     ],
-    "cons": ["Large footprint", "No built-in coffee grinder"],
-    "ratingBreakdown": {
-      "5": 205,
-      "4": 75,
-      "3": 29,
-      "2": 6,
-      "1": 3
-    },
-    "reviews": [
+
+    "thumbnail": "https://i.ibb.co.com/zWghZLmZ/ERGO-PRO-BG.jpg",
+
+    "colors": [
       {
-        "id": "review_7001",
-        "user": {
-          "name": "Ava Moore",
-          "avatar": "https://i.pravatar.cc/150?img=31"
-        },
-        "rating": 5,
-        "title": "Great coffee maker",
-        "comment": "The programmable function is very convenient for busy mornings.",
-        "helpful": 35,
-        "verifiedPurchase": true,
-        "createdAt": "2026-07-23T07:30:00Z"
+        "name": "Black",
+        "hex": "#111111",
+        "available": true
+      },
+      {
+        "name": "Gray",
+        "hex": "#6B7280",
+        "available": true
       }
     ],
-    "seller": {
-      "id": "seller_507",
-      "name": "HomeTech Market",
-      "logo": "https://i.pravatar.cc/200?img=63",
-      "rating": 4.5,
-      "totalProducts": 735,
-      "positiveFeedback": 94,
-      "verified": true
+
+    "sizes": [
+      "Standard"
+    ],
+
+    "features": [
+      "Adjustable Lumbar Support",
+      "Breathable Mesh Back",
+      "Adjustable Armrests",
+      "Height Adjustment",
+      "135-Degree Recline",
+      "360-Degree Wheels",
+      "Heavy-Duty Base"
+    ],
+
+    "specifications": {
+      "material": "Mesh and high-density foam",
+      "seatHeight": "45-55cm",
+      "maximumWeight": "120kg",
+      "recline": "135 degrees",
+      "base": "Aluminum alloy",
+      "wheels": "Silent rolling wheels",
+      "assembly": "Required",
+      "compatibility": [
+        "Home Office",
+        "Office Workspace",
+        "Study Desk",
+        "Computer Desk"
+      ],
+      "warranty": "2 Years"
     },
-    "shipping": {
-      "freeShipping": true,
-      "estimatedDelivery": "4-6 business days",
-      "returnPeriod": "30 days",
-      "returnAvailable": true
-    },
-    "engagement": {
-      "likes": 638,
-      "comments": 72,
-      "shares": 39,
-      "bookmarks": 151,
-      "views": 6412
-    },
-    "tags": ["coffee", "coffee-maker", "kitchen", "home", "smart-appliance"],
-    "createdAt": "2026-08-04T08:45:00Z",
-    "updatedAt": "2026-08-07T11:20:00Z"
+
+    "boxContents": [
+      "Chair Components",
+      "Assembly Tools",
+      "Assembly Guide",
+      "Warranty Card"
+    ]
   },
+
+  "pros": [
+    "Comfortable seat",
+    "Adjustable lumbar support",
+    "Breathable back",
+    "Strong build quality",
+    "Smooth wheels",
+    "Good adjustability"
+  ],
+
+  "cons": [
+    "Assembly takes some time",
+    "Armrests could have more adjustment options"
+  ],
+
+  "ratingBreakdown": {
+    "5": 174,
+    "4": 76,
+    "3": 25,
+    "2": 8,
+    "1": 4
+  },
+
+  "reviews": [
+    {
+      "id": "review_6001",
+      "user": {
+        "name": "Henry Adams",
+        "avatar": "https://i.pravatar.cc/150?img=19"
+      },
+      "rating": 5,
+      "title": "Excellent office chair",
+      "comment": "I work from home and this chair has made my desk setup much more comfortable.",
+      "helpful": 63,
+      "verifiedPurchase": true,
+      "createdAt": "2026-07-15T13:00:00Z"
+    }
+  ],
+
+  "seller": {
+    "id": "seller_506",
+    "name": "OfficeSpace Store",
+    "logo": "https://i.pravatar.cc/200?img=61",
+    "rating": 4.7,
+    "totalProducts": 458,
+    "positiveFeedback": 96,
+    "verified": true
+  },
+
+  "shipping": {
+    "freeShipping": false,
+    "shippingCost": 12.99,
+    "estimatedDelivery": "5-9 business days",
+    "returnPeriod": "30 days",
+    "returnAvailable": true
+  },
+
+  "engagement": {
+    "likes": 721,
+    "comments": 84,
+    "shares": 41,
+    "bookmarks": 164,
+    "views": 6920
+  },
+
+  "tags": [
+    "office-chair",
+    "ergonomic",
+    "workspace",
+    "office",
+    "furniture",
+    "home-office"
+  ],
+
+  "createdAt": "2026-08-03T15:30:00Z",
+  "updatedAt": "2026-08-06T09:10:00Z"
+},
+
+  {
+  "id": "post_007",
+  "slug": "brewmaster-smart-coffee-maker-review",
+  "postType": "product_review",
+  "user": {
+    "id": "user_107",
+    "name": "Grace Miller",
+    "username": "gracemiller",
+    "avatar": "https://i.pravatar.cc/300?img=49",
+    "verified": false,
+    "location": "Seattle, USA",
+    "bio": "Coffee enthusiast and home lifestyle reviewer.",
+    "followers": 1450
+  },
+  "title": "BrewMaster Smart Coffee Maker – Making Better Coffee at Home",
+  "shortDescription": "A complete review of a smart programmable coffee maker with temperature control and multiple brewing modes.",
+  "content": {
+    "introduction": "I enjoy making coffee at home, so I decided to try the BrewMaster Smart Coffee Maker.",
+    "fullDescription": "The BrewMaster combines programmable brewing, temperature control, multiple brewing strengths and a large water reservoir.",
+    "brewingExperience": "The brewing process is simple and consistent. The temperature control helps produce a balanced cup of coffee.",
+    "design": "The machine has a clean modern design that fits nicely on a kitchen counter.",
+    "cleaning": "The removable water tank and filter basket make cleaning relatively straightforward.",
+    "finalOpinion": "This is a useful coffee maker for people who want convenience and more control over their daily coffee routine."
+  },
+  "product": {
+    "id": "product_507",
+    "sku": "BMC-2026",
+    "name": "BrewMaster Smart Coffee Maker",
+    "brand": "BrewMaster",
+    "model": "Smart Brew 500",
+    "category": "Home & Kitchen",
+    "subcategory": "Coffee Makers",
+    "price": 109.99,
+    "oldPrice": 139.99,
+    "currency": "USD",
+    "discount": 21,
+    "rating": 4.5,
+    "reviewCount": 318,
+    "soldCount": 1782,
+    "stock": 36,
+    "availability": "In Stock",
+
+    "images": [
+      "https://i.ibb.co.com/0y5DPTKY/atomi-smart-wifi-coffee-maker-main.jpg",
+      "https://i.ibb.co.com/m3WgM51/SC-007-1000x.jpg",
+      "https://i.ibb.co.com/cKNH30tL/GE-Coffee-Maker-App.jpg",
+      "https://i.ibb.co.com/N6Scw4Wx/Melitta-barista-ts-smart-coffee-machine-2.jpg"
+    ],
+
+    "thumbnail": "https://i.ibb.co.com/0y5DPTKY/atomi-smart-wifi-coffee-maker-main.jpg",
+
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#111111",
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "available": true
+      }
+    ],
+
+    "sizes": [
+      "Standard"
+    ],
+
+    "features": [
+      "Programmable Brewing",
+      "Temperature Control",
+      "Multiple Brew Strengths",
+      "1.5L Water Reservoir",
+      "Keep-Warm Function",
+      "Auto Shut-Off",
+      "Reusable Filter"
+    ],
+
+    "specifications": {
+      "capacity": "1.5 Liters",
+      "power": "1100W",
+      "temperatureRange": "90-96°C",
+      "brewTime": "5-8 minutes",
+      "reservoir": "Removable",
+      "display": "Digital LCD",
+      "autoShutOff": "30 minutes",
+      "compatibility": [
+        "Ground Coffee",
+        "Home Kitchen",
+        "Office Kitchen",
+        "Standard Coffee Cups"
+      ],
+      "warranty": "2 Years"
+    },
+
+    "boxContents": [
+      "Coffee Maker",
+      "Reusable Filter",
+      "Measuring Spoon",
+      "Water Tank",
+      "User Manual"
+    ]
+  },
+
+  "pros": [
+    "Easy to use",
+    "Good temperature control",
+    "Large water tank",
+    "Programmable",
+    "Modern design"
+  ],
+
+  "cons": [
+    "Large footprint",
+    "No built-in coffee grinder"
+  ],
+
+  "ratingBreakdown": {
+    "5": 205,
+    "4": 75,
+    "3": 29,
+    "2": 6,
+    "1": 3
+  },
+
+  "reviews": [
+    {
+      "id": "review_7001",
+      "user": {
+        "name": "Ava Moore",
+        "avatar": "https://i.pravatar.cc/150?img=31"
+      },
+      "rating": 5,
+      "title": "Great coffee maker",
+      "comment": "The programmable function is very convenient for busy mornings.",
+      "helpful": 35,
+      "verifiedPurchase": true,
+      "createdAt": "2026-07-23T07:30:00Z"
+    }
+  ],
+
+  "seller": {
+    "id": "seller_507",
+    "name": "HomeTech Market",
+    "logo": "https://i.pravatar.cc/200?img=63",
+    "rating": 4.5,
+    "totalProducts": 735,
+    "positiveFeedback": 94,
+    "verified": true
+  },
+
+  "shipping": {
+    "freeShipping": true,
+    "estimatedDelivery": "4-6 business days",
+    "returnPeriod": "30 days",
+    "returnAvailable": true
+  },
+
+  "engagement": {
+    "likes": 638,
+    "comments": 72,
+    "shares": 39,
+    "bookmarks": 151,
+    "views": 6412
+  },
+
+  "tags": [
+    "coffee",
+    "coffee-maker",
+    "kitchen",
+    "home",
+    "smart-appliance"
+  ],
+
+  "createdAt": "2026-08-04T08:45:00Z",
+  "updatedAt": "2026-08-07T11:20:00Z"
+},
 
   {
     "id": "post_008",
@@ -1132,12 +1255,12 @@
       "stock": 94,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
-        "https://images.unsplash.com/photo-1549298916-b41d501d3772",
-        "https://images.unsplash.com/photo-1460353581641-37baddab0fa2",
-        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2"
+        "https://i.ibb.co.com/qLX5mrCW/3-gkpk-B3.jpg",
+        "https://i.ibb.co.com/fV2v2jgN/f63067fe-9e28-4a41-b1cc-fb5532ff2152.jpg",
+        "https://i.ibb.co.com/RGVjpZ4X/f2673a82-5a5e-4119-8a0b-fd5e2f2b96d1.jpg",
+        "https://i.ibb.co.com/Xr4r8XHN/2b17f31481e391593d6d3da2dfea9954.jpg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+      "thumbnail": "https://i.ibb.co.com/qLX5mrCW/3-gkpk-B3.jpg",
       "colors": [
         {
           "name": "Black",
@@ -1257,5 +1380,211 @@
     ],
     "createdAt": "2026-08-04T17:10:00Z",
     "updatedAt": "2026-08-07T14:30:00Z"
+  },
+  {
+    "id": "post_009",
+    "slug": "profit-smart-fitness-treadmill-review",
+    "postType": "product_review",
+
+    "user": {
+      "id": "user_108",
+      "name": "Daniel Turner",
+      "username": "danielturner",
+      "avatar": "https://i.pravatar.cc/300?img=11",
+      "verified": true,
+      "location": "Sydney, Australia",
+      "bio": "Fitness enthusiast and home workout product reviewer.",
+      "followers": 1968
+    },
+
+    "title": "ProFit Smart Fitness Treadmill – A Great Home Workout Companion",
+
+    "shortDescription": "A detailed review of a compact smart treadmill designed for walking, jogging and home cardio workouts.",
+
+    "content": {
+      "introduction": "I wanted a treadmill that would fit comfortably in my home while still providing enough features for regular walking and jogging sessions.",
+      "fullDescription": "The ProFit Smart Fitness Treadmill combines a compact folding design with multiple speed settings, a digital display, Bluetooth connectivity and several built-in workout programs.",
+      "performance": "The treadmill provides a smooth experience during walking and light jogging. The motor remains relatively quiet during normal workouts.",
+      "design": "The compact folding frame makes it easier to store when the treadmill is not being used.",
+      "controls": "The digital control panel makes it simple to adjust speed and monitor workout information.",
+      "noiseLevel": "The motor produces moderate noise during higher-speed sessions but remains reasonably quiet for normal home use.",
+      "finalOpinion": "The ProFit Smart Fitness Treadmill is a practical option for people who want a convenient cardio machine for home workouts."
+    },
+
+    "product": {
+      "id": "product_508",
+      "sku": "PFT-2026",
+      "name": "ProFit Smart Fitness Treadmill",
+      "brand": "ProFit",
+      "model": "RunMax T800",
+      "category": "Sports & Fitness",
+      "subcategory": "Treadmills",
+
+      "price": 499.99,
+      "oldPrice": 599.99,
+      "currency": "USD",
+      "discount": 17,
+
+      "rating": 4.6,
+      "reviewCount": 286,
+      "soldCount": 1248,
+      "stock": 18,
+      "availability": "In Stock",
+
+      "images": [
+        "https://i.ibb.co.com/CZHnVTZ/1742463359053-Health-Fit-Daily-Fitness-S900-DS-TFT-Smart-Android-Motorized-Treadmill-2024.jpg",
+        "https://i.ibb.co.com/YBcj4MFH/MINI-CHANGE-new-mp4.jpg",
+        "https://i.ibb.co.com/JFscC0QS/images-3.jpg",
+        "https://i.ibb.co.com/KpKsgqhK/X20-2-500x500.jpg"
+      ],
+
+      "thumbnail": "https://i.ibb.co.com/CZHnVTZ/1742463359053-Health-Fit-Daily-Fitness-S900-DS-TFT-Smart-Android-Motorized-Treadmill-2024.jpg",
+
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#111111",
+          "available": true
+        },
+        {
+          "name": "Silver",
+          "hex": "#9CA3AF",
+          "available": true
+        }
+      ],
+
+      "sizes": ["Standard"],
+
+      "features": [
+        "Folding Design",
+        "Digital LCD Display",
+        "Multiple Speed Levels",
+        "Bluetooth Connectivity",
+        "12 Built-in Workout Programs",
+        "Safety Emergency Stop",
+        "Shock Absorption System",
+        "Transportation Wheels"
+      ],
+
+      "specifications": {
+        "motorPower": "2.5 HP",
+        "maximumSpeed": "12 km/h",
+        "runningSurface": "120cm x 42cm",
+        "maximumUserWeight": "110kg",
+        "display": "Digital LCD",
+        "programs": "12 Workout Programs",
+        "connectivity": "Bluetooth 5.0",
+        "folding": "Yes",
+        "incline": "Manual 3-Level Incline",
+        "noiseLevel": "Low to Moderate",
+        "compatibility": [
+          "Home Workouts",
+          "Walking",
+          "Light Jogging",
+          "Cardio Training"
+        ],
+        "warranty": "2 Years"
+      },
+
+      "boxContents": [
+        "ProFit Smart Treadmill",
+        "Safety Key",
+        "Remote Control",
+        "Assembly Tools",
+        "User Manual",
+        "Warranty Card"
+      ]
+    },
+
+    "pros": [
+      "Compact folding design",
+      "Smooth walking experience",
+      "Multiple workout programs",
+      "Digital display is easy to use",
+      "Bluetooth connectivity",
+      "Good shock absorption"
+    ],
+
+    "cons": [
+      "Limited maximum speed",
+      "Manual incline adjustment",
+      "Requires some assembly"
+    ],
+
+    "ratingBreakdown": {
+      "5": 176,
+      "4": 71,
+      "3": 27,
+      "2": 8,
+      "1": 4
+    },
+
+    "reviews": [
+      {
+        "id": "review_8001",
+        "user": {
+          "name": "Michael Brown",
+          "avatar": "https://i.pravatar.cc/150?img=12"
+        },
+        "rating": 5,
+        "title": "Great home treadmill",
+        "comment": "The folding design is very useful and the treadmill works smoothly for my daily walking sessions.",
+        "helpful": 48,
+        "verifiedPurchase": true,
+        "createdAt": "2026-07-18T09:20:00Z"
+      },
+      {
+        "id": "review_8002",
+        "user": {
+          "name": "Sophia Davis",
+          "avatar": "https://i.pravatar.cc/150?img=25"
+        },
+        "rating": 4,
+        "title": "Good for home workouts",
+        "comment": "It fits nicely in my room and the controls are simple to understand.",
+        "helpful": 31,
+        "verifiedPurchase": true,
+        "createdAt": "2026-07-25T14:15:00Z"
+      }
+    ],
+
+    "seller": {
+      "id": "seller_508",
+      "name": "FitZone Store",
+      "logo": "https://i.pravatar.cc/200?img=64",
+      "rating": 4.7,
+      "totalProducts": 612,
+      "positiveFeedback": 96,
+      "verified": true
+    },
+
+    "shipping": {
+      "freeShipping": false,
+      "shippingCost": 29.99,
+      "estimatedDelivery": "5-10 business days",
+      "returnPeriod": "30 days",
+      "returnAvailable": true
+    },
+
+    "engagement": {
+      "likes": 934,
+      "comments": 116,
+      "shares": 67,
+      "bookmarks": 231,
+      "views": 9821
+    },
+
+    "tags": [
+      "treadmill",
+      "fitness",
+      "sports",
+      "workout",
+      "cardio",
+      "home-gym",
+      "exercise"
+    ],
+
+    "createdAt": "2026-08-05T10:30:00Z",
+    "updatedAt": "2026-08-08T13:45:00Z"
   }
 ]
