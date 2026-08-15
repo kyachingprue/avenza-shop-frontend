@@ -125,7 +125,7 @@ const ProductDetails = () => {
   return (
     <main className="min-h-screen bg-[#f7f9fc] text-gray-900">
       {/* Product Hero */}
-      <section className="mx-auto w-11/12 max-w-7xl px-2 pb-12 pt-28 md:px-5">
+      <section className="mx-auto w-11/12 max-w-7xl px-2 pb-12 pt-28">
         <div className="mb-7 flex flex-wrap items-center gap-2 text-sm text-gray-500">
           <Link to="/" className="transition hover:text-cyan-600">
             Home
@@ -175,7 +175,7 @@ const ProductDetails = () => {
                 <img
                   src={selectedImage}
                   alt={product.name}
-                  className="h-full w-full object-contain p-4 md:p-8"
+                  className="h-full w-full object-cover p-2 md:p-4 rounded-2xl"
                 />
               </motion.div>
             </div>

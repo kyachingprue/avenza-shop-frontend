@@ -30,7 +30,7 @@ const ProductCard = ({ product }) => {
     <div>
       <div
         data-aos="fade-up"
-        className="group overflow-hidden rounded-2xl border border-cyan-100 bg-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+        className="group overflow-hidden rounded-2xl border border-cyan-100 bg-white shadow-md transition-all hover:duration-300 hover:-translate-y-1 hover:shadow-xl"
       >
         {/* ================= IMAGE ================= */}
         <div className="relative overflow-hidden bg-gray-100">
