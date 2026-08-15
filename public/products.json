@@ -5,36 +5,222 @@
     "slug": "apple-iphone-16-pro",
     "brand": "Apple",
     "category": "Smartphones",
+    "subcategory": "Premium Smartphones",
     "price": 1199,
     "oldPrice": 1299,
     "discount": 8,
     "rating": 4.9,
-    "reviews": 3254,
+    "reviews": [
+      {
+        "id": "review_001",
+        "user": {
+          "name": "Daniel Carter",
+          "avatar": "https://i.pravatar.cc/150?img=12"
+        },
+        "rating": 5,
+        "title": "Excellent upgrade",
+        "comment": "The display is smooth, performance is fast and the camera system is excellent for everyday photography.",
+        "verifiedPurchase": true,
+        "helpful": 142,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_002",
+        "user": {
+          "name": "Sophia Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=32"
+        },
+        "rating": 5,
+        "title": "Premium build quality",
+        "comment": "The titanium finish feels premium and the phone is comfortable for daily use.",
+        "verifiedPurchase": true,
+        "helpful": 96,
+        "date": "2026-07-10"
+      }
+    ],
     "stock": 28,
-    "sku": "APL-IP16P-001",
+    "sku": "APL-IP16P-256-NAT",
     "thumbnail": "https://i.ibb.co.com/G4GMP6kp/apple-iphone-16-pro-2.jpg",
     "images": [
       "https://i.ibb.co.com/hRz8j0Mj/Apple-i-Phone-16-Pro-hero-240909-lp-jpg-landing-big-2x.jpg",
       "https://i.ibb.co.com/hFy6bkHx/iphone-16-vs-16-pro-lead-673344dae598a.avif",
       "https://i.ibb.co.com/qY3YHk6g/images-3.jpg"
     ],
-    "description": "Experience flagship performance with the latest Apple A-series chip, advanced camera system, and stunning Super Retina display.",
+    "shortDescription": "Premium Apple flagship with A18 Pro performance, ProMotion display, advanced cameras, USB-C and titanium construction.",
+    "description": "The iPhone 16 Pro combines flagship performance with a premium titanium design, a high-refresh-rate Super Retina XDR display, an advanced camera system and USB-C connectivity. It is designed for demanding everyday use, photography, video, gaming, communication and professional mobile workflows.",
     "features": [
-      "6.3-inch OLED Display",
-      "Triple Camera",
-      "5G Connectivity",
-      "Face ID"
+      {
+        "title": "A18 Pro Chip",
+        "description": "High-performance Apple silicon for demanding apps, gaming and creative workflows."
+      },
+      {
+        "title": "ProMotion Display",
+        "description": "Responsive high-refresh-rate OLED display for smooth scrolling and animations."
+      },
+      {
+        "title": "Pro Camera System",
+        "description": "Flexible camera system for detailed photography, portraits, landscapes and video."
+      },
+      {
+        "title": "Titanium Design",
+        "description": "Premium titanium construction with a refined lightweight design."
+      },
+      {
+        "title": "USB-C",
+        "description": "USB-C connectivity for charging and compatible accessories."
+      },
+      {
+        "title": "5G",
+        "description": "Fast mobile connectivity on compatible networks."
+      }
     ],
     "specifications": {
-      "Display": "6.3-inch OLED",
-      "Storage": "256GB",
-      "RAM": "8GB",
-      "Battery": "3582mAh",
-      "Color": "Natural Titanium"
+      "General": {
+        "Brand": "Apple",
+        "Model": "iPhone 16 Pro",
+        "Operating System": "iOS",
+        "Release Year": 2024
+      },
+      "Display": {
+        "Type": "Super Retina XDR OLED",
+        "Size": "6.3 inches",
+        "Resolution": "2622 x 1206 pixels",
+        "Refresh Rate": "Up to 120Hz",
+        "HDR": "Yes"
+      },
+      "Performance": {
+        "Processor": "Apple A18 Pro",
+        "CPU": "6-core CPU",
+        "GPU": "6-core GPU",
+        "RAM": "8GB"
+      },
+      "Storage": {
+        "Capacity": "256GB",
+        "Expandable": "No"
+      },
+      "Camera": {
+        "Main": "48MP Fusion",
+        "Ultra Wide": "48MP",
+        "Telephoto": "12MP",
+        "Front": "12MP TrueDepth",
+        "Video": "Up to 4K Dolby Vision"
+      },
+      "Battery": {
+        "Type": "Rechargeable lithium-ion",
+        "Charging": "USB-C",
+        "Wireless Charging": "MagSafe and Qi2 compatible"
+      },
+      "Connectivity": {
+        "Network": "5G",
+        "WiFi": "Wi-Fi 7",
+        "Bluetooth": "Bluetooth 5.3",
+        "NFC": "Yes",
+        "USB": "USB-C"
+      },
+      "Security": {
+        "Biometric": "Face ID"
+      },
+      "Physical": {
+        "Material": "Titanium",
+        "Color": "Natural Titanium",
+        "Water Resistance": "IP68",
+        "Weight": "Approximately 199g"
+      }
     },
+    "variants": [
+      {
+        "id": "ip16p-natural-256",
+        "color": "Natural Titanium",
+        "storage": "256GB",
+        "price": 1199,
+        "stock": 28,
+        "sku": "APL-IP16P-256-NAT"
+      },
+      {
+        "id": "ip16p-black-256",
+        "color": "Black Titanium",
+        "storage": "256GB",
+        "price": 1199,
+        "stock": 16,
+        "sku": "APL-IP16P-256-BLK"
+      },
+      {
+        "id": "ip16p-white-512",
+        "color": "White Titanium",
+        "storage": "512GB",
+        "price": 1399,
+        "stock": 11,
+        "sku": "APL-IP16P-512-WHT"
+      }
+    ],
+    "packageContents": [
+      "iPhone 16 Pro",
+      "USB-C Charge Cable",
+      "Documentation",
+      "SIM ejector tool"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_001",
+      "name": "TechWorld Electronics",
+      "rating": 4.8,
+      "totalProducts": 1842,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.9,
+      "totalReviews": 3254,
+      "ratingBreakdown": {
+        "5": 2867,
+        "4": 278,
+        "3": 71,
+        "2": 23,
+        "1": 15
+      }
+    },
+    "faqs": [
+      {
+        "question": "Does it support 5G?",
+        "answer": "Yes, it supports compatible 5G cellular networks."
+      },
+      {
+        "question": "Does it support wireless charging?",
+        "answer": "Yes, it supports MagSafe and compatible Qi2 wireless charging."
+      },
+      {
+        "question": "Can storage be expanded?",
+        "answer": "No, internal storage cannot be expanded with a memory card."
+      }
+    ],
+    "tags": [
+      "apple",
+      "iphone",
+      "iphone 16 pro",
+      "5g",
+      "ios",
+      "titanium",
+      "camera phone"
+    ],
+    "relatedProducts": [2, 3, 4],
     "isFeatured": true,
     "isNew": true,
-    "freeShipping": true
+    "isBestSeller": true,
+    "isTrending": true,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-01-12T10:30:00Z",
+    "updatedAt": "2026-08-10T14:25:00Z"
   },
   {
     "id": 2,
@@ -42,35 +228,238 @@
     "slug": "samsung-galaxy-s25-ultra",
     "brand": "Samsung",
     "category": "Smartphones",
+    "subcategory": "Premium Smartphones",
     "price": 1249,
     "oldPrice": 1399,
     "discount": 11,
     "rating": 4.8,
-    "reviews": 2790,
+    "reviews": [
+      {
+        "id": "review_003",
+        "user": {
+          "name": "James Anderson",
+          "avatar": "https://i.pravatar.cc/150?img=11"
+        },
+        "rating": 5,
+        "title": "Fantastic flagship",
+        "comment": "The display is excellent and the S Pen is very useful for notes and productivity.",
+        "verifiedPurchase": true,
+        "helpful": 127,
+        "date": "2026-07-22"
+      },
+      {
+        "id": "review_004",
+        "user": {
+          "name": "Emily Johnson",
+          "avatar": "https://i.pravatar.cc/150?img=44"
+        },
+        "rating": 5,
+        "title": "Amazing camera",
+        "comment": "The camera system provides detailed photos and useful zoom options.",
+        "verifiedPurchase": true,
+        "helpful": 103,
+        "date": "2026-07-15"
+      }
+    ],
     "stock": 35,
-    "sku": "SMS-S25U-002",
+    "sku": "SMS-S25U-512-TIT",
     "thumbnail": "https://i.ibb.co.com/Q7GtLg10/9bbfcc379bd5b04d8afca53215d6ab25-jpg-720x720q80.jpg",
     "images": [
       "https://i.ibb.co.com/ZpRh8SHS/galaxy-s25-ultra-features-one-ui-visual-mo.jpg",
       "https://i.ibb.co.com/fYdyjZpt/images-4.jpg",
       "https://i.ibb.co.com/Mk5Zkmn9/images-5.jpg"
     ],
-    "description": "Premium Android flagship with AI-powered camera, powerful Snapdragon processor, and S Pen support.",
+    "shortDescription": "Samsung flagship with a large Dynamic AMOLED 2X display, Galaxy AI features, advanced cameras, Snapdragon performance and integrated S Pen.",
+    "description": "The Galaxy S25 Ultra is a premium Android flagship designed for photography, productivity, gaming and everyday communication. It combines a large high-resolution AMOLED display, powerful Snapdragon performance, advanced multi-camera hardware, long battery life and an integrated S Pen.",
     "features": [
-      "200MP Camera",
-      "120Hz AMOLED",
-      "S Pen",
-      "5000mAh Battery"
+      {
+        "title": "Galaxy AI",
+        "description": "AI-powered tools for productivity, communication and everyday smartphone tasks."
+      },
+      {
+        "title": "200MP Camera",
+        "description": "High-resolution main camera for detailed everyday photography."
+      },
+      {
+        "title": "Advanced Zoom",
+        "description": "Dedicated telephoto cameras provide flexible zoom capabilities."
+      },
+      {
+        "title": "Built-in S Pen",
+        "description": "Integrated stylus for writing, drawing and precise interaction."
+      },
+      {
+        "title": "Dynamic AMOLED 2X",
+        "description": "Large vibrant display with smooth high-refresh-rate performance."
+      },
+      {
+        "title": "5000mAh Battery",
+        "description": "Large battery designed for dependable daily usage."
+      }
     ],
     "specifications": {
-      "Display": "6.8-inch Dynamic AMOLED",
-      "Storage": "512GB",
-      "RAM": "12GB",
-      "Processor": "Snapdragon 8 Elite"
+      "General": {
+        "Brand": "Samsung",
+        "Model": "Galaxy S25 Ultra",
+        "Operating System": "Android",
+        "Interface": "One UI",
+        "Release Year": 2025
+      },
+      "Display": {
+        "Type": "Dynamic AMOLED 2X",
+        "Size": "6.8 inches",
+        "Resolution": "3120 x 1440 pixels",
+        "Refresh Rate": "Up to 120Hz",
+        "HDR": "HDR10+"
+      },
+      "Performance": {
+        "Processor": "Snapdragon 8 Elite for Galaxy",
+        "CPU": "Octa-core",
+        "GPU": "Adreno",
+        "RAM": "12GB"
+      },
+      "Storage": {
+        "Capacity": "512GB",
+        "Expandable": "No"
+      },
+      "Camera": {
+        "Main": "200MP",
+        "Ultra Wide": "50MP",
+        "Telephoto": "50MP + 10MP",
+        "Front": "12MP",
+        "Video": "Up to 8K"
+      },
+      "Battery": {
+        "Capacity": "5000mAh",
+        "Charging": "USB-C",
+        "Wireless Charging": "Supported",
+        "Reverse Charging": "Supported"
+      },
+      "Connectivity": {
+        "Network": "5G",
+        "WiFi": "Wi-Fi 7",
+        "Bluetooth": "Bluetooth 5.4",
+        "NFC": "Yes",
+        "USB": "USB-C"
+      },
+      "Security": {
+        "Fingerprint": "Ultrasonic under-display",
+        "Samsung Knox": "Supported"
+      },
+      "S Pen": {
+        "Included": true,
+        "Built In": true
+      },
+      "Physical": {
+        "Material": "Titanium",
+        "Color": "Titanium Black",
+        "Water Resistance": "IP68",
+        "Weight": "Approximately 218g"
+      }
     },
+    "variants": [
+      {
+        "id": "s25u-black-256",
+        "color": "Titanium Black",
+        "storage": "256GB",
+        "price": 1199,
+        "stock": 18,
+        "sku": "SMS-S25U-256-BLK"
+      },
+      {
+        "id": "s25u-black-512",
+        "color": "Titanium Black",
+        "storage": "512GB",
+        "price": 1249,
+        "stock": 35,
+        "sku": "SMS-S25U-512-BLK"
+      },
+      {
+        "id": "s25u-gray-512",
+        "color": "Titanium Gray",
+        "storage": "512GB",
+        "price": 1249,
+        "stock": 21,
+        "sku": "SMS-S25U-512-GRY"
+      },
+      {
+        "id": "s25u-silver-1tb",
+        "color": "Titanium Silver",
+        "storage": "1TB",
+        "price": 1499,
+        "stock": 9,
+        "sku": "SMS-S25U-1TB-SLV"
+      }
+    ],
+    "packageContents": [
+      "Samsung Galaxy S25 Ultra",
+      "USB Type-C Cable",
+      "S Pen",
+      "SIM Ejector Tool",
+      "Quick Start Guide"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_002",
+      "name": "MobileTech Store",
+      "rating": 4.7,
+      "totalProducts": 1265,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.8,
+      "totalReviews": 2790,
+      "ratingBreakdown": {
+        "5": 2342,
+        "4": 321,
+        "3": 82,
+        "2": 31,
+        "1": 14
+      }
+    },
+    "faqs": [
+      {
+        "question": "Does it include an S Pen?",
+        "answer": "Yes, the S Pen is integrated into the device."
+      },
+      {
+        "question": "Does it support 5G?",
+        "answer": "Yes, it supports compatible 5G networks."
+      },
+      {
+        "question": "Can storage be expanded?",
+        "answer": "No, it does not include a microSD card slot."
+      }
+    ],
+    "tags": [
+      "samsung",
+      "galaxy s25 ultra",
+      "android",
+      "5g",
+      "galaxy ai",
+      "s pen",
+      "200mp"
+    ],
+    "relatedProducts": [1, 3, 4],
     "isFeatured": true,
     "isNew": true,
-    "freeShipping": true
+    "isBestSeller": true,
+    "isTrending": true,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-02-04T09:15:00Z",
+    "updatedAt": "2026-08-11T16:40:00Z"
   },
   {
     "id": 3,
@@ -78,11 +467,39 @@
     "slug": "sony-wh1000xm5",
     "brand": "Sony",
     "category": "Headphones",
+    "subcategory": "Wireless Headphones",
     "price": 349,
     "oldPrice": 399,
     "discount": 13,
     "rating": 4.9,
-    "reviews": 6100,
+    "reviews": [
+      {
+        "id": "review_005",
+        "user": {
+          "name": "Robert Miller",
+          "avatar": "https://i.pravatar.cc/150?img=14"
+        },
+        "rating": 5,
+        "title": "Excellent noise cancellation",
+        "comment": "The noise cancellation works very well during travel and the headphones are comfortable for long sessions.",
+        "verifiedPurchase": true,
+        "helpful": 184,
+        "date": "2026-07-25"
+      },
+      {
+        "id": "review_006",
+        "user": {
+          "name": "Olivia Martinez",
+          "avatar": "https://i.pravatar.cc/150?img=47"
+        },
+        "rating": 5,
+        "title": "Great for work",
+        "comment": "Multipoint connectivity makes switching between my laptop and phone very convenient.",
+        "verifiedPurchase": true,
+        "helpful": 156,
+        "date": "2026-07-17"
+      }
+    ],
     "stock": 60,
     "sku": "SNY-XM5-003",
     "thumbnail": "https://i.ibb.co.com/W4kZWwMZ/5318-39824.jpg",
@@ -91,21 +508,160 @@
       "https://i.ibb.co.com/sJJSCzNz/La-M4x-Hqe-VEor-Nn-R6-Mb-W4d5.jpg",
       "https://i.ibb.co.com/GvKM82K5/M10238756-black-008.png"
     ],
-    "description": "Industry-leading wireless noise cancelling headphones with premium sound quality.",
+    "shortDescription": "Premium wireless over-ear headphones with advanced noise cancellation, detailed sound, multipoint Bluetooth and long battery life.",
+    "description": "The Sony WH-1000XM5 is designed for immersive listening, travel, work and everyday entertainment. Advanced noise cancellation helps reduce surrounding sounds while the wireless platform provides flexible connectivity and long playback time.",
     "features": [
-      "30 Hours Battery",
-      "Noise Cancellation",
-      "Bluetooth 5.3",
-      "Fast Charging"
+      {
+        "title": "Advanced Noise Cancellation",
+        "description": "Reduces surrounding ambient noise for a more focused listening experience."
+      },
+      {
+        "title": "High Quality Audio",
+        "description": "30mm drivers provide detailed sound across a broad listening range."
+      },
+      {
+        "title": "30 Hour Battery",
+        "description": "Up to approximately 30 hours of playback with noise cancellation enabled."
+      },
+      {
+        "title": "Multipoint",
+        "description": "Connect with compatible devices and switch between them conveniently."
+      },
+      {
+        "title": "Fast Charging",
+        "description": "USB-C charging provides additional listening time after a short charge."
+      },
+      {
+        "title": "Touch Controls",
+        "description": "Touch controls manage playback, volume and supported calls."
+      }
     ],
     "specifications": {
-      "Weight": "250g",
-      "Battery": "30 Hours",
-      "Color": "Black"
+      "General": {
+        "Brand": "Sony",
+        "Model": "WH-1000XM5",
+        "Type": "Wireless Over-Ear Headphones",
+        "Release Year": 2022
+      },
+      "Audio": {
+        "Driver": "30mm",
+        "Type": "Dynamic",
+        "Frequency Response": "4Hz - 40kHz",
+        "Noise Cancellation": "Active",
+        "Ambient Mode": "Supported"
+      },
+      "Connectivity": {
+        "Bluetooth": "Bluetooth 5.2",
+        "Codecs": "SBC, AAC, LDAC",
+        "Multipoint": "Supported",
+        "Wired": "3.5mm audio cable",
+        "NFC": "Supported"
+      },
+      "Battery": {
+        "Playback": "Up to 30 hours with ANC",
+        "Without ANC": "Up to 40 hours",
+        "Charging": "USB-C",
+        "Fast Charging": "Supported"
+      },
+      "Microphone": {
+        "Microphones": "Multiple built-in microphones",
+        "Hands Free Calling": "Supported"
+      },
+      "Comfort": {
+        "Design": "Over-Ear",
+        "Foldable": "Yes",
+        "Ear Pads": "Soft cushioned"
+      },
+      "Physical": {
+        "Weight": "250g",
+        "Color": "Black"
+      }
     },
+    "variants": [
+      {
+        "id": "xm5-black",
+        "color": "Black",
+        "price": 349,
+        "stock": 60,
+        "sku": "SNY-XM5-BLK"
+      },
+      {
+        "id": "xm5-silver",
+        "color": "Silver",
+        "price": 349,
+        "stock": 27,
+        "sku": "SNY-XM5-SLV"
+      }
+    ],
+    "packageContents": [
+      "Headphones",
+      "Carrying Case",
+      "USB-C Charging Cable",
+      "Headphone Cable",
+      "Airplane Adapter",
+      "Documentation"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_003",
+      "name": "AudioGear Electronics",
+      "rating": 4.9,
+      "totalProducts": 842,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.9,
+      "totalReviews": 6100,
+      "ratingBreakdown": {
+        "5": 5364,
+        "4": 498,
+        "3": 143,
+        "2": 61,
+        "1": 34
+      }
+    },
+    "faqs": [
+      {
+        "question": "How long does the battery last?",
+        "answer": "Up to approximately 30 hours with noise cancellation enabled."
+      },
+      {
+        "question": "Does it support multipoint?",
+        "answer": "Yes, multipoint Bluetooth connectivity is supported."
+      },
+      {
+        "question": "Can I use a cable?",
+        "answer": "Yes, a wired headphone cable is included."
+      }
+    ],
+    "tags": [
+      "sony",
+      "wh-1000xm5",
+      "wireless headphones",
+      "noise cancelling",
+      "bluetooth",
+      "over ear"
+    ],
+    "relatedProducts": [1, 2, 16, 17],
     "isFeatured": true,
     "isNew": false,
-    "freeShipping": true
+    "isBestSeller": true,
+    "isTrending": true,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-01-20T11:20:00Z",
+    "updatedAt": "2026-08-09T13:45:00Z"
   },
   {
     "id": 4,
@@ -113,34 +669,236 @@
     "slug": "apple-macbook-air-m4",
     "brand": "Apple",
     "category": "Laptops",
+    "subcategory": "Ultrabooks",
     "price": 1399,
     "oldPrice": 1499,
     "discount": 7,
     "rating": 4.9,
-    "reviews": 2100,
+    "reviews": [
+      {
+        "id": "review_007",
+        "user": {
+          "name": "Daniel Anderson",
+          "avatar": "https://i.pravatar.cc/150?img=13"
+        },
+        "rating": 5,
+        "title": "Excellent for development",
+        "comment": "Fast, quiet and easy to carry. Great for VS Code, browser tabs and everyday development.",
+        "verifiedPurchase": true,
+        "helpful": 134,
+        "date": "2026-07-26"
+      },
+      {
+        "id": "review_008",
+        "user": {
+          "name": "Sophia Miller",
+          "avatar": "https://i.pravatar.cc/150?img=45"
+        },
+        "rating": 5,
+        "title": "Beautiful display",
+        "comment": "The display is sharp and the laptop feels premium. Battery life is excellent for university work.",
+        "verifiedPurchase": true,
+        "helpful": 108,
+        "date": "2026-07-19"
+      }
+    ],
     "stock": 18,
-    "sku": "APL-MBA-M4",
+    "sku": "APL-MBA-M4-16-512",
     "thumbnail": "https://i.ibb.co.com/5hJqxVxh/mba-15-m4-case-06.jpg",
     "images": [
       "https://i.ibb.co.com/PzGrJ76h/Apple-Mac-Book-Air-M4-13.png",
       "https://i.ibb.co.com/R4HWZ683/design-medium.jpg",
       "https://i.ibb.co.com/dJWRTfzH/images-6.jpg"
     ],
-    "description": "Ultra-thin laptop powered by Apple's latest M4 chip for exceptional speed and battery life.",
+    "shortDescription": "Thin and lightweight MacBook powered by M4 with Liquid Retina display, long battery life, MagSafe and a fanless design.",
+    "description": "The MacBook Air M4 is a portable laptop for students, developers, professionals, creators and everyday users. Its Apple silicon platform provides responsive performance while the fanless design keeps normal workloads quiet.",
     "features": [
-      "M4 Chip",
-      "13.6-inch Liquid Retina",
-      "18 Hours Battery",
-      "Touch ID"
+      {
+        "title": "Apple M4 Chip",
+        "description": "Fast CPU, GPU and Neural Engine performance for demanding everyday workflows."
+      },
+      {
+        "title": "Liquid Retina Display",
+        "description": "High-resolution display with sharp text and vibrant colors."
+      },
+      {
+        "title": "Long Battery Life",
+        "description": "Designed for extended productivity and media use between charges."
+      },
+      {
+        "title": "Fanless Design",
+        "description": "Quiet operation during normal workloads."
+      },
+      {
+        "title": "Touch ID",
+        "description": "Secure fingerprint authentication integrated into the keyboard."
+      },
+      {
+        "title": "MagSafe 3",
+        "description": "Dedicated magnetic charging connector leaves USB-C ports available."
+      }
     ],
     "specifications": {
-      "RAM": "16GB",
-      "Storage": "512GB SSD",
-      "Weight": "1.24kg"
+      "General": {
+        "Brand": "Apple",
+        "Model": "MacBook Air M4",
+        "Operating System": "macOS",
+        "Release Year": 2025
+      },
+      "Display": {
+        "Type": "Liquid Retina",
+        "Size": "13.6 inches",
+        "Resolution": "2560 x 1664 pixels",
+        "Refresh Rate": "60Hz",
+        "Brightness": "500 nits",
+        "True Tone": "Supported"
+      },
+      "Performance": {
+        "Processor": "Apple M4",
+        "CPU": "10-core CPU",
+        "GPU": "10-core GPU",
+        "Neural Engine": "16-core",
+        "Memory": "16GB Unified Memory"
+      },
+      "Storage": {
+        "Capacity": "512GB",
+        "Type": "SSD",
+        "Expandable": "Not User Upgradeable"
+      },
+      "Graphics": {
+        "GPU": "Integrated Apple GPU",
+        "Media Engine": "Hardware-accelerated"
+      },
+      "Camera": {
+        "Front Camera": "12MP Center Stage",
+        "Video": "Up to 1080p",
+        "Center Stage": "Supported"
+      },
+      "Audio": {
+        "Speakers": "Four-speaker sound system",
+        "Microphones": "Three-microphone array",
+        "Headphone Jack": "3.5mm"
+      },
+      "Connectivity": {
+        "WiFi": "Wi-Fi 6E",
+        "Bluetooth": "Bluetooth 5.3",
+        "USB": "USB-C / Thunderbolt",
+        "MagSafe": "MagSafe 3"
+      },
+      "Battery": {
+        "Type": "Lithium-polymer",
+        "Battery Life": "Up to 18 hours",
+        "Charging": "MagSafe 3"
+      },
+      "Keyboard": {
+        "Type": "Backlit Magic Keyboard",
+        "Touch ID": "Supported"
+      },
+      "Physical": {
+        "Material": "Aluminum",
+        "Color": "Midnight",
+        "Weight": "Approximately 1.24kg",
+        "Thickness": "Approximately 1.15cm"
+      }
     },
+    "variants": [
+      {
+        "id": "mba-m4-midnight-16-512",
+        "color": "Midnight",
+        "memory": "16GB",
+        "storage": "512GB",
+        "price": 1399,
+        "stock": 18,
+        "sku": "APL-MBA-M4-16-512-MID"
+      },
+      {
+        "id": "mba-m4-starlight-16-512",
+        "color": "Starlight",
+        "memory": "16GB",
+        "storage": "512GB",
+        "price": 1399,
+        "stock": 13,
+        "sku": "APL-MBA-M4-16-512-STA"
+      },
+      {
+        "id": "mba-m4-skyblue-24-512",
+        "color": "Sky Blue",
+        "memory": "24GB",
+        "storage": "512GB",
+        "price": 1599,
+        "stock": 8,
+        "sku": "APL-MBA-M4-24-512-SKY"
+      }
+    ],
+    "packageContents": [
+      "MacBook Air",
+      "USB-C to MagSafe 3 Cable",
+      "USB-C Power Adapter",
+      "Quick Start Guide",
+      "Warranty Documentation"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_004",
+      "name": "Premium Computer Store",
+      "rating": 4.8,
+      "totalProducts": 624,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.9,
+      "totalReviews": 2100,
+      "ratingBreakdown": {
+        "5": 1817,
+        "4": 201,
+        "3": 51,
+        "2": 19,
+        "1": 12
+      }
+    },
+    "faqs": [
+      {
+        "question": "What processor does it use?",
+        "answer": "It uses Apple's M4 chip."
+      },
+      {
+        "question": "Does it have Touch ID?",
+        "answer": "Yes, Touch ID is integrated into the keyboard."
+      },
+      {
+        "question": "Does it support external displays?",
+        "answer": "Yes, compatible external displays can be connected through its USB-C and Thunderbolt connectivity."
+      }
+    ],
+    "tags": [
+      "apple",
+      "macbook air",
+      "m4",
+      "laptop",
+      "ultrabook",
+      "macos",
+      "developer laptop"
+    ],
+    "relatedProducts": [5, 8, 10, 16],
     "isFeatured": true,
     "isNew": true,
-    "freeShipping": true
+    "isBestSeller": true,
+    "isTrending": true,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-02-15T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
   },
   {
     "id": 5,
@@ -148,12 +906,43 @@
     "slug": "dell-xps-14",
     "brand": "Dell",
     "category": "Laptops",
+    "subcategory": "Premium Laptops",
     "price": 1699,
     "oldPrice": 1849,
     "discount": 8,
+    "currency": "USD",
     "rating": 4.7,
-    "reviews": 1260,
+    "reviews": [
+      {
+        "id": "review_501",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=6"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Dell XPS 14 performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 50,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_502",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=11"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 30,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 84,
     "stock": 14,
+    "lowStockThreshold": 4,
     "sku": "DLL-XPS14",
     "thumbnail": "https://i.ibb.co.com/wZ9j9yzh/61fs3-Sp-OPv-L-AC-SX569.jpg",
     "images": [
@@ -161,21 +950,133 @@
       "https://i.ibb.co.com/5XrVqCpj/design-medium-1.jpg",
       "https://i.ibb.co.com/tw3rnTJ4/Dell-XPS-14-deal-teaser-q82-w2560-h.png"
     ],
-    "description": "Premium Windows laptop with Intel Core Ultra processor and stunning InfinityEdge display.",
+    "shortDescription": "Premium Windows laptop with Intel Core Ultra performance, a high-resolution InfinityEdge display, fast SSD storage and a portable aluminum design.",
+    "description": "Premium Windows laptop with Intel Core Ultra performance, a high-resolution InfinityEdge display, fast SSD storage and a portable aluminum design. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
     "features": [
-      "Core Ultra 7",
-      "16GB RAM",
-      "1TB SSD",
-      "OLED Display"
+      {
+        "title": "Performance",
+        "description": "Designed for responsive productivity, multitasking and demanding everyday workloads."
+      },
+      {
+        "title": "High Resolution Display",
+        "description": "Sharp and detailed visuals for work, entertainment and creative tasks."
+      },
+      {
+        "title": "Fast SSD",
+        "description": "Solid-state storage provides responsive application and file access."
+      },
+      {
+        "title": "Modern Connectivity",
+        "description": "Multiple wireless and wired options for peripherals and displays."
+      }
     ],
     "specifications": {
-      "Processor": "Intel Core Ultra 7",
-      "Display": "14.5-inch OLED",
-      "Storage": "1TB SSD"
+      "General": {
+        "Product Type": "Laptop"
+      },
+      "Display": {
+        "Type": "14.5-inch OLED",
+        "Refresh Rate": "60Hz"
+      },
+      "Performance": {
+        "Processor": "Intel Core Ultra 7",
+        "Memory": "16GB"
+      },
+      "Storage": {
+        "Type": "SSD",
+        "Capacity": "1TB SSD"
+      },
+      "Connectivity": {
+        "WiFi": "Wi-Fi 6E",
+        "Bluetooth": "Bluetooth"
+      },
+      "Battery": {
+        "Type": "Rechargeable lithium-ion"
+      },
+      "Physical": {
+        "Design": "Premium portable chassis"
+      }
     },
+    "variants": [
+      {
+        "id": "dell-xps-14-standard",
+        "option": "Standard",
+        "price": 1699,
+        "stock": 14,
+        "sku": "DLL-XPS14"
+      }
+    ],
+    "packageContents": [
+      "Dell XPS 14",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_005",
+      "name": "Dell Official Store",
+      "rating": 4.8,
+      "totalProducts": 535,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.7,
+      "totalReviews": 1260,
+      "ratingBreakdown": {
+        "5": 1033,
+        "4": 151,
+        "3": 44,
+        "2": 12,
+        "1": 20
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Dell XPS 14 suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "dell",
+      "dell xps 14",
+      "laptops",
+      "premium laptops",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [4, 6, 7],
     "isFeatured": false,
     "isNew": true,
-    "freeShipping": true
+    "isBestSeller": false,
+    "isTrending": false,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-06-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
   },
   {
     "id": 6,
@@ -183,34 +1084,179 @@
     "slug": "apple-watch-series-10",
     "brand": "Apple",
     "category": "Smart Watches",
+    "subcategory": "Fitness Smartwatches",
     "price": 449,
     "oldPrice": 499,
     "discount": 10,
+    "currency": "USD",
     "rating": 4.8,
-    "reviews": 3200,
+    "reviews": [
+      {
+        "id": "review_601",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=7"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Apple Watch Series 10 performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 53,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_602",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=13"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 32,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 213,
     "stock": 42,
+    "lowStockThreshold": 10,
     "sku": "APL-W10",
     "thumbnail": "https://i.ibb.co.com/DfS1ZVw4/Apple-Watch-Series-10.jpg",
     "images": [
       "https://i.ibb.co.com/4ZvnsPF8/images-8.jpg",
-      "https://i.ibb.co.com/3YyTtRxB/Apple-Watch-Series-10-Tides-app-information-240909-inline-jpg-large.jpg",
       "https://i.ibb.co.com/3YyTtRxB/Apple-Watch-Series-10-Tides-app-information-240909-inline-jpg-large.jpg"
     ],
-    "description": "Advanced health tracking, fitness features, and all-day battery life.",
+    "shortDescription": "Advanced smartwatch with a large AMOLED display, fitness tracking, GPS, smart notifications and a lightweight aluminum design.",
+    "description": "Advanced smartwatch with a large AMOLED display, fitness tracking, GPS, smart notifications and a lightweight aluminum design. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
     "features": [
-      "ECG",
-      "Blood Oxygen",
-      "GPS",
-      "Water Resistant"
+      {
+        "title": "Health Tracking",
+        "description": "Tracks supported wellness and activity metrics throughout the day."
+      },
+      {
+        "title": "GPS",
+        "description": "Built-in positioning supports outdoor activities and route tracking."
+      },
+      {
+        "title": "Sleep Tracking",
+        "description": "Provides sleep-related insights through supported sensors and software."
+      },
+      {
+        "title": "Smart Notifications",
+        "description": "Displays compatible calls, messages and app notifications."
+      }
     ],
     "specifications": {
-      "Size": "46mm",
-      "Battery": "18 Hours",
-      "Material": "Aluminum"
+      "General": {
+        "Product Type": "Smartwatch",
+        "Operating System": "Wearable OS"
+      },
+      "Display": {
+        "Type": "AMOLED",
+        "Touchscreen": "Yes",
+        "Size": "46mm"
+      },
+      "Health": {
+        "Heart Rate": "Supported",
+        "Sleep Tracking": "Supported"
+      },
+      "Sensors": {
+        "Accelerometer": "Supported",
+        "Gyroscope": "Supported"
+      },
+      "Connectivity": {
+        "Bluetooth": "Supported",
+        "GPS": "Built-in"
+      },
+      "Battery": {
+        "Battery Life": "Up to 18 hours"
+      },
+      "Physical": {
+        "Material": "Aluminum",
+        "Size": "46mm"
+      }
     },
+    "variants": [
+      {
+        "id": "apple-watch-series-10-standard",
+        "option": "Standard",
+        "price": 449,
+        "stock": 42,
+        "sku": "APL-W10"
+      }
+    ],
+    "packageContents": [
+      "Apple Watch Series 10",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_006",
+      "name": "Apple Official Store",
+      "rating": 4.9,
+      "totalProducts": 582,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.8,
+      "totalReviews": 3200,
+      "ratingBreakdown": {
+        "5": 2624,
+        "4": 384,
+        "3": 112,
+        "2": 32,
+        "1": 48
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Apple Watch Series 10 suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "apple",
+      "apple watch series 10",
+      "smart watches",
+      "fitness smartwatches",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [5, 7, 8],
     "isFeatured": true,
     "isNew": true,
-    "freeShipping": true
+    "isBestSeller": true,
+    "isTrending": true,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-07-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
   },
   {
     "id": 7,
@@ -218,12 +1264,43 @@
     "slug": "galaxy-watch-7",
     "brand": "Samsung",
     "category": "Smart Watches",
+    "subcategory": "Fitness Smartwatches",
     "price": 349,
     "oldPrice": 399,
     "discount": 13,
+    "currency": "USD",
     "rating": 4.7,
-    "reviews": 1850,
+    "reviews": [
+      {
+        "id": "review_701",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=8"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Samsung Galaxy Watch 7 performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 56,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_702",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=15"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 34,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 123,
     "stock": 55,
+    "lowStockThreshold": 10,
     "sku": "SMS-GW7",
     "thumbnail": "https://i.ibb.co.com/x8LFpLQy/images-9.jpg",
     "images": [
@@ -231,20 +1308,135 @@
       "https://i.ibb.co.com/TD2b01Gq/galaxy-watch-7-perpetual-face-scaled.png",
       "https://i.ibb.co.com/4wZ0Nw2w/R7-Ptcz-Wyua-Ui7tyb4-Vfcf-K.jpg"
     ],
-    "description": "Elegant smartwatch with AI health tracking and long-lasting battery.",
+    "shortDescription": "Feature-rich Samsung smartwatch with AMOLED display, GPS, sleep tracking, heart-rate monitoring and everyday smart features.",
+    "description": "Feature-rich Samsung smartwatch with AMOLED display, GPS, sleep tracking, heart-rate monitoring and everyday smart features. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
     "features": [
-      "GPS",
-      "Sleep Tracking",
-      "Heart Rate",
-      "Bluetooth"
+      {
+        "title": "Health Tracking",
+        "description": "Tracks supported wellness and activity metrics throughout the day."
+      },
+      {
+        "title": "GPS",
+        "description": "Built-in positioning supports outdoor activities and route tracking."
+      },
+      {
+        "title": "Sleep Tracking",
+        "description": "Provides sleep-related insights through supported sensors and software."
+      },
+      {
+        "title": "Smart Notifications",
+        "description": "Displays compatible calls, messages and app notifications."
+      }
     ],
     "specifications": {
-      "Display": "1.5-inch AMOLED",
-      "Battery": "40 Hours"
+      "General": {
+        "Product Type": "Smartwatch",
+        "Operating System": "Wearable OS"
+      },
+      "Display": {
+        "Type": "AMOLED",
+        "Touchscreen": "Yes",
+        "Size": "1.5-inch"
+      },
+      "Health": {
+        "Heart Rate": "Supported",
+        "Sleep Tracking": "Supported"
+      },
+      "Sensors": {
+        "Accelerometer": "Supported",
+        "Gyroscope": "Supported"
+      },
+      "Connectivity": {
+        "Bluetooth": "Supported",
+        "GPS": "Built-in"
+      },
+      "Battery": {
+        "Battery Life": "Up to 40 hours"
+      },
+      "Physical": {
+        "Water Resistance": "Supported"
+      }
     },
+    "variants": [
+      {
+        "id": "galaxy-watch-7-standard",
+        "option": "Standard",
+        "price": 349,
+        "stock": 55,
+        "sku": "SMS-GW7"
+      }
+    ],
+    "packageContents": [
+      "Samsung Galaxy Watch 7",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_007",
+      "name": "Samsung Official Store",
+      "rating": 4.8,
+      "totalProducts": 629,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.7,
+      "totalReviews": 1850,
+      "ratingBreakdown": {
+        "5": 1517,
+        "4": 222,
+        "3": 64,
+        "2": 18,
+        "1": 29
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Samsung Galaxy Watch 7 suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "samsung",
+      "samsung galaxy watch 7",
+      "smart watches",
+      "fitness smartwatches",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [6, 8, 9],
     "isFeatured": false,
     "isNew": true,
-    "freeShipping": true
+    "isBestSeller": false,
+    "isTrending": false,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-08-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
   },
   {
     "id": 8,
@@ -252,12 +1444,43 @@
     "slug": "logitech-mx-master-3s",
     "brand": "Logitech",
     "category": "Accessories",
+    "subcategory": "Computer & Mobile Accessories",
     "price": 99,
     "oldPrice": 119,
     "discount": 17,
+    "currency": "USD",
     "rating": 4.9,
-    "reviews": 5500,
+    "reviews": [
+      {
+        "id": "review_801",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=9"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Logitech MX Master 3S performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 59,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_802",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=17"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 36,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 366,
     "stock": 120,
+    "lowStockThreshold": 10,
     "sku": "LOG-MX3S",
     "thumbnail": "https://i.ibb.co.com/mVpy1yQB/logitech-mx-master-3s-performance-wireless-mouse-white-500x500.jpg",
     "images": [
@@ -265,20 +1488,131 @@
       "https://i.ibb.co.com/Gv8kvnYZ/images-11.jpg",
       "https://i.ibb.co.com/FbT7nLKV/MX-Master-3-S-5.jpg"
     ],
-    "description": "Professional wireless mouse designed for productivity and creators.",
+    "shortDescription": "Professional wireless mouse built for productivity with high-precision tracking, quiet clicks, customizable controls and multi-device support.",
+    "description": "Professional wireless mouse built for productivity with high-precision tracking, quiet clicks, customizable controls and multi-device support. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
     "features": [
-      "8000 DPI",
-      "USB-C Charging",
-      "Bluetooth",
-      "Silent Clicks"
+      {
+        "title": "Productivity",
+        "description": "Designed to improve everyday desktop or mobile workflows."
+      },
+      {
+        "title": "USB-C",
+        "description": "Modern USB-C connectivity or charging for compatible devices."
+      },
+      {
+        "title": "Multi-device Support",
+        "description": "Works with a broad range of compatible devices."
+      },
+      {
+        "title": "Compact Design",
+        "description": "Designed for practical everyday use and portability."
+      }
     ],
     "specifications": {
-      "Weight": "141g",
-      "Battery": "70 Days"
+      "General": {
+        "Product Type": "Electronic Accessory"
+      },
+      "Connectivity": {
+        "USB": "USB-C",
+        "Wireless": "Supported on compatible models"
+      },
+      "Power": {
+        "Charging": "USB-C"
+      },
+      "Compatibility": {
+        "Devices": "Compatible laptops, tablets and smartphones"
+      },
+      "Physical": {
+        "Build": "Durable consumer electronics construction"
+      },
+      "Tracking": {
+        "Resolution": "8000 DPI",
+        "Sensor": "High precision optical"
+      },
+      "Battery": {
+        "Life": "Up to 70 days"
+      }
     },
+    "variants": [
+      {
+        "id": "logitech-mx-master-3s-standard",
+        "option": "Standard",
+        "price": 99,
+        "stock": 120,
+        "sku": "LOG-MX3S"
+      }
+    ],
+    "packageContents": [
+      "Logitech MX Master 3S",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_008",
+      "name": "Logitech Official Store",
+      "rating": 4.9,
+      "totalProducts": 676,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.9,
+      "totalReviews": 5500,
+      "ratingBreakdown": {
+        "5": 4510,
+        "4": 660,
+        "3": 192,
+        "2": 55,
+        "1": 83
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Logitech MX Master 3S suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "logitech",
+      "logitech mx master 3s",
+      "accessories",
+      "computer & mobile accessories",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [7, 9, 10],
     "isFeatured": true,
     "isNew": false,
-    "freeShipping": true
+    "isBestSeller": true,
+    "isTrending": true,
+    "isFlashSale": true,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-01-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
   },
   {
     "id": 9,
@@ -286,12 +1620,43 @@
     "slug": "keychron-k8-pro",
     "brand": "Keychron",
     "category": "Accessories",
+    "subcategory": "Computer & Mobile Accessories",
     "price": 129,
     "oldPrice": 149,
     "discount": 13,
+    "currency": "USD",
     "rating": 4.8,
-    "reviews": 980,
+    "reviews": [
+      {
+        "id": "review_901",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=10"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Keychron K8 Pro performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 62,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_902",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=19"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 38,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 65,
     "stock": 75,
+    "lowStockThreshold": 10,
     "sku": "KEY-K8PRO",
     "thumbnail": "https://i.ibb.co.com/kg80Qsw1/keychron-k8-pro-1.jpg",
     "images": [
@@ -299,20 +1664,130 @@
       "https://i.ibb.co.com/3y957VWH/maxresdefault.jpg",
       "https://i.ibb.co.com/KpxTc07T/sddefault.jpg"
     ],
-    "description": "Wireless mechanical keyboard with hot-swappable switches and RGB lighting.",
+    "shortDescription": "Wireless mechanical keyboard featuring a tenkeyless layout, hot-swappable switches, RGB lighting and compatibility with Mac and Windows.",
+    "description": "Wireless mechanical keyboard featuring a tenkeyless layout, hot-swappable switches, RGB lighting and compatibility with Mac and Windows. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
     "features": [
-      "RGB",
-      "Bluetooth",
-      "Hot Swappable",
-      "Mac & Windows"
+      {
+        "title": "Productivity",
+        "description": "Designed to improve everyday desktop or mobile workflows."
+      },
+      {
+        "title": "USB-C",
+        "description": "Modern USB-C connectivity or charging for compatible devices."
+      },
+      {
+        "title": "Multi-device Support",
+        "description": "Works with a broad range of compatible devices."
+      },
+      {
+        "title": "Compact Design",
+        "description": "Designed for practical everyday use and portability."
+      }
     ],
     "specifications": {
-      "Layout": "TKL",
-      "Switch": "Red"
+      "General": {
+        "Product Type": "Electronic Accessory"
+      },
+      "Connectivity": {
+        "USB": "USB-C",
+        "Wireless": "Supported on compatible models"
+      },
+      "Power": {
+        "Charging": "USB-C"
+      },
+      "Compatibility": {
+        "Devices": "Compatible laptops, tablets and smartphones"
+      },
+      "Physical": {
+        "Build": "Durable consumer electronics construction"
+      },
+      "Keyboard": {
+        "Layout": "TKL",
+        "Switch": "Red",
+        "Backlight": "RGB",
+        "Hot Swap": "Supported"
+      }
     },
+    "variants": [
+      {
+        "id": "keychron-k8-pro-standard",
+        "option": "Standard",
+        "price": 129,
+        "stock": 75,
+        "sku": "KEY-K8PRO"
+      }
+    ],
+    "packageContents": [
+      "Keychron K8 Pro",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_009",
+      "name": "Keychron Official Store",
+      "rating": 4.9,
+      "totalProducts": 723,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.8,
+      "totalReviews": 980,
+      "ratingBreakdown": {
+        "5": 803,
+        "4": 117,
+        "3": 34,
+        "2": 9,
+        "1": 17
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Keychron K8 Pro suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "keychron",
+      "keychron k8 pro",
+      "accessories",
+      "computer & mobile accessories",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [8, 10, 11],
     "isFeatured": false,
     "isNew": false,
-    "freeShipping": true
+    "isBestSeller": false,
+    "isTrending": false,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-02-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
   },
   {
     "id": 10,
@@ -320,12 +1795,43 @@
     "slug": "canon-eos-r8",
     "brand": "Canon",
     "category": "Cameras",
+    "subcategory": "Mirrorless Cameras",
     "price": 1499,
     "oldPrice": 1599,
     "discount": 6,
+    "currency": "USD",
     "rating": 4.8,
-    "reviews": 670,
+    "reviews": [
+      {
+        "id": "review_1001",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=11"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Canon EOS R8 performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 65,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_1002",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=21"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 40,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 45,
     "stock": 15,
+    "lowStockThreshold": 4,
     "sku": "CAN-R8",
     "thumbnail": "https://i.ibb.co.com/Z6SQYDhK/nirupam-nigam-canon-r8-underwater-housing-cover2.jpg",
     "images": [
@@ -333,20 +1839,131 @@
       "https://i.ibb.co.com/tTvSmSKQ/eos-r7-03-500x500-1.jpg",
       "https://i.ibb.co.com/FkYPH2NP/images-14.jpg"
     ],
-    "description": "Compact full-frame mirrorless camera for creators and professionals.",
+    "shortDescription": "Compact full-frame mirrorless camera designed for creators with detailed still images, advanced autofocus, 4K video and wireless connectivity.",
+    "description": "Compact full-frame mirrorless camera designed for creators with detailed still images, advanced autofocus, 4K video and wireless connectivity. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
     "features": [
-      "24.2MP",
-      "4K Video",
-      "WiFi",
-      "Dual Pixel AF"
+      {
+        "title": "Full-Frame Imaging",
+        "description": "Large sensor platform supports detailed stills and video."
+      },
+      {
+        "title": "Fast Autofocus",
+        "description": "Advanced autofocus helps track moving subjects."
+      },
+      {
+        "title": "4K Video",
+        "description": "Supports high-resolution video recording for creators."
+      },
+      {
+        "title": "Wireless Connectivity",
+        "description": "Wireless features support image transfer and remote workflows."
+      }
     ],
     "specifications": {
-      "Sensor": "Full Frame",
-      "Resolution": "24.2MP"
+      "General": {
+        "Product Type": "Mirrorless Camera"
+      },
+      "Sensor": {
+        "Type": "Full Frame",
+        "Resolution": "24.2MP"
+      },
+      "Video": {
+        "Maximum": "4K"
+      },
+      "Autofocus": {
+        "System": "Advanced subject-detection AF"
+      },
+      "Connectivity": {
+        "WiFi": "Supported",
+        "Bluetooth": "Supported"
+      },
+      "Storage": {
+        "Media": "SD Card"
+      },
+      "Physical": {
+        "Body": "Compact mirrorless body"
+      }
     },
+    "variants": [
+      {
+        "id": "canon-eos-r8-standard",
+        "option": "Standard",
+        "price": 1499,
+        "stock": 15,
+        "sku": "CAN-R8"
+      }
+    ],
+    "packageContents": [
+      "Canon EOS R8",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_010",
+      "name": "Canon Official Store",
+      "rating": 4.9,
+      "totalProducts": 770,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.8,
+      "totalReviews": 670,
+      "ratingBreakdown": {
+        "5": 549,
+        "4": 80,
+        "3": 23,
+        "2": 6,
+        "1": 12
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Canon EOS R8 suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "canon",
+      "canon eos r8",
+      "cameras",
+      "mirrorless cameras",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [9, 11, 12],
     "isFeatured": true,
     "isNew": true,
-    "freeShipping": true
+    "isBestSeller": false,
+    "isTrending": true,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-03-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
   },
   {
     "id": 11,
@@ -354,12 +1971,43 @@
     "slug": "nike-air-zoom-pegasus-41",
     "brand": "Nike",
     "category": "Shoes",
+    "subcategory": "Athletic & Lifestyle Shoes",
     "price": 139,
     "oldPrice": 159,
     "discount": 13,
+    "currency": "USD",
     "rating": 4.8,
-    "reviews": 4821,
+    "reviews": [
+      {
+        "id": "review_1101",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=12"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Nike Air Zoom Pegasus 41 performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 68,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_1102",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=23"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 42,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 321,
     "stock": 80,
+    "lowStockThreshold": 10,
     "sku": "NIK-PEG41-011",
     "thumbnail": "https://i.ibb.co.com/qYss7M3n/nike-unveils-technological-advances-in-the-pegasus-41.avif",
     "images": [
@@ -367,22 +2015,130 @@
       "https://i.ibb.co.com/5WygHym2/design-medium-2.jpg",
       "https://i.ibb.co.com/WNcKt7RT/nike-unveils-technological-advances-in-the-pegasus-41-1.avif"
     ],
-    "description": "Lightweight running shoes designed for everyday training with responsive cushioning and breathable comfort.",
+    "shortDescription": "Daily running shoe with responsive cushioning, breathable upper and durable outsole for training and everyday active use.",
+    "description": "Daily running shoe with responsive cushioning, breathable upper and durable outsole for training and everyday active use. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
     "features": [
-      "Zoom Air Cushioning",
-      "Engineered Mesh Upper",
-      "Rubber Outsole",
-      "Lightweight Design"
+      {
+        "title": "Cushioned Midsole",
+        "description": "Responsive cushioning supports comfortable everyday movement."
+      },
+      {
+        "title": "Breathable Upper",
+        "description": "Engineered materials allow airflow during everyday wear."
+      },
+      {
+        "title": "Durable Outsole",
+        "description": "Rubber outsole provides traction for regular use."
+      },
+      {
+        "title": "Comfort Fit",
+        "description": "Designed around a supportive everyday fit."
+      }
     ],
     "specifications": {
-      "Material": "Mesh",
-      "Color": "Black/White",
-      "Weight": "285g",
-      "Gender": "Unisex"
+      "General": {
+        "Product Type": "Athletic Footwear"
+      },
+      "Upper": {
+        "Material": "Engineered mesh and synthetic materials"
+      },
+      "Midsole": {
+        "Technology": "Responsive cushioning"
+      },
+      "Outsole": {
+        "Material": "Rubber"
+      },
+      "Fit": {
+        "Type": "Unisex",
+        "Use": "Running / Lifestyle"
+      },
+      "Physical": {
+        "Use": "Running and everyday training"
+      },
+      "Sizing": {
+        "Range": "Multiple sizes"
+      }
     },
+    "variants": [
+      {
+        "id": "nike-air-zoom-pegasus-41-standard",
+        "option": "Standard",
+        "price": 139,
+        "stock": 80,
+        "sku": "NIK-PEG41-011"
+      }
+    ],
+    "packageContents": [
+      "Nike Air Zoom Pegasus 41",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_011",
+      "name": "Nike Official Store",
+      "rating": 4.9,
+      "totalProducts": 817,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.8,
+      "totalReviews": 4821,
+      "ratingBreakdown": {
+        "5": 3953,
+        "4": 578,
+        "3": 168,
+        "2": 48,
+        "1": 74
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Nike Air Zoom Pegasus 41 suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "nike",
+      "nike air zoom pegasus 41",
+      "shoes",
+      "athletic & lifestyle shoes",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [10, 12, 13],
     "isFeatured": true,
     "isNew": true,
-    "freeShipping": true
+    "isBestSeller": true,
+    "isTrending": false,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-04-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
   },
   {
     "id": 12,
@@ -390,12 +2146,43 @@
     "slug": "adidas-ultraboost-light",
     "brand": "Adidas",
     "category": "Shoes",
+    "subcategory": "Athletic & Lifestyle Shoes",
     "price": 179,
     "oldPrice": 210,
     "discount": 15,
+    "currency": "USD",
     "rating": 4.7,
-    "reviews": 3915,
+    "reviews": [
+      {
+        "id": "review_1201",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=13"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Adidas Ultraboost Light performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 71,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_1202",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=25"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 44,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 261,
     "stock": 62,
+    "lowStockThreshold": 10,
     "sku": "ADD-UBL-012",
     "thumbnail": "https://i.ibb.co.com/s9bxKM2m/adidas-ultraboost-light-feature.jpg",
     "images": [
@@ -403,22 +2190,130 @@
       "https://i.ibb.co.com/cc80kPV4/GY9352-HM7.avif",
       "https://i.ibb.co.com/21Kc7VxY/adidas-ultraboost-light-w-chaussures-de-sport-femme-640482-1-z.jpg"
     ],
-    "description": "Premium running shoes with responsive BOOST cushioning for exceptional comfort and energy return.",
+    "shortDescription": "Premium running shoe combining responsive cushioning, breathable materials and durable traction for daily training.",
+    "description": "Premium running shoe combining responsive cushioning, breathable materials and durable traction for daily training. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
     "features": [
-      "BOOST Midsole",
-      "Primeknit Upper",
-      "Continental Rubber",
-      "Breathable Design"
+      {
+        "title": "Cushioned Midsole",
+        "description": "Responsive cushioning supports comfortable everyday movement."
+      },
+      {
+        "title": "Breathable Upper",
+        "description": "Engineered materials allow airflow during everyday wear."
+      },
+      {
+        "title": "Durable Outsole",
+        "description": "Rubber outsole provides traction for regular use."
+      },
+      {
+        "title": "Comfort Fit",
+        "description": "Designed around a supportive everyday fit."
+      }
     ],
     "specifications": {
-      "Material": "Primeknit",
-      "Color": "White",
-      "Weight": "300g",
-      "Gender": "Unisex"
+      "General": {
+        "Product Type": "Athletic Footwear"
+      },
+      "Upper": {
+        "Material": "Engineered mesh and synthetic materials"
+      },
+      "Midsole": {
+        "Technology": "Responsive cushioning"
+      },
+      "Outsole": {
+        "Material": "Rubber"
+      },
+      "Fit": {
+        "Type": "Unisex",
+        "Use": "Running / Lifestyle"
+      },
+      "Physical": {
+        "Use": "Running and everyday training"
+      },
+      "Sizing": {
+        "Range": "Multiple sizes"
+      }
     },
+    "variants": [
+      {
+        "id": "adidas-ultraboost-light-standard",
+        "option": "Standard",
+        "price": 179,
+        "stock": 62,
+        "sku": "ADD-UBL-012"
+      }
+    ],
+    "packageContents": [
+      "Adidas Ultraboost Light",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_012",
+      "name": "Adidas Official Store",
+      "rating": 4.8,
+      "totalProducts": 864,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.7,
+      "totalReviews": 3915,
+      "ratingBreakdown": {
+        "5": 3210,
+        "4": 469,
+        "3": 137,
+        "2": 39,
+        "1": 60
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Adidas Ultraboost Light suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "adidas",
+      "adidas ultraboost light",
+      "shoes",
+      "athletic & lifestyle shoes",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [11, 13, 14],
     "isFeatured": true,
     "isNew": false,
-    "freeShipping": true
+    "isBestSeller": true,
+    "isTrending": true,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-05-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
   },
   {
     "id": 13,
@@ -426,12 +2321,43 @@
     "slug": "puma-rs-x",
     "brand": "Puma",
     "category": "Shoes",
+    "subcategory": "Athletic & Lifestyle Shoes",
     "price": 110,
     "oldPrice": 130,
     "discount": 15,
+    "currency": "USD",
     "rating": 4.6,
-    "reviews": 2186,
+    "reviews": [
+      {
+        "id": "review_1301",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=14"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Puma RS-X performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 74,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_1302",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=27"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 46,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 145,
     "stock": 55,
+    "lowStockThreshold": 10,
     "sku": "PUM-RSX-013",
     "thumbnail": "https://i.ibb.co.com/NnyPvHts/images-15.jpg",
     "images": [
@@ -439,22 +2365,130 @@
       "https://i.ibb.co.com/FkTjfzz9/RS-X-Hyper-Prep-Rain-Sneakers.avif",
       "https://i.ibb.co.com/8gX77HwL/ac4e333-NN-PUMAX00384810-1.avif"
     ],
-    "description": "Retro-inspired lifestyle sneakers with bold styling and superior cushioning.",
+    "shortDescription": "Retro-inspired lifestyle sneaker with bold styling, cushioned construction and a durable rubber outsole.",
+    "description": "Retro-inspired lifestyle sneaker with bold styling, cushioned construction and a durable rubber outsole. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
     "features": [
-      "RS Cushioning",
-      "Mesh Upper",
-      "Comfort Fit",
-      "Rubber Sole"
+      {
+        "title": "Cushioned Midsole",
+        "description": "Responsive cushioning supports comfortable everyday movement."
+      },
+      {
+        "title": "Breathable Upper",
+        "description": "Engineered materials allow airflow during everyday wear."
+      },
+      {
+        "title": "Durable Outsole",
+        "description": "Rubber outsole provides traction for regular use."
+      },
+      {
+        "title": "Comfort Fit",
+        "description": "Designed around a supportive everyday fit."
+      }
     ],
     "specifications": {
-      "Material": "Mesh & Synthetic",
-      "Color": "Gray",
-      "Weight": "320g",
-      "Gender": "Unisex"
+      "General": {
+        "Product Type": "Athletic Footwear"
+      },
+      "Upper": {
+        "Material": "Engineered mesh and synthetic materials"
+      },
+      "Midsole": {
+        "Technology": "Responsive cushioning"
+      },
+      "Outsole": {
+        "Material": "Rubber"
+      },
+      "Fit": {
+        "Type": "Unisex",
+        "Use": "Running / Lifestyle"
+      },
+      "Physical": {
+        "Use": "Running and everyday training"
+      },
+      "Sizing": {
+        "Range": "Multiple sizes"
+      }
     },
+    "variants": [
+      {
+        "id": "puma-rs-x-standard",
+        "option": "Standard",
+        "price": 110,
+        "stock": 55,
+        "sku": "PUM-RSX-013"
+      }
+    ],
+    "packageContents": [
+      "Puma RS-X",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_013",
+      "name": "Puma Official Store",
+      "rating": 4.7,
+      "totalProducts": 911,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.6,
+      "totalReviews": 2186,
+      "ratingBreakdown": {
+        "5": 1792,
+        "4": 262,
+        "3": 76,
+        "2": 21,
+        "1": 35
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Puma RS-X suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "puma",
+      "puma rs-x",
+      "shoes",
+      "athletic & lifestyle shoes",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [12, 14, 15],
     "isFeatured": false,
-    "isNew": false,
-    "freeShipping": true
+    "isNew": true,
+    "isBestSeller": false,
+    "isTrending": false,
+    "isFlashSale": true,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-06-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
   },
   {
     "id": 14,
@@ -462,12 +2496,43 @@
     "slug": "levis-511-slim-jeans",
     "brand": "Levi's",
     "category": "Fashion",
+    "subcategory": "Fashion & Accessories",
     "price": 69,
     "oldPrice": 85,
     "discount": 19,
+    "currency": "USD",
     "rating": 4.7,
-    "reviews": 6420,
+    "reviews": [
+      {
+        "id": "review_1401",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=15"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Levi's 511 Slim Jeans performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 77,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_1402",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=29"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 48,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 428,
     "stock": 95,
+    "lowStockThreshold": 10,
     "sku": "LEV-511-014",
     "thumbnail": "https://i.ibb.co.com/JFcLFSpn/images-16.jpg",
     "images": [
@@ -475,22 +2540,123 @@
       "https://i.ibb.co.com/jPJ9KYX4/s-l400.jpg",
       "https://i.ibb.co.com/vvYr8qQ8/images-17.jpg"
     ],
-    "description": "Classic slim-fit jeans made from premium stretch denim for all-day comfort.",
+    "shortDescription": "Classic slim-fit stretch denim designed for comfortable everyday wear with a versatile five-pocket construction.",
+    "description": "Classic slim-fit stretch denim designed for comfortable everyday wear with a versatile five-pocket construction. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
     "features": [
-      "Slim Fit",
-      "Stretch Denim",
-      "Machine Washable",
-      "Five Pocket Style"
+      {
+        "title": "Premium Materials",
+        "description": "Selected materials provide comfort and everyday durability."
+      },
+      {
+        "title": "Timeless Design",
+        "description": "Designed for versatile everyday styling."
+      },
+      {
+        "title": "Comfort Fit",
+        "description": "Construction focuses on practical everyday wear."
+      },
+      {
+        "title": "Durable Construction",
+        "description": "Built for repeated regular use."
+      }
     ],
     "specifications": {
-      "Material": "99% Cotton, 1% Elastane",
-      "Color": "Dark Blue",
-      "Fit": "Slim",
-      "Closure": "Zip Fly"
+      "General": {
+        "Product Type": "Fashion Product"
+      },
+      "Material": {
+        "Primary": "99% Cotton, 1% Elastane"
+      },
+      "Fit": {
+        "Type": "Slim"
+      },
+      "Care": {
+        "Wash": "Machine washable"
+      },
+      "Design": {
+        "Style": "Classic everyday design"
+      }
     },
+    "variants": [
+      {
+        "id": "levis-511-slim-jeans-standard",
+        "option": "Standard",
+        "price": 69,
+        "stock": 95,
+        "sku": "LEV-511-014"
+      }
+    ],
+    "packageContents": [
+      "Levi's 511 Slim Jeans",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_014",
+      "name": "Levi's Official Store",
+      "rating": 4.8,
+      "totalProducts": 958,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.7,
+      "totalReviews": 6420,
+      "ratingBreakdown": {
+        "5": 5264,
+        "4": 770,
+        "3": 224,
+        "2": 64,
+        "1": 98
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Levi's 511 Slim Jeans suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "levi's",
+      "levi's 511 slim jeans",
+      "fashion",
+      "fashion & accessories",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [13, 15, 16],
     "isFeatured": true,
     "isNew": false,
-    "freeShipping": true
+    "isBestSeller": true,
+    "isTrending": true,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-07-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
   },
   {
     "id": 15,
@@ -498,12 +2664,43 @@
     "slug": "ray-ban-aviator-classic",
     "brand": "Ray-Ban",
     "category": "Fashion",
+    "subcategory": "Fashion & Accessories",
     "price": 165,
     "oldPrice": 190,
     "discount": 13,
+    "currency": "USD",
     "rating": 4.9,
-    "reviews": 5420,
+    "reviews": [
+      {
+        "id": "review_1501",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=16"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Ray-Ban Aviator Classic performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 80,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_1502",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=31"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 50,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 361,
     "stock": 45,
+    "lowStockThreshold": 10,
     "sku": "RAY-AVI-015",
     "thumbnail": "https://i.ibb.co.com/ZpwtgPMC/0rb3025-919648-030a-new-1.png",
     "images": [
@@ -511,22 +2708,131 @@
       "https://i.ibb.co.com/d4stCWd6/s-l300.jpg",
       "https://i.ibb.co.com/rGmMY9Vz/images-19.jpg"
     ],
-    "description": "Iconic aviator sunglasses with premium UV protection and timeless design.",
+    "shortDescription": "Iconic aviator sunglasses combining a classic metal frame with protective lenses and a timeless everyday design.",
+    "description": "Iconic aviator sunglasses combining a classic metal frame with protective lenses and a timeless everyday design. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
     "features": [
-      "UV400 Protection",
-      "Metal Frame",
-      "Crystal Lenses",
-      "Classic Design"
+      {
+        "title": "Premium Materials",
+        "description": "Selected materials provide comfort and everyday durability."
+      },
+      {
+        "title": "Timeless Design",
+        "description": "Designed for versatile everyday styling."
+      },
+      {
+        "title": "Comfort Fit",
+        "description": "Construction focuses on practical everyday wear."
+      },
+      {
+        "title": "Durable Construction",
+        "description": "Built for repeated regular use."
+      }
     ],
     "specifications": {
-      "Frame": "Metal",
-      "Lens": "Glass",
-      "Color": "Gold/Green",
-      "Weight": "32g"
+      "General": {
+        "Product Type": "Fashion Product"
+      },
+      "Material": {
+        "Primary": "Premium consumer-grade materials"
+      },
+      "Fit": {
+        "Type": "Everyday fit"
+      },
+      "Care": {
+        "Instructions": "Follow product care label"
+      },
+      "Design": {
+        "Style": "Classic everyday design"
+      },
+      "Frame": {
+        "Material": "Metal",
+        "Color": "Gold"
+      },
+      "Lens": {
+        "Material": "Glass",
+        "Protection": "UV400"
+      }
     },
+    "variants": [
+      {
+        "id": "ray-ban-aviator-classic-standard",
+        "option": "Standard",
+        "price": 165,
+        "stock": 45,
+        "sku": "RAY-AVI-015"
+      }
+    ],
+    "packageContents": [
+      "Ray-Ban Aviator Classic",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_015",
+      "name": "Ray-Ban Official Store",
+      "rating": 4.9,
+      "totalProducts": 1005,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.9,
+      "totalReviews": 5420,
+      "ratingBreakdown": {
+        "5": 4444,
+        "4": 650,
+        "3": 189,
+        "2": 54,
+        "1": 83
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Ray-Ban Aviator Classic suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "ray-ban",
+      "ray-ban aviator classic",
+      "fashion",
+      "fashion & accessories",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [14, 16, 17],
     "isFeatured": true,
     "isNew": false,
-    "freeShipping": true
+    "isBestSeller": true,
+    "isTrending": false,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-08-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
   },
   {
     "id": 16,
@@ -534,12 +2840,43 @@
     "slug": "jbl-flip-7",
     "brand": "JBL",
     "category": "Speakers",
+    "subcategory": "Portable Bluetooth Speakers",
     "price": 149,
     "oldPrice": 169,
     "discount": 12,
+    "currency": "USD",
     "rating": 4.8,
-    "reviews": 3280,
+    "reviews": [
+      {
+        "id": "review_1601",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=17"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The JBL Flip 7 performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 83,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_1602",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=33"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 52,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 218,
     "stock": 58,
+    "lowStockThreshold": 10,
     "sku": "JBL-FLP7-016",
     "thumbnail": "https://i.ibb.co.com/TDYqwF38/flip-7-black-01-500x500.jpg",
     "images": [
@@ -547,22 +2884,130 @@
       "https://i.ibb.co.com/DfMDTT6Q/7886940-Nj-Iw-LTc3-NS0y-Nzdh-NTBj-Yzhl.jpg",
       "https://i.ibb.co.com/PGYHXHwj/jbl-flip-6-treiber.jpg"
     ],
-    "description": "Portable Bluetooth speaker delivering powerful JBL Pro Sound with deep bass.",
+    "shortDescription": "Portable Bluetooth speaker designed for powerful sound, outdoor use, long battery life and convenient USB-C charging.",
+    "description": "Portable Bluetooth speaker designed for powerful sound, outdoor use, long battery life and convenient USB-C charging. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
     "features": [
-      "Bluetooth 5.4",
-      "IP67 Waterproof",
-      "16 Hours Battery",
-      "USB-C Charging"
+      {
+        "title": "Powerful Sound",
+        "description": "Designed to provide room-filling sound from a compact enclosure."
+      },
+      {
+        "title": "Bluetooth Audio",
+        "description": "Wireless playback from compatible phones, tablets and computers."
+      },
+      {
+        "title": "Portable Design",
+        "description": "Designed for convenient movement around home and outdoor spaces."
+      },
+      {
+        "title": "Water Resistance",
+        "description": "Selected models provide protection for everyday outdoor use."
+      }
     ],
     "specifications": {
-      "Battery": "16 Hours",
-      "Connectivity": "Bluetooth",
-      "Weight": "560g",
-      "Color": "Black"
+      "General": {
+        "Product Type": "Portable Bluetooth Speaker"
+      },
+      "Audio": {
+        "System": "Full-range speaker system",
+        "Bass": "Deep bass",
+        "Output": "JBL Pro Sound"
+      },
+      "Connectivity": {
+        "Bluetooth": "Supported",
+        "USB": "USB-C"
+      },
+      "Battery": {
+        "Playback": "Up to 16 hours"
+      },
+      "Durability": {
+        "Water Resistance": "IP67 class on supported models"
+      },
+      "Physical": {
+        "Design": "Portable enclosure",
+        "Weight": "2.1kg"
+      }
     },
+    "variants": [
+      {
+        "id": "jbl-flip-7-standard",
+        "option": "Standard",
+        "price": 149,
+        "stock": 58,
+        "sku": "JBL-FLP7-016"
+      }
+    ],
+    "packageContents": [
+      "JBL Flip 7",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_016",
+      "name": "JBL Official Store",
+      "rating": 4.9,
+      "totalProducts": 1052,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.8,
+      "totalReviews": 3280,
+      "ratingBreakdown": {
+        "5": 2689,
+        "4": 393,
+        "3": 114,
+        "2": 32,
+        "1": 52
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the JBL Flip 7 suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "jbl",
+      "jbl flip 7",
+      "speakers",
+      "portable bluetooth speakers",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [15, 17, 18],
     "isFeatured": true,
     "isNew": true,
-    "freeShipping": true
+    "isBestSeller": false,
+    "isTrending": true,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-01-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
   },
   {
     "id": 17,
@@ -570,12 +3015,43 @@
     "slug": "bose-soundlink-max",
     "brand": "Bose",
     "category": "Speakers",
+    "subcategory": "Portable Bluetooth Speakers",
     "price": 299,
     "oldPrice": 349,
     "discount": 14,
+    "currency": "USD",
     "rating": 4.9,
-    "reviews": 2146,
+    "reviews": [
+      {
+        "id": "review_1701",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=18"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Bose SoundLink Max performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 86,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_1702",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=35"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 54,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 143,
     "stock": 26,
+    "lowStockThreshold": 6,
     "sku": "BOS-SLM-017",
     "thumbnail": "https://i.ibb.co.com/h1WtPswF/images-20.jpg",
     "images": [
@@ -583,22 +3059,130 @@
       "https://i.ibb.co.com/9HjVTKq7/N228499-8.jpg",
       "https://i.ibb.co.com/DPp9t71s/design-medium-3.jpg"
     ],
-    "description": "Premium portable Bluetooth speaker with immersive sound and long-lasting battery.",
+    "shortDescription": "Premium portable speaker offering immersive sound, deep bass, wireless playback and a durable outdoor-ready enclosure.",
+    "description": "Premium portable speaker offering immersive sound, deep bass, wireless playback and a durable outdoor-ready enclosure. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
     "features": [
-      "Deep Bass",
-      "Bluetooth 5.3",
-      "20 Hours Battery",
-      "IP67 Rated"
+      {
+        "title": "Powerful Sound",
+        "description": "Designed to provide room-filling sound from a compact enclosure."
+      },
+      {
+        "title": "Bluetooth Audio",
+        "description": "Wireless playback from compatible phones, tablets and computers."
+      },
+      {
+        "title": "Portable Design",
+        "description": "Designed for convenient movement around home and outdoor spaces."
+      },
+      {
+        "title": "Water Resistance",
+        "description": "Selected models provide protection for everyday outdoor use."
+      }
     ],
     "specifications": {
-      "Battery": "20 Hours",
-      "Weight": "2.1kg",
-      "Connectivity": "Bluetooth",
-      "Color": "Blue Dusk"
+      "General": {
+        "Product Type": "Portable Bluetooth Speaker"
+      },
+      "Audio": {
+        "System": "Full-range speaker system",
+        "Bass": "Deep bass",
+        "Output": "JBL Pro Sound"
+      },
+      "Connectivity": {
+        "Bluetooth": "Supported",
+        "USB": "USB-C"
+      },
+      "Battery": {
+        "Playback": "Up to 20 hours"
+      },
+      "Durability": {
+        "Water Resistance": "IP67 class on supported models"
+      },
+      "Physical": {
+        "Design": "Portable enclosure",
+        "Weight": "2.1kg"
+      }
     },
+    "variants": [
+      {
+        "id": "bose-soundlink-max-standard",
+        "option": "Standard",
+        "price": 299,
+        "stock": 26,
+        "sku": "BOS-SLM-017"
+      }
+    ],
+    "packageContents": [
+      "Bose SoundLink Max",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_017",
+      "name": "Bose Official Store",
+      "rating": 4.9,
+      "totalProducts": 1099,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.9,
+      "totalReviews": 2146,
+      "ratingBreakdown": {
+        "5": 1759,
+        "4": 257,
+        "3": 75,
+        "2": 21,
+        "1": 34
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Bose SoundLink Max suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "bose",
+      "bose soundlink max",
+      "speakers",
+      "portable bluetooth speakers",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [16, 18, 19],
     "isFeatured": true,
     "isNew": true,
-    "freeShipping": true
+    "isBestSeller": false,
+    "isTrending": false,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-02-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
   },
   {
     "id": 18,
@@ -606,35 +3190,178 @@
     "slug": "playstation-5-slim",
     "brand": "Sony",
     "category": "Gaming",
+    "subcategory": "Gaming Consoles",
     "price": 499,
     "oldPrice": 549,
     "discount": 9,
+    "currency": "USD",
     "rating": 4.9,
-    "reviews": 12584,
+    "reviews": [
+      {
+        "id": "review_1801",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=19"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The PlayStation 5 Slim performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 89,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_1802",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=37"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 56,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 838,
     "stock": 32,
+    "lowStockThreshold": 8,
     "sku": "SNY-PS5S-018",
     "thumbnail": "https://i.ibb.co.com/JF5Yjp1W/playstation-5-analog-console-slim-edition-01-500x500.png",
     "images": [
       "https://i.ibb.co.com/0VyK9XBK/Play-Station-5-Slim-Gaming-Console.jpg",
       "https://i.ibb.co.com/7JD1yLdg/maxresdefault-1.jpg",
-      "https://i.ibb.co.com/LdjtKbQq/Play-Station-5-Slim-Disc-2-TB-SSD-Edition-Call-Duty-Modern-Warfare-II-Bundle-Two-Controllers-White-Mi.avif"
+      "https://i.ibb.co.com/LdjtKbQq/Play-Station-5-Slim-Disc-2-TB-SSD-Edition-Call-of-Duty-Modern-Warfare-II-Bundle-Two-Controllers-White-Mi.avif"
     ],
-    "description": "Next-generation gaming console with ultra-fast SSD, ray tracing, and immersive gameplay.",
+    "shortDescription": "Next-generation gaming console with fast SSD storage, high-resolution gaming, ray tracing and an immersive controller.",
+    "description": "Next-generation gaming console with fast SSD storage, high-resolution gaming, ray tracing and an immersive controller. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
     "features": [
-      "1TB SSD",
-      "4K Gaming",
-      "Ray Tracing",
-      "DualSense Controller"
+      {
+        "title": "High Performance Gaming",
+        "description": "Designed for demanding modern games and fast loading."
+      },
+      {
+        "title": "Fast SSD Storage",
+        "description": "Solid-state storage reduces loading times."
+      },
+      {
+        "title": "4K Gaming",
+        "description": "Supports high-resolution gaming on compatible displays."
+      },
+      {
+        "title": "Immersive Audio",
+        "description": "Supports modern spatial and surround audio technologies."
+      }
     ],
     "specifications": {
-      "Storage": "1TB SSD",
-      "Resolution": "Up to 8K",
-      "CPU": "AMD Zen 2",
-      "GPU": "RDNA 2"
+      "General": {
+        "Product Type": "Gaming Console"
+      },
+      "Performance": {
+        "CPU": "AMD Zen 2",
+        "GPU": "RDNA 2",
+        "Memory": "16GB GDDR6"
+      },
+      "Storage": {
+        "Type": "SSD",
+        "Capacity": "1TB SSD"
+      },
+      "Video": {
+        "Resolution": "Up to 4K",
+        "HDR": "Supported"
+      },
+      "Connectivity": {
+        "HDMI": "Supported",
+        "WiFi": "Wi-Fi"
+      },
+      "Accessories": {
+        "Controller": "Included"
+      },
+      "Physical": {
+        "Design": "Home gaming console"
+      }
     },
+    "variants": [
+      {
+        "id": "playstation-5-slim-standard",
+        "option": "Standard",
+        "price": 499,
+        "stock": 32,
+        "sku": "SNY-PS5S-018"
+      }
+    ],
+    "packageContents": [
+      "PlayStation 5 Slim",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_018",
+      "name": "Sony Official Store",
+      "rating": 4.9,
+      "totalProducts": 1146,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.9,
+      "totalReviews": 12584,
+      "ratingBreakdown": {
+        "5": 10318,
+        "4": 1510,
+        "3": 440,
+        "2": 125,
+        "1": 191
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the PlayStation 5 Slim suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "sony",
+      "playstation 5 slim",
+      "gaming",
+      "gaming consoles",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [17, 19, 20],
     "isFeatured": true,
     "isNew": true,
-    "freeShipping": true
+    "isBestSeller": true,
+    "isTrending": true,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-03-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
   },
   {
     "id": 19,
@@ -642,12 +3369,43 @@
     "slug": "xbox-series-x",
     "brand": "Microsoft",
     "category": "Gaming",
+    "subcategory": "Gaming Consoles",
     "price": 499,
     "oldPrice": 549,
     "discount": 9,
+    "currency": "USD",
     "rating": 4.8,
-    "reviews": 10865,
+    "reviews": [
+      {
+        "id": "review_1901",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=20"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Xbox Series X performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 92,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_1902",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=39"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 58,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 724,
     "stock": 29,
+    "lowStockThreshold": 7,
     "sku": "MS-XSX-019",
     "thumbnail": "https://i.ibb.co.com/d0Sq00T8/f08dfa50-f2ef-4873-bc8f-bcb6c34e48c0.png",
     "images": [
@@ -655,22 +3413,134 @@
       "https://i.ibb.co.com/KjkGJJdn/Microsoft-Xbox-Series-X-1-TB-SSD-Gaming-Console-7731b7a3-2b2c-4cdd-b79a-56958896fc7c-7579fef99ebf8da0.avif",
       "https://i.ibb.co.com/1J91LmZq/images-21.jpg"
     ],
-    "description": "Powerful gaming console built for true 4K gaming with lightning-fast performance.",
+    "shortDescription": "Powerful home gaming console built for high-resolution gaming, fast loading, high frame rates and modern HDR experiences.",
+    "description": "Powerful home gaming console built for high-resolution gaming, fast loading, high frame rates and modern HDR experiences. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
     "features": [
-      "1TB SSD",
-      "Quick Resume",
-      "120 FPS",
-      "Dolby Vision"
+      {
+        "title": "High Performance Gaming",
+        "description": "Designed for demanding modern games and fast loading."
+      },
+      {
+        "title": "Fast SSD Storage",
+        "description": "Solid-state storage reduces loading times."
+      },
+      {
+        "title": "4K Gaming",
+        "description": "Supports high-resolution gaming on compatible displays."
+      },
+      {
+        "title": "Immersive Audio",
+        "description": "Supports modern spatial and surround audio technologies."
+      }
     ],
     "specifications": {
-      "CPU": "AMD Zen 2",
-      "GPU": "12 TFLOPS",
-      "Storage": "1TB SSD",
-      "Memory": "16GB GDDR6"
+      "General": {
+        "Product Type": "Gaming Console"
+      },
+      "Performance": {
+        "CPU": "AMD Zen 2",
+        "GPU": "12 TFLOPS",
+        "Memory": "16GB GDDR6"
+      },
+      "Storage": {
+        "Type": "SSD",
+        "Capacity": "1TB SSD"
+      },
+      "Video": {
+        "Resolution": "Up to 4K",
+        "HDR": "Supported"
+      },
+      "Connectivity": {
+        "HDMI": "Supported",
+        "WiFi": "Wi-Fi"
+      },
+      "Accessories": {
+        "Controller": "Included"
+      },
+      "Physical": {
+        "Design": "Home gaming console"
+      }
     },
+    "variants": [
+      {
+        "id": "xbox-series-x-standard",
+        "option": "Standard",
+        "price": 499,
+        "stock": 29,
+        "sku": "MS-XSX-019"
+      }
+    ],
+    "packageContents": [
+      "Xbox Series X",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_019",
+      "name": "Microsoft Official Store",
+      "rating": 4.9,
+      "totalProducts": 1193,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.8,
+      "totalReviews": 10865,
+      "ratingBreakdown": {
+        "5": 8909,
+        "4": 1303,
+        "3": 380,
+        "2": 108,
+        "1": 165
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Xbox Series X suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "microsoft",
+      "xbox series x",
+      "gaming",
+      "gaming consoles",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [18, 20, 21],
     "isFeatured": true,
     "isNew": false,
-    "freeShipping": true
+    "isBestSeller": true,
+    "isTrending": false,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-04-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
   },
   {
     "id": 20,
@@ -678,12 +3548,43 @@
     "slug": "nintendo-switch-oled",
     "brand": "Nintendo",
     "category": "Gaming",
+    "subcategory": "Gaming Consoles",
     "price": 349,
     "oldPrice": 399,
     "discount": 13,
+    "currency": "USD",
     "rating": 4.8,
-    "reviews": 8976,
+    "reviews": [
+      {
+        "id": "review_2001",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=21"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Nintendo Switch OLED performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 95,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_2002",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=41"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 60,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 598,
     "stock": 40,
+    "lowStockThreshold": 10,
     "sku": "NTD-SWO-020",
     "thumbnail": "https://i.ibb.co.com/zTXTdp2m/Nintendo-Switch-OLED-Gaming-Console-White-Joy-Con-from-Zamve-Online-Console-Game-Shop-BD-1.jpg",
     "images": [
@@ -691,376 +3592,1908 @@
       "https://i.ibb.co.com/GvY5nNLq/nintendo-switch-oled-2048px-3x2-1.jpg",
       "https://i.ibb.co.com/jvCbHshL/hardware-hero-combo.avif"
     ],
-    "description": "Versatile gaming console featuring a vibrant OLED display for handheld and TV gaming.",
+    "shortDescription": "Hybrid gaming console with a vibrant OLED display, detachable controllers and support for handheld, tabletop and TV play.",
+    "description": "Hybrid gaming console with a vibrant OLED display, detachable controllers and support for handheld, tabletop and TV play. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
     "features": [
-      "7-inch OLED",
-      "64GB Storage",
-      "Dock Included",
-      "Joy-Con Controllers"
+      {
+        "title": "High Performance Gaming",
+        "description": "Designed for demanding modern games and fast loading."
+      },
+      {
+        "title": "Fast SSD Storage",
+        "description": "Solid-state storage reduces loading times."
+      },
+      {
+        "title": "4K Gaming",
+        "description": "Supports high-resolution gaming on compatible displays."
+      },
+      {
+        "title": "Immersive Audio",
+        "description": "Supports modern spatial and surround audio technologies."
+      }
     ],
     "specifications": {
-      "Display": "7-inch OLED",
-      "Storage": "64GB",
-      "Battery": "9 Hours",
-      "Resolution": "1080p Docked"
+      "General": {
+        "Product Type": "Hybrid Gaming Console"
+      },
+      "Display": {
+        "Type": "OLED",
+        "Size": "7-inch",
+        "Resolution": "1280 x 720 handheld"
+      },
+      "Performance": {
+        "Processor": "NVIDIA Custom Tegra"
+      },
+      "Storage": {
+        "Capacity": "64GB"
+      },
+      "Battery": {
+        "Battery Life": "Approximately 4.5-9 hours depending on usage"
+      },
+      "Connectivity": {
+        "WiFi": "802.11ac",
+        "Bluetooth": "Supported"
+      },
+      "Controls": {
+        "Type": "Detachable Joy-Con controllers"
+      },
+      "Physical": {
+        "Modes": "Handheld, tabletop and TV"
+      }
     },
+    "variants": [
+      {
+        "id": "nintendo-switch-oled-standard",
+        "option": "Standard",
+        "price": 349,
+        "stock": 40,
+        "sku": "NTD-SWO-020"
+      }
+    ],
+    "packageContents": [
+      "Nintendo Switch OLED",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_020",
+      "name": "Nintendo Official Store",
+      "rating": 4.9,
+      "totalProducts": 1240,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.8,
+      "totalReviews": 8976,
+      "ratingBreakdown": {
+        "5": 7360,
+        "4": 1077,
+        "3": 314,
+        "2": 89,
+        "1": 136
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Nintendo Switch OLED suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "nintendo",
+      "nintendo switch oled",
+      "gaming",
+      "gaming consoles",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [19, 21, 22],
     "isFeatured": true,
     "isNew": false,
-    "freeShipping": true
+    "isBestSeller": true,
+    "isTrending": true,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-05-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
   },
   {
-      "id": 21,
-      "name": "Dyson V15 Detect",
-      "slug": "dyson-v15-detect",
-      "brand": "Dyson",
-      "category": "Home Appliances",
-      "price": 749,
-      "oldPrice": 849,
-      "discount": 12,
+    "id": 21,
+    "name": "Dyson V15 Detect",
+    "slug": "dyson-v15-detect",
+    "brand": "Dyson",
+    "category": "Home Appliances",
+    "subcategory": "Cleaning Appliances",
+    "price": 749,
+    "oldPrice": 849,
+    "discount": 12,
+    "currency": "USD",
+    "rating": 4.9,
+    "reviews": [
+      {
+        "id": "review_2101",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=22"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Dyson V15 Detect performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 98,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_2102",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=43"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 62,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 349,
+    "stock": 20,
+    "lowStockThreshold": 5,
+    "sku": "DYS-V15-021",
+    "thumbnail": "https://i.ibb.co.com/gZHxx4jk/SV20-Dog-IRSYEIRNK-Leap-v2.jpg",
+    "images": [
+      "https://i.ibb.co.com/x8GP1L2Y/design-medium-4.jpg",
+      "https://i.ibb.co.com/VpC0CXbg/images-23.jpg",
+      "https://i.ibb.co.com/HL16svS2/V15-Overview-Hero-US.jpg"
+    ],
+    "shortDescription": "Cordless vacuum cleaner with powerful suction, particle detection, advanced filtration and a digital information display.",
+    "description": "Cordless vacuum cleaner with powerful suction, particle detection, advanced filtration and a digital information display. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
+    "features": [
+      {
+        "title": "Powerful Cleaning",
+        "description": "Designed to handle common household cleaning tasks."
+      },
+      {
+        "title": "Filtration",
+        "description": "Multi-stage filtration helps capture fine particles."
+      },
+      {
+        "title": "Long Runtime",
+        "description": "Rechargeable battery supports extended cleaning sessions."
+      },
+      {
+        "title": "Digital Controls",
+        "description": "On-device controls provide useful cleaning information."
+      }
+    ],
+    "specifications": {
+      "General": {
+        "Product Type": "Cordless Vacuum"
+      },
+      "Motor": {
+        "Type": "High-speed digital motor"
+      },
+      "Filtration": {
+        "Type": "Multi-stage filtration"
+      },
+      "Battery": {
+        "Runtime": "Up to 60 minutes"
+      },
+      "Capacity": {
+        "Dust Bin": "0.77L"
+      },
+      "Controls": {
+        "Display": "Digital information display"
+      },
+      "Physical": {
+        "Weight": "3.1kg"
+      }
+    },
+    "variants": [
+      {
+        "id": "dyson-v15-detect-standard",
+        "option": "Standard",
+        "price": 749,
+        "stock": 20,
+        "sku": "DYS-V15-021"
+      }
+    ],
+    "packageContents": [
+      "Dyson V15 Detect",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_021",
+      "name": "Dyson Official Store",
       "rating": 4.9,
-      "reviews": 5248,
-      "stock": 20,
-      "sku": "DYS-V15-021",
-      "thumbnail": "https://i.ibb.co.com/gZHxx4jk/SV20-Dog-IRSYEIRNK-Leap-v2.jpg",
-      "images": [
-        "https://i.ibb.co.com/x8GP1L2Y/design-medium-4.jpg",
-        "https://i.ibb.co.com/VpC0CXbg/images-23.jpg",
-        "https://i.ibb.co.com/HL16svS2/V15-Overview-Hero-US.jpg"
-      ],
-      "description": "Powerful cordless vacuum cleaner featuring laser dust detection and intelligent suction adjustment.",
-      "features": [
-        "Laser Dust Detection",
-        "60 Minutes Runtime",
-        "HEPA Filtration",
-        "LCD Display"
-      ],
-      "specifications": {
-        "Battery": "60 Minutes",
-        "Dust Bin": "0.77L",
-        "Weight": "3.1kg",
-        "Color": "Yellow/Nickel"
-      },
-      "isFeatured": true,
-      "isNew": true,
-      "freeShipping": true
+      "totalProducts": 1287,
+      "verified": true
     },
-    {
-      "id": 22,
-      "name": "Instant Pot Duo Plus",
-      "slug": "instant-pot-duo-plus",
-      "brand": "Instant Pot",
-      "category": "Kitchen",
-      "price": 129,
-      "oldPrice": 159,
-      "discount": 19,
-      "rating": 4.8,
-      "reviews": 7815,
-      "stock": 65,
-      "sku": "INS-DP-022",
-      "thumbnail": "https://i.ibb.co.com/wfBzx9X/112-0169-01-Duo-Plus-6-Qt-Feature2-03-ATF.jpg",
-      "images": [
-        "https://i.ibb.co.com/k2McKfqD/41-Zh-Ox-Q1p-GL-AC-UF894-1000-QL80.jpg",
-        "https://i.ibb.co.com/YTBRSG6z/images-24.jpg",
-        "https://i.ibb.co.com/BVBVYWrZ/Instant-Duo-Plus-Aluminum-Stainless-Steel-Digital-Pressure-Cooker-8-qt-Black-Silver-0b7fc8b3-93c4-46.avif"
-      ],
-      "description": "Versatile multi-cooker with pressure cooking, slow cooking, steaming, sautéing, and more.",
-      "features": [
-        "9-in-1 Multi Cooker",
-        "Pressure Cook",
-        "Slow Cook",
-        "Dishwasher Safe"
-      ],
-      "specifications": {
-        "Capacity": "6 Quart",
-        "Power": "1000W",
-        "Material": "Stainless Steel",
-        "Programs": "15 Smart Programs"
-      },
-      "isFeatured": true,
-      "isNew": false,
-      "freeShipping": true
+    "reviewsSummary": {
+      "averageRating": 4.9,
+      "totalReviews": 5248,
+      "ratingBreakdown": {
+        "5": 4303,
+        "4": 629,
+        "3": 183,
+        "2": 52,
+        "1": 81
+      }
     },
-    {
-      "id": 23,
-      "name": "Philips Air Fryer XXL",
-      "slug": "philips-air-fryer-xxl",
-      "brand": "Philips",
-      "category": "Kitchen",
-      "price": 249,
-      "oldPrice": 299,
-      "discount": 17,
-      "rating": 4.8,
-      "reviews": 4310,
-      "stock": 38,
-      "sku": "PHL-AFXXL-023",
-      "thumbnail": "https://i.ibb.co.com/nMHQXWcz/611l-BCAdn-AL-AC-UF894-1000-QL80.jpg",
-      "images": [
-        "https://i.ibb.co.com/fz03rxXy/images-25.jpg",
-        "https://i.ibb.co.com/xSwqM9mM/images-26.jpg",
-        "https://i.ibb.co.com/ym4G5T8v/800x.png"
-      ],
-      "description": "Healthy air fryer with Rapid Air Technology for crispy meals using little to no oil.",
-      "features": [
-        "Rapid Air Technology",
-        "Digital Display",
-        "Easy Clean Basket",
-        "Fat Removal Technology"
-      ],
-      "specifications": {
-        "Capacity": "7.3L",
-        "Power": "2225W",
-        "Material": "Plastic & Metal",
-        "Color": "Black"
+    "faqs": [
+      {
+        "question": "Is the Dyson V15 Detect suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
       },
-      "isFeatured": true,
-      "isNew": true,
-      "freeShipping": true
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "dyson",
+      "dyson v15 detect",
+      "home appliances",
+      "cleaning appliances",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [20, 22, 23],
+    "isFeatured": true,
+    "isNew": false,
+    "isBestSeller": true,
+    "isTrending": false,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-06-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
+  },
+  {
+    "id": 22,
+    "name": "Instant Pot Duo Plus",
+    "slug": "instant-pot-duo-plus",
+    "brand": "Instant Pot",
+    "category": "Kitchen",
+    "subcategory": "Kitchen Appliances",
+    "price": 129,
+    "oldPrice": 159,
+    "discount": 19,
+    "currency": "USD",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "id": "review_2201",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=23"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Instant Pot Duo Plus performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 101,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_2202",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=45"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 64,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 521,
+    "stock": 65,
+    "lowStockThreshold": 10,
+    "sku": "INS-DP-022",
+    "thumbnail": "https://i.ibb.co.com/wfBzx9X/112-0169-01-Duo-Plus-6-Qt-Feature2-03-ATF.jpg",
+    "images": [
+      "https://i.ibb.co.com/k2McKfqD/41-Zh-Ox-Q1p-GL-AC-UF894-1000-QL80.jpg",
+      "https://i.ibb.co.com/YTBRSG6z/images-24.jpg",
+      "https://i.ibb.co.com/BVBVYWrZ/Instant-Duo-Plus-Aluminum-Stainless-Steel-Digital-Pressure-Cooker-8-qt-Black-Silver-0b7fc8b3-93c4-46.avif"
+    ],
+    "shortDescription": "Versatile electric pressure cooker and multi-cooker with multiple cooking programs, digital controls and easy-clean components.",
+    "description": "Versatile electric pressure cooker and multi-cooker with multiple cooking programs, digital controls and easy-clean components. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
+    "features": [
+      {
+        "title": "Multiple Cooking Modes",
+        "description": "Supports several everyday cooking methods."
+      },
+      {
+        "title": "Digital Controls",
+        "description": "Easy-to-use electronic controls and preset programs."
+      },
+      {
+        "title": "Easy Cleaning",
+        "description": "Removable components simplify routine cleaning."
+      },
+      {
+        "title": "Safety Features",
+        "description": "Built-in safety functions help support everyday operation."
+      }
+    ],
+    "specifications": {
+      "General": {
+        "Product Type": "Kitchen Appliance"
+      },
+      "Capacity": {
+        "Size": "6 Quart"
+      },
+      "Power": {
+        "Input": "1000W"
+      },
+      "Controls": {
+        "Type": "Digital controls"
+      },
+      "Programs": {
+        "Preset Modes": "15 smart programs"
+      },
+      "Cleaning": {
+        "Components": "Removable components"
+      },
+      "Physical": {
+        "Material": "Stainless steel and heat-resistant materials"
+      }
     },
-    {
-      "id": 24,
-      "name": "LG C4 OLED TV 55-inch",
-      "slug": "lg-c4-oled-tv-55-inch",
-      "brand": "LG",
-      "category": "Television",
-      "price": 1499,
-      "oldPrice": 1699,
-      "discount": 12,
+    "variants": [
+      {
+        "id": "instant-pot-duo-plus-standard",
+        "option": "Standard",
+        "price": 129,
+        "stock": 65,
+        "sku": "INS-DP-022"
+      }
+    ],
+    "packageContents": [
+      "Instant Pot Duo Plus",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_022",
+      "name": "Instant Pot Official Store",
       "rating": 4.9,
-      "reviews": 2968,
-      "stock": 12,
-      "sku": "LG-C455-024",
-      "thumbnail": "https://i.ibb.co.com/gMj3dF30/lg-c4-oled-55-inch-deal-amazon-sale.jpg",
-      "images": [
-        "https://i.ibb.co.com/S4m4SfYB/images-27.jpg",
-        "https://i.ibb.co.com/wZBytrTz/oled-c4-18-sc9-soundbar-m-2.avif",
-        "https://i.ibb.co.com/dwDCcB0V/uw-GAPc-Ugw-JJX6s-Cvz-D4bf-C.jpg"
-      ],
-      "description": "Premium OLED smart TV with stunning picture quality, Dolby Vision, and AI-powered processing.",
-      "features": [
-        "4K OLED Display",
-        "120Hz Refresh Rate",
-        "Dolby Vision",
-        "webOS Smart TV"
-      ],
-      "specifications": {
-        "Screen Size": "55-inch",
-        "Resolution": "3840×2160",
-        "HDR": "Dolby Vision",
-        "HDMI": "4 Ports"
-      },
-      "isFeatured": true,
-      "isNew": true,
-      "freeShipping": true
+      "totalProducts": 1334,
+      "verified": true
     },
-    {
-      "id": 25,
-      "name": "Samsung Neo QLED 65-inch",
-      "slug": "samsung-neo-qled-65-inch",
-      "brand": "Samsung",
-      "category": "Television",
-      "price": 1899,
-      "oldPrice": 2099,
-      "discount": 10,
-      "rating": 4.8,
-      "reviews": 2512,
-      "stock": 10,
-      "sku": "SAM-NQ65-025",
-      "thumbnail": "https://i.ibb.co.com/qF0mDFjS/samsung-65qn85d-official-08-500x500.jpg",
-      "images": [
-        "https://i.ibb.co.com/S4n1L1bd/55qn90b-02-500x500.jpg",
-        "https://i.ibb.co.com/14szJTb/us-neo-qled-qn65qn1efafxza-l-perspective-black-546228272.png",
-        "https://i.ibb.co.com/gLn9Nr0m/africa-en-qled-tv-qa65qn800duxke-r-perspective-black-542483041.avif"
-      ],
-      "description": "Neo QLED television delivering ultra-bright visuals, immersive audio, and premium gaming features.",
-      "features": ["Mini LED", "144Hz Gaming", "Dolby Atmos", "AI Upscaling"],
-      "specifications": {
-        "Screen Size": "65-inch",
+    "reviewsSummary": {
+      "averageRating": 4.8,
+      "totalReviews": 7815,
+      "ratingBreakdown": {
+        "5": 6408,
+        "4": 937,
+        "3": 273,
+        "2": 78,
+        "1": 119
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Instant Pot Duo Plus suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "instant pot",
+      "instant pot duo plus",
+      "kitchen",
+      "kitchen appliances",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [21, 23, 24],
+    "isFeatured": true,
+    "isNew": false,
+    "isBestSeller": true,
+    "isTrending": true,
+    "isFlashSale": true,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-07-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
+  },
+  {
+    "id": 23,
+    "name": "Philips Air Fryer XXL",
+    "slug": "philips-air-fryer-xxl",
+    "brand": "Philips",
+    "category": "Kitchen",
+    "subcategory": "Kitchen Appliances",
+    "price": 249,
+    "oldPrice": 299,
+    "discount": 17,
+    "currency": "USD",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "id": "review_2301",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=24"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Philips Air Fryer XXL performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 104,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_2302",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=47"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 66,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 287,
+    "stock": 38,
+    "lowStockThreshold": 9,
+    "sku": "PHL-AFXXL-023",
+    "thumbnail": "https://i.ibb.co.com/nMHQXWcz/611l-BCAdn-AL-AC-UF894-1000-QL80.jpg",
+    "images": [
+      "https://i.ibb.co.com/fz03rxXy/images-25.jpg",
+      "https://i.ibb.co.com/xSwqM9mM/images-26.jpg",
+      "https://i.ibb.co.com/ym4G5T8v/800x.png"
+    ],
+    "shortDescription": "Large-capacity air fryer designed for convenient cooking with rapid-air circulation, digital controls and easy-clean components.",
+    "description": "Large-capacity air fryer designed for convenient cooking with rapid-air circulation, digital controls and easy-clean components. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
+    "features": [
+      {
+        "title": "Multiple Cooking Modes",
+        "description": "Supports several everyday cooking methods."
+      },
+      {
+        "title": "Digital Controls",
+        "description": "Easy-to-use electronic controls and preset programs."
+      },
+      {
+        "title": "Easy Cleaning",
+        "description": "Removable components simplify routine cleaning."
+      },
+      {
+        "title": "Safety Features",
+        "description": "Built-in safety functions help support everyday operation."
+      }
+    ],
+    "specifications": {
+      "General": {
+        "Product Type": "Kitchen Appliance"
+      },
+      "Capacity": {
+        "Size": "7.3L"
+      },
+      "Power": {
+        "Input": "2225W"
+      },
+      "Controls": {
+        "Type": "Digital controls"
+      },
+      "Programs": {
+        "Preset Modes": "Multiple"
+      },
+      "Cleaning": {
+        "Components": "Removable components"
+      },
+      "Physical": {
+        "Material": "Stainless steel and heat-resistant materials"
+      },
+      "Cooking": {
+        "Technology": "Rapid Air Technology"
+      }
+    },
+    "variants": [
+      {
+        "id": "philips-air-fryer-xxl-standard",
+        "option": "Standard",
+        "price": 249,
+        "stock": 38,
+        "sku": "PHL-AFXXL-023"
+      }
+    ],
+    "packageContents": [
+      "Philips Air Fryer XXL",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_023",
+      "name": "Philips Official Store",
+      "rating": 4.9,
+      "totalProducts": 1381,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.8,
+      "totalReviews": 4310,
+      "ratingBreakdown": {
+        "5": 3534,
+        "4": 517,
+        "3": 150,
+        "2": 43,
+        "1": 66
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Philips Air Fryer XXL suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "philips",
+      "philips air fryer xxl",
+      "kitchen",
+      "kitchen appliances",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [22, 24, 25],
+    "isFeatured": true,
+    "isNew": true,
+    "isBestSeller": false,
+    "isTrending": false,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-08-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
+  },
+  {
+    "id": 24,
+    "name": "LG C4 OLED TV 55-inch",
+    "slug": "lg-c4-oled-tv-55-inch",
+    "brand": "LG",
+    "category": "Television",
+    "subcategory": "Smart TVs",
+    "price": 1499,
+    "oldPrice": 1699,
+    "discount": 12,
+    "currency": "USD",
+    "rating": 4.9,
+    "reviews": [
+      {
+        "id": "review_2401",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=25"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The LG C4 OLED TV 55-inch performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 107,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_2402",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=49"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 68,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 197,
+    "stock": 12,
+    "lowStockThreshold": 4,
+    "sku": "LG-C455-024",
+    "thumbnail": "https://i.ibb.co.com/gMj3dF30/lg-c4-oled-55-inch-deal-amazon-sale.jpg",
+    "images": [
+      "https://i.ibb.co.com/S4m4SfYB/images-27.jpg",
+      "https://i.ibb.co.com/wZBytrTz/oled-c4-18-sc9-soundbar-m-2.avif",
+      "https://i.ibb.co.com/dwDCcB0V/uw-GAPc-Ugw-JJX6s-Cvz-D4bf-C.jpg"
+    ],
+    "shortDescription": "Premium OLED smart TV with detailed 4K picture, high refresh rate, HDR support, smart streaming and gaming features.",
+    "description": "Premium OLED smart TV with detailed 4K picture, high refresh rate, HDR support, smart streaming and gaming features. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
+    "features": [
+      {
+        "title": "4K Picture",
+        "description": "High-resolution display delivers detailed images."
+      },
+      {
+        "title": "HDR",
+        "description": "Compatible HDR formats improve contrast and highlight detail."
+      },
+      {
+        "title": "Smart TV Platform",
+        "description": "Streaming and smart applications are available through the built-in platform."
+      },
+      {
+        "title": "Gaming Features",
+        "description": "High refresh rates and low-latency features support compatible gaming setups."
+      }
+    ],
+    "specifications": {
+      "General": {
+        "Product Type": "Smart TV"
+      },
+      "Display": {
+        "Resolution": "3840 x 2160 pixels",
+        "HDR": "Supported",
+        "Refresh Rate": "120Hz",
+        "Size": "55-inch",
+        "Panel": "OLED"
+      },
+      "Audio": {
+        "Audio": "Dolby-compatible audio on supported models"
+      },
+      "Connectivity": {
+        "HDMI": "4 ports",
+        "WiFi": "Wi-Fi"
+      },
+      "Smart Features": {
+        "Platform": "webOS"
+      },
+      "Gaming": {
+        "Features": "Low latency and high refresh support"
+      },
+      "Physical": {
+        "Design": "Slim display chassis"
+      }
+    },
+    "variants": [
+      {
+        "id": "lg-c4-oled-tv-55-inch-standard",
+        "option": "Standard",
+        "price": 1499,
+        "stock": 12,
+        "sku": "LG-C455-024"
+      }
+    ],
+    "packageContents": [
+      "LG C4 OLED TV 55-inch",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_024",
+      "name": "LG Official Store",
+      "rating": 4.9,
+      "totalProducts": 1428,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.9,
+      "totalReviews": 2968,
+      "ratingBreakdown": {
+        "5": 2433,
+        "4": 356,
+        "3": 103,
+        "2": 29,
+        "1": 47
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the LG C4 OLED TV 55-inch suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "lg",
+      "lg c4 oled tv 55-inch",
+      "television",
+      "smart tvs",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [23, 25, 26],
+    "isFeatured": true,
+    "isNew": true,
+    "isBestSeller": true,
+    "isTrending": true,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-01-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
+  },
+  {
+    "id": 25,
+    "name": "Samsung Neo QLED 65-inch",
+    "slug": "samsung-neo-qled-65-inch",
+    "brand": "Samsung",
+    "category": "Television",
+    "subcategory": "Smart TVs",
+    "price": 1899,
+    "oldPrice": 2099,
+    "discount": 10,
+    "currency": "USD",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "id": "review_2501",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=26"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Samsung Neo QLED 65-inch performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 110,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_2502",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=51"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 70,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 167,
+    "stock": 10,
+    "lowStockThreshold": 4,
+    "sku": "SAM-NQ65-025",
+    "thumbnail": "https://i.ibb.co.com/qF0mDFjS/samsung-65qn85d-official-08-500x500.jpg",
+    "images": [
+      "https://i.ibb.co.com/S4n1L1bd/55qn90b-02-500x500.jpg",
+      "https://i.ibb.co.com/14szJTb/us-neo-qled-qn65qn1efafxza-l-perspective-black-546228272.png",
+      "https://i.ibb.co.com/gLn9Nr0m/africa-en-qled-tv-qa65qn800duxke-r-perspective-black-542483041.avif",
+      "https://i.ibb.co.com/xKP6MGqz/50098494-1055408.png"
+    ],
+    "shortDescription": "Large Neo QLED smart TV delivering bright 4K visuals, HDR, advanced upscaling, immersive audio and gaming features.",
+    "description": "Large Neo QLED smart TV delivering bright 4K visuals, HDR, advanced upscaling, immersive audio and gaming features. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
+    "features": [
+      {
+        "title": "4K Picture",
+        "description": "High-resolution display delivers detailed images."
+      },
+      {
+        "title": "HDR",
+        "description": "Compatible HDR formats improve contrast and highlight detail."
+      },
+      {
+        "title": "Smart TV Platform",
+        "description": "Streaming and smart applications are available through the built-in platform."
+      },
+      {
+        "title": "Gaming Features",
+        "description": "High refresh rates and low-latency features support compatible gaming setups."
+      }
+    ],
+    "specifications": {
+      "General": {
+        "Product Type": "Smart TV"
+      },
+      "Display": {
         "Resolution": "4K UHD",
-        "HDR": "HDR10+",
-        "HDMI": "4 Ports"
+        "HDR": "Supported",
+        "Refresh Rate": "120Hz or higher depending on model",
+        "Size": "65-inch",
+        "Panel": "Neo QLED"
       },
-      "isFeatured": true,
-      "isNew": true,
-      "freeShipping": true
+      "Audio": {
+        "Audio": "Dolby-compatible audio on supported models"
+      },
+      "Connectivity": {
+        "HDMI": "4 ports",
+        "WiFi": "Wi-Fi"
+      },
+      "Smart Features": {
+        "Platform": "Smart TV operating system"
+      },
+      "Gaming": {
+        "Features": "Low latency and high refresh support",
+        "Refresh Rate": "Up to 144Hz"
+      },
+      "Physical": {
+        "Design": "Slim display chassis"
+      }
     },
-    {
-      "id": 26,
-      "name": "Anker 737 Power Bank",
-      "slug": "anker-737-power-bank",
-      "brand": "Anker",
-      "category": "Accessories",
-      "price": 149,
-      "oldPrice": 179,
-      "discount": 17,
+    "variants": [
+      {
+        "id": "samsung-neo-qled-65-inch-standard",
+        "option": "Standard",
+        "price": 1899,
+        "stock": 10,
+        "sku": "SAM-NQ65-025"
+      }
+    ],
+    "packageContents": [
+      "Samsung Neo QLED 65-inch",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_025",
+      "name": "Samsung Official Store",
       "rating": 4.9,
-      "reviews": 6175,
-      "stock": 90,
-      "sku": "ANK-737-026",
-      "thumbnail": "https://i.ibb.co.com/0RjgsDvk/anker-737-24000mah-power-bank-140w-5.jpg",
-      "images": [
-        "https://i.ibb.co.com/DjZbxXD/Anker-737-Power-Bank-Power-Core-24-K.jpg",
-        "https://i.ibb.co.com/hRNq5JPR/717f-Yn-V0-QYL-AC-SL1500.jpg",
-        "https://i.ibb.co.com/S7X2vbjV/Anker-737-Powerbank-140-W-24000m-Ah-Powerbank-A1289-1.jpg"
-      ],
-      "description": "High-capacity power bank with fast USB-C charging for laptops, tablets, and smartphones.",
-      "features": [
-        "24000mAh Capacity",
-        "140W Output",
-        "Smart Display",
-        "USB-C Fast Charging"
-      ],
-      "specifications": {
+      "totalProducts": 1475,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.8,
+      "totalReviews": 2512,
+      "ratingBreakdown": {
+        "5": 2059,
+        "4": 301,
+        "3": 87,
+        "2": 25,
+        "1": 40
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Samsung Neo QLED 65-inch suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "samsung",
+      "samsung neo qled 65-inch",
+      "television",
+      "smart tvs",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [24, 26, 27],
+    "isFeatured": true,
+    "isNew": true,
+    "isBestSeller": false,
+    "isTrending": false,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-02-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
+  },
+  {
+    "id": 26,
+    "name": "Anker 737 Power Bank",
+    "slug": "anker-737-power-bank",
+    "brand": "Anker",
+    "category": "Accessories",
+    "subcategory": "Computer & Mobile Accessories",
+    "price": 149,
+    "oldPrice": 179,
+    "discount": 17,
+    "currency": "USD",
+    "rating": 4.9,
+    "reviews": [
+      {
+        "id": "review_2601",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=27"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Anker 737 Power Bank performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 113,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_2602",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=53"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 72,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 411,
+    "stock": 90,
+    "lowStockThreshold": 10,
+    "sku": "ANK-737-026",
+    "thumbnail": "https://i.ibb.co.com/0RjgsDvk/anker-737-24000mah-power-bank-140w-5.jpg",
+    "images": [
+      "https://i.ibb.co.com/DjZbxXD/Anker-737-Power-Bank-Power-Core-24-K.jpg",
+      "https://i.ibb.co.com/hRNq5JPR/717f-Yn-V0-QYL-AC-SL1500.jpg",
+      "https://i.ibb.co.com/S7X2vbjV/Anker-737-Powerbank-140-W-24000m-Ah-Powerbank-A1289-1.jpg",
+      "https://i.ibb.co.com/SDJ1rjhH/images-1.jpg"
+    ],
+    "shortDescription": "High-capacity portable power bank with high-wattage USB-C output, multiple ports and a digital status display.",
+    "description": "High-capacity portable power bank with high-wattage USB-C output, multiple ports and a digital status display. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
+    "features": [
+      {
+        "title": "Productivity",
+        "description": "Designed to improve everyday desktop or mobile workflows."
+      },
+      {
+        "title": "USB-C",
+        "description": "Modern USB-C connectivity or charging for compatible devices."
+      },
+      {
+        "title": "Multi-device Support",
+        "description": "Works with a broad range of compatible devices."
+      },
+      {
+        "title": "Compact Design",
+        "description": "Designed for practical everyday use and portability."
+      }
+    ],
+    "specifications": {
+      "General": {
+        "Product Type": "Electronic Accessory"
+      },
+      "Connectivity": {
+        "USB": "USB-C",
+        "Wireless": "Supported on compatible models"
+      },
+      "Power": {
         "Capacity": "24000mAh",
-        "Output": "140W",
-        "Ports": "2 USB-C, 1 USB-A",
-        "Weight": "630g"
+        "Maximum Output": "140W"
       },
-      "isFeatured": true,
-      "isNew": false,
-      "freeShipping": true
-    },
-    {
-      "id": 27,
-      "name": "UGREEN Nexode 100W Charger",
-      "slug": "ugreen-nexode-100w-charger",
-      "brand": "UGREEN",
-      "category": "Accessories",
-      "price": 69,
-      "oldPrice": 89,
-      "discount": 22,
-      "rating": 4.8,
-      "reviews": 3486,
-      "stock": 110,
-      "sku": "UGR-NX100-027",
-      "thumbnail": "https://i.ibb.co.com/XfnPK5MT/ugreen-nexode-100w-charger-with-retractable-usb-c-cable-1.jpg",
-      "images": [
-        "https://i.ibb.co.com/HDCMXrVY/images-28.jpg",
-        "https://i.ibb.co.com/DDpstMSX/images-29.jpg",
-        "https://i.ibb.co.com/nMDYTpG0/UGREEN-Nexode-Pro-100-W-3-Port-Ga-N-Compact-Fast-PPS-Wall-Charger-with-USB-C-to-USB-C-Cable-X757-1.png"
-      ],
-      "description": "Compact GaN charger with 100W fast charging support for laptops, tablets, and smartphones.",
-      "features": [
-        "100W Fast Charging",
-        "GaN Technology",
-        "4 Charging Ports",
-        "Universal Compatibility"
-      ],
-      "specifications": {
-        "Power": "100W",
-        "Ports": "3 USB-C + 1 USB-A",
-        "Technology": "GaN",
-        "Color": "Gray"
+      "Compatibility": {
+        "Devices": "Compatible laptops, tablets and smartphones"
       },
-      "isFeatured": false,
-      "isNew": true,
-      "freeShipping": true
+      "Physical": {
+        "Build": "Durable consumer electronics construction"
+      },
+      "Ports": {
+        "USB-C": 2,
+        "USB-A": 1
+      }
     },
-    {
-      "id": 28,
-      "name": "Amazon Kindle Paperwhite",
-      "slug": "amazon-kindle-paperwhite",
-      "brand": "Amazon",
-      "category": "Tablets",
-      "price": 179,
-      "oldPrice": 209,
-      "discount": 14,
+    "variants": [
+      {
+        "id": "anker-737-power-bank-standard",
+        "option": "Standard",
+        "price": 149,
+        "stock": 90,
+        "sku": "ANK-737-026"
+      }
+    ],
+    "packageContents": [
+      "Anker 737 Power Bank",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_026",
+      "name": "Anker Official Store",
       "rating": 4.9,
-      "reviews": 8294,
-      "stock": 52,
-      "sku": "AMZ-KPW-028",
-      "thumbnail": "https://i.ibb.co.com/Z6KDffCn/amazon-kindle-paperwhite-12th-gen-01-500x500.jpg",
-      "images": [
-        "https://i.ibb.co.com/0RmtyCVY/N2-Ji-MWFi-Mz-Yt-CB600254656.jpg",
-        "https://i.ibb.co.com/tpzMSk2x/61-P-vrv-FZ9-L-AC-UF1000-1000-QL80.jpg",
-        "https://i.ibb.co.com/bgctcXXs/OWM3-Nzhl-N2-Ut-CB625115166.jpg"
-      ],
-      "description": "Waterproof e-reader with glare-free display and weeks of battery life for comfortable reading.",
-      "features": [
-        "6.8-inch Display",
-        "Waterproof",
-        "Adjustable Warm Light",
-        "Wi-Fi"
-      ],
-      "specifications": {
-        "Storage": "16GB",
-        "Display": "300 PPI",
-        "Battery": "Up to 10 Weeks",
+      "totalProducts": 1522,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.9,
+      "totalReviews": 6175,
+      "ratingBreakdown": {
+        "5": 5063,
+        "4": 741,
+        "3": 216,
+        "2": 61,
+        "1": 94
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Anker 737 Power Bank suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "anker",
+      "anker 737 power bank",
+      "accessories",
+      "computer & mobile accessories",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [25, 27, 28],
+    "isFeatured": true,
+    "isNew": false,
+    "isBestSeller": true,
+    "isTrending": true,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-03-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
+  },
+  {
+    "id": 27,
+    "name": "UGREEN Nexode 100W Charger",
+    "slug": "ugreen-nexode-100w-charger",
+    "brand": "UGREEN",
+    "category": "Accessories",
+    "subcategory": "Computer & Mobile Accessories",
+    "price": 69,
+    "oldPrice": 89,
+    "discount": 22,
+    "currency": "USD",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "id": "review_2701",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=28"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The UGREEN Nexode 100W Charger performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 116,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_2702",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=55"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 74,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 232,
+    "stock": 110,
+    "lowStockThreshold": 10,
+    "sku": "UGR-NX100-027",
+    "thumbnail": "https://i.ibb.co.com/XfnPK5MT/ugreen-nexode-100w-charger-with-retractable-usb-c-cable-1.jpg",
+    "images": [
+      "https://i.ibb.co.com/HDCMXrVY/images-28.jpg",
+      "https://i.ibb.co.com/DDpstMSX/images-29.jpg",
+      "https://i.ibb.co.com/nMDYTpG0/UGREEN-Nexode-Pro-100-W-3-Port-Ga-N-Compact-Fast-PPS-Wall-Charger-with-USB-C-to-USB-C-Cable-X757-1.png",
+      "https://i.ibb.co.com/xKL7M8yj/UGREEN-X773-65619-65634-Nexode-Pro-100-W-Charger-2-600x600.png"
+    ],
+    "shortDescription": "Compact GaN wall charger with high-power USB-C charging and multiple ports for laptops, tablets and smartphones.",
+    "description": "Compact GaN wall charger with high-power USB-C charging and multiple ports for laptops, tablets and smartphones. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
+    "features": [
+      {
+        "title": "Productivity",
+        "description": "Designed to improve everyday desktop or mobile workflows."
+      },
+      {
+        "title": "USB-C",
+        "description": "Modern USB-C connectivity or charging for compatible devices."
+      },
+      {
+        "title": "Multi-device Support",
+        "description": "Works with a broad range of compatible devices."
+      },
+      {
+        "title": "Compact Design",
+        "description": "Designed for practical everyday use and portability."
+      }
+    ],
+    "specifications": {
+      "General": {
+        "Product Type": "Electronic Accessory"
+      },
+      "Connectivity": {
+        "USB": "USB-C",
+        "Wireless": "Supported on compatible models"
+      },
+      "Power": {
+        "Maximum Output": "100W",
+        "Technology": "GaN"
+      },
+      "Compatibility": {
+        "Devices": "Compatible laptops, tablets and smartphones"
+      },
+      "Physical": {
+        "Build": "Durable consumer electronics construction"
+      },
+      "Ports": {
+        "USB-C": 3,
+        "USB-A": 1
+      }
+    },
+    "variants": [
+      {
+        "id": "ugreen-nexode-100w-charger-standard",
+        "option": "Standard",
+        "price": 69,
+        "stock": 110,
+        "sku": "UGR-NX100-027"
+      }
+    ],
+    "packageContents": [
+      "UGREEN Nexode 100W Charger",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_027",
+      "name": "UGREEN Official Store",
+      "rating": 4.9,
+      "totalProducts": 1569,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.8,
+      "totalReviews": 3486,
+      "ratingBreakdown": {
+        "5": 2858,
+        "4": 418,
+        "3": 122,
+        "2": 34,
+        "1": 54
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the UGREEN Nexode 100W Charger suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "ugreen",
+      "ugreen nexode 100w charger",
+      "accessories",
+      "computer & mobile accessories",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [26, 28, 29],
+    "isFeatured": false,
+    "isNew": true,
+    "isBestSeller": false,
+    "isTrending": false,
+    "isFlashSale": true,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-04-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
+  },
+  {
+    "id": 28,
+    "name": "Amazon Kindle Paperwhite",
+    "slug": "amazon-kindle-paperwhite",
+    "brand": "Amazon",
+    "category": "Tablets",
+    "subcategory": "Tablets & E-readers",
+    "price": 179,
+    "oldPrice": 209,
+    "discount": 14,
+    "currency": "USD",
+    "rating": 4.9,
+    "reviews": [
+      {
+        "id": "review_2801",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=29"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Amazon Kindle Paperwhite performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 119,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_2802",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=57"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 76,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 552,
+    "stock": 52,
+    "lowStockThreshold": 10,
+    "sku": "AMZ-KPW-028",
+    "thumbnail": "https://i.ibb.co.com/Z6KDffCn/amazon-kindle-paperwhite-12th-gen-01-500x500.jpg",
+    "images": [
+      "https://i.ibb.co.com/0RmtyCVY/N2-Ji-MWFi-Mz-Yt-CB600254656.jpg",
+      "https://i.ibb.co.com/tpzMSk2x/61-P-vrv-FZ9-L-AC-UF1000-1000-QL80.jpg",
+      "https://i.ibb.co.com/bgctcXXs/OWM3-Nzhl-N2-Ut-CB625115166.jpg",
+      "https://i.ibb.co.com/gLNmjrR5/61hwdcuu-W-L-SL1000.jpg"
+    ],
+    "shortDescription": "Water-resistant e-reader with a glare-free display, adjustable warm light, USB-C charging and long battery life.",
+    "description": "Water-resistant e-reader with a glare-free display, adjustable warm light, USB-C charging and long battery life. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
+    "features": [
+      {
+        "title": "High Resolution Display",
+        "description": "Designed for reading, streaming, productivity and creative work."
+      },
+      {
+        "title": "Long Battery Life",
+        "description": "Optimized for extended portable use."
+      },
+      {
+        "title": "Portable Design",
+        "description": "Slim form factor makes it convenient to carry."
+      },
+      {
+        "title": "Wireless Connectivity",
+        "description": "Connects to compatible Wi-Fi networks and accessories."
+      }
+    ],
+    "specifications": {
+      "General": {
+        "Product Type": "Tablet / E-reader"
+      },
+      "Display": {
+        "Type": "High-resolution display",
+        "Touchscreen": "Supported",
+        "Size": "6.8-inch",
+        "Density": "300 PPI",
+        "Glare Free": "Yes"
+      },
+      "Storage": {
+        "Capacity": "16GB"
+      },
+      "Connectivity": {
+        "WiFi": "Supported",
+        "Bluetooth": "Supported"
+      },
+      "Battery": {
+        "Battery Life": "Up to 10 weeks",
         "Charging": "USB-C"
       },
-      "isFeatured": true,
-      "isNew": false,
-      "freeShipping": true
-    },
-    {
-      "id": 29,
-      "name": "Apple iPad Air M3",
-      "slug": "apple-ipad-air-m3",
-      "brand": "Apple",
-      "category": "Tablets",
-      "price": 699,
-      "oldPrice": 749,
-      "discount": 7,
-      "rating": 4.9,
-      "reviews": 4265,
-      "stock": 27,
-      "sku": "APL-IPADM3-029",
-      "thumbnail": "https://i.ibb.co.com/fJMztrC/images-30.jpg",
-      "images": [
-        "https://i.ibb.co.com/GvfSPqrr/i-Pad-air-m3-11-inch-price-in-bangladesh-2.jpg",
-        "https://i.ibb.co.com/Kp0k79Sk/ipad-air-02.png",
-        "https://i.ibb.co.com/MkVqcncr/hero-image-fill-size-1248x702-v1743514691.jpg"
-      ],
-      "description": "Powerful iPad powered by the Apple M3 chip for work, creativity, and entertainment.",
-      "features": [
-        "M3 Chip",
-        "Liquid Retina Display",
-        "Apple Pencil Pro Support",
-        "Touch ID"
-      ],
-      "specifications": {
-        "Display": "11-inch Liquid Retina",
-        "Storage": "256GB",
-        "RAM": "8GB",
-        "Connectivity": "Wi-Fi 6E"
+      "Software": {
+        "Platform": "Tablet operating system"
       },
-      "isFeatured": true,
-      "isNew": true,
-      "freeShipping": true
+      "Physical": {
+        "Design": "Slim portable body"
+      }
     },
-    {
-      "id": 30,
-      "name": "DJI Mini 4 Pro",
-      "slug": "dji-mini-4-pro",
-      "brand": "DJI",
-      "category": "Drones",
-      "price": 999,
-      "oldPrice": 1099,
-      "discount": 9,
+    "variants": [
+      {
+        "id": "amazon-kindle-paperwhite-standard",
+        "option": "Standard",
+        "price": 179,
+        "stock": 52,
+        "sku": "AMZ-KPW-028"
+      }
+    ],
+    "packageContents": [
+      "Amazon Kindle Paperwhite",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_028",
+      "name": "Amazon Official Store",
       "rating": 4.9,
-      "reviews": 2781,
-      "stock": 18,
-      "sku": "DJI-M4P-030",
-      "thumbnail": "https://i.ibb.co.com/LdC19Vfb/mini-4-pro-500x500.png",
-      "images": [
-        "https://i.ibb.co.com/VcvTqxdm/84a6545064492b95899c0c841feedb9a-jpg-720x720q80.jpg",
-        "https://i.ibb.co.com/5XtH3CNC/dji-mini-4-pro-price-in-bangladesh-1.jpg",
-        "https://i.ibb.co.com/xK9MT48R/159e37bf0d4622b74918386438393caa.jpg"
-      ],
-      "description": "Ultra-lightweight professional drone featuring 4K HDR video, omnidirectional obstacle sensing, and intelligent flight modes.",
-      "features": [
-        "4K HDR Video",
-        "48MP Camera",
-        "34 Minutes Flight Time",
-        "Obstacle Avoidance"
-      ],
-      "specifications": {
-        "Camera": "48MP",
-        "Video": "4K/60fps HDR",
-        "Flight Time": "34 Minutes",
+      "totalProducts": 1616,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.9,
+      "totalReviews": 8294,
+      "ratingBreakdown": {
+        "5": 6801,
+        "4": 995,
+        "3": 290,
+        "2": 82,
+        "1": 126
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Amazon Kindle Paperwhite suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "amazon",
+      "amazon kindle paperwhite",
+      "tablets",
+      "tablets & e-readers",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [27, 29, 30],
+    "isFeatured": true,
+    "isNew": false,
+    "isBestSeller": true,
+    "isTrending": true,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-05-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
+  },
+  {
+    "id": 29,
+    "name": "Apple iPad Air M3",
+    "slug": "apple-ipad-air-m3",
+    "brand": "Apple",
+    "category": "Tablets",
+    "subcategory": "Tablets & E-readers",
+    "price": 699,
+    "oldPrice": 749,
+    "discount": 7,
+    "currency": "USD",
+    "rating": 4.9,
+    "reviews": [
+      {
+        "id": "review_2901",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=30"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The Apple iPad Air M3 performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 122,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_2902",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=59"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 78,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 284,
+    "stock": 27,
+    "lowStockThreshold": 6,
+    "sku": "APL-IPADM3-029",
+    "thumbnail": "https://i.ibb.co.com/fJMztrC/images-30.jpg",
+    "images": [
+      "https://i.ibb.co.com/GvfSPqrr/i-Pad-air-m3-11-inch-price-in-bangladesh-2.jpg",
+      "https://i.ibb.co.com/Kp0k79Sk/ipad-air-02.png",
+      "https://i.ibb.co.com/MkVqcncr/hero-image-fill-size-1248x702-v1743514691.jpg",
+      "https://i.ibb.co.com/PKPGRG2/i-Pad-Air-M3-Price-in-Bangladesh.jpg"
+    ],
+    "shortDescription": "Versatile iPad Air with Apple silicon performance, Liquid Retina display, Apple Pencil Pro support and a thin portable design.",
+    "description": "Versatile iPad Air with Apple silicon performance, Liquid Retina display, Apple Pencil Pro support and a thin portable design. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
+    "features": [
+      {
+        "title": "High Resolution Display",
+        "description": "Designed for reading, streaming, productivity and creative work."
+      },
+      {
+        "title": "Long Battery Life",
+        "description": "Optimized for extended portable use."
+      },
+      {
+        "title": "Portable Design",
+        "description": "Slim form factor makes it convenient to carry."
+      },
+      {
+        "title": "Wireless Connectivity",
+        "description": "Connects to compatible Wi-Fi networks and accessories."
+      }
+    ],
+    "specifications": {
+      "General": {
+        "Product Type": "Tablet / E-reader"
+      },
+      "Display": {
+        "Type": "High-resolution display",
+        "Touchscreen": "Supported",
+        "Size": "11-inch Liquid Retina"
+      },
+      "Storage": {
+        "Capacity": "256GB"
+      },
+      "Connectivity": {
+        "WiFi": "Wi-Fi 6E",
+        "Bluetooth": "Supported"
+      },
+      "Battery": {
+        "Charging": "USB-C or magnetic charging depending on model"
+      },
+      "Software": {
+        "Platform": "Tablet operating system"
+      },
+      "Physical": {
+        "Design": "Slim portable body"
+      },
+      "Performance": {
+        "Processor": "Apple M3",
+        "Memory": "8GB"
+      }
+    },
+    "variants": [
+      {
+        "id": "apple-ipad-air-m3-standard",
+        "option": "Standard",
+        "price": 699,
+        "stock": 27,
+        "sku": "APL-IPADM3-029"
+      }
+    ],
+    "packageContents": [
+      "Apple iPad Air M3",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_029",
+      "name": "Apple Official Store",
+      "rating": 4.9,
+      "totalProducts": 1663,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.9,
+      "totalReviews": 4265,
+      "ratingBreakdown": {
+        "5": 3497,
+        "4": 511,
+        "3": 149,
+        "2": 42,
+        "1": 66
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the Apple iPad Air M3 suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
+      },
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "apple",
+      "apple ipad air m3",
+      "tablets",
+      "tablets & e-readers",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [28, 30],
+    "isFeatured": true,
+    "isNew": true,
+    "isBestSeller": true,
+    "isTrending": false,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-06-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
+  },
+  {
+    "id": 30,
+    "name": "DJI Mini 4 Pro",
+    "slug": "dji-mini-4-pro",
+    "brand": "DJI",
+    "category": "Drones",
+    "subcategory": "Camera Drones",
+    "price": 999,
+    "oldPrice": 1099,
+    "discount": 9,
+    "currency": "USD",
+    "rating": 4.9,
+    "reviews": [
+      {
+        "id": "review_3001",
+        "user": {
+          "name": "Alex Morgan",
+          "avatar": "https://i.pravatar.cc/150?img=31"
+        },
+        "rating": 5,
+        "title": "Great product for everyday use",
+        "comment": "The DJI Mini 4 Pro performs well and the overall build quality feels good. It has been reliable for my regular use.",
+        "verifiedPurchase": true,
+        "helpful": 125,
+        "date": "2026-07-18"
+      },
+      {
+        "id": "review_3002",
+        "user": {
+          "name": "Taylor Wilson",
+          "avatar": "https://i.pravatar.cc/150?img=61"
+        },
+        "rating": 4,
+        "title": "Very happy with the purchase",
+        "comment": "Good performance, useful features and a solid overall shopping experience. The product matched my expectations.",
+        "verifiedPurchase": true,
+        "helpful": 80,
+        "date": "2026-06-29"
+      }
+    ],
+    "questions": 185,
+    "stock": 18,
+    "lowStockThreshold": 4,
+    "sku": "DJI-M4P-030",
+    "thumbnail": "https://i.ibb.co.com/LdC19Vfb/mini-4-pro-500x500.png",
+    "images": [
+      "https://i.ibb.co.com/VcvTqxdm/84a6545064492b95899c0c841feedb9a-jpg-720x720q80.jpg",
+      "https://i.ibb.co.com/5XtH3CNC/dji-mini-4-pro-price-in-bangladesh-1.jpg",
+      "https://i.ibb.co.com/xK9MT48R/159e37bf0d4622b74918386438393caa.jpg",
+      "https://i.ibb.co.com/wT8RkK7/images.jpg"
+    ],
+    "shortDescription": "Compact camera drone with 4K HDR video, high-resolution stills, obstacle sensing and intelligent flight modes.",
+    "description": "Compact camera drone with 4K HDR video, high-resolution stills, obstacle sensing and intelligent flight modes. The product is intended to provide a realistic combination of performance, usability, convenience and category-specific features for an everyday e-commerce shopping experience.",
+    "features": [
+      {
+        "title": "4K HDR Video",
+        "description": "Captures high-resolution aerial footage on compatible modes."
+      },
+      {
+        "title": "Obstacle Sensing",
+        "description": "Sensors help detect obstacles during supported flight modes."
+      },
+      {
+        "title": "Intelligent Flight",
+        "description": "Automated flight modes simplify supported aerial shots."
+      },
+      {
+        "title": "Compact Design",
+        "description": "Foldable lightweight design improves portability."
+      }
+    ],
+    "specifications": {
+      "General": {
+        "Product Type": "Camera Drone"
+      },
+      "Camera": {
+        "Resolution": "48MP",
+        "Video": "4K/60fps HDR"
+      },
+      "Flight": {
+        "Max Flight Time": "Up to 34 minutes"
+      },
+      "Sensors": {
+        "Obstacle Sensing": "Omnidirectional on supported modes"
+      },
+      "Connectivity": {
+        "Transmission": "Digital video transmission"
+      },
+      "Storage": {
+        "Media": "microSD supported"
+      },
+      "Physical": {
         "Weight": "249g"
+      }
+    },
+    "variants": [
+      {
+        "id": "dji-mini-4-pro-standard",
+        "option": "Standard",
+        "price": 999,
+        "stock": 18,
+        "sku": "DJI-M4P-030"
+      }
+    ],
+    "packageContents": [
+      "DJI Mini 4 Pro",
+      "Charging / connection accessory",
+      "Documentation",
+      "Warranty information"
+    ],
+    "warranty": {
+      "available": true,
+      "duration": "1 Year",
+      "type": "Limited Manufacturer Warranty"
+    },
+    "shipping": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days",
+      "returnPeriod": "30 days",
+      "returnable": true
+    },
+    "seller": {
+      "id": "seller_030",
+      "name": "DJI Official Store",
+      "rating": 4.9,
+      "totalProducts": 1710,
+      "verified": true
+    },
+    "reviewsSummary": {
+      "averageRating": 4.9,
+      "totalReviews": 2781,
+      "ratingBreakdown": {
+        "5": 2280,
+        "4": 333,
+        "3": 97,
+        "2": 27,
+        "1": 44
+      }
+    },
+    "faqs": [
+      {
+        "question": "Is the DJI Mini 4 Pro suitable for everyday use?",
+        "answer": "Yes. It is designed around common everyday use cases for its product category."
       },
-      "isFeatured": true,
-      "isNew": true,
-      "freeShipping": true
-    }
+      {
+        "question": "Does it include a warranty?",
+        "answer": "Yes. This listing includes a one-year limited manufacturer-style warranty."
+      },
+      {
+        "question": "Is free shipping available?",
+        "answer": "Yes. Free shipping is available on this listing."
+      },
+      {
+        "question": "Can I return the product?",
+        "answer": "Yes. The listing supports a 30-day return period, subject to the store's return conditions."
+      }
+    ],
+    "tags": [
+      "dji",
+      "dji mini 4 pro",
+      "drones",
+      "camera drones",
+      "premium",
+      "best seller"
+    ],
+    "relatedProducts": [29],
+    "isFeatured": true,
+    "isNew": true,
+    "isBestSeller": true,
+    "isTrending": true,
+    "isFlashSale": false,
+    "freeShipping": true,
+    "returnable": true,
+    "createdAt": "2026-07-12T10:30:00Z",
+    "updatedAt": "2026-08-12T15:20:00Z"
+  }
 ]
