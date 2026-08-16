@@ -175,6 +175,8 @@ const ProductDetails = () => {
                 <img
                   src={selectedImage}
                   alt={product.name}
+                  loading="lazy"
+                  decoding="async"
                   className="h-full w-full object-cover p-2 md:p-4 rounded-2xl"
                 />
               </motion.div>
@@ -194,6 +196,8 @@ const ProductDetails = () => {
                   <img
                     src={image}
                     alt={`${product.name} view ${index + 1}`}
+                    loading={index < 4 ? "eager" : "lazy"}
+                    decoding="async"
                     className="h-full w-full rounded-xl object-contain"
                   />
                 </button>
