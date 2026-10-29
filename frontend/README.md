@@ -32,8 +32,12 @@ Payments require the backend to be running with `STRIPE_SECRET_KEY` configured.
 Prices, variants, and stock are validated against PostgreSQL before Stripe
 Checkout. Signed-in customers can view payments and order status in their
 dashboard. Account registration also requires the backend email service to be
-configured for verification. Set `VITE_API_BASE_URL` when the backend is not
-available at `http://localhost:4000`.
+configured for verification. Local development defaults to the API at
+`http://localhost:4000`; set `VITE_API_BASE_URL` only when your local backend
+uses a different address. In production, the frontend uses its own origin for
+API calls and `vercel.json` proxies `/api/*` to the Render backend. This keeps
+the HttpOnly session cookie first-party in the browser; do not set
+`VITE_API_BASE_URL` in the Vercel frontend project.
 
 ## Google sign-in
 

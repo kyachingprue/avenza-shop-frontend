@@ -1,5 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL
-  || `${window.location.protocol}//${window.location.hostname}:4000`
+import { API_BASE_URL } from './api-base'
 
 async function requestCheckout(path, options) {
   const response = await fetch(`${API_BASE_URL}${path}`, {
